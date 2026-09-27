@@ -21,9 +21,11 @@ if "__SEED__" in body:
 m = re.match(r"\s*<title>(.*?)</title>\s*", body, re.S)
 title, rest = (m.group(1), body[m.end():]) if m else ("Ballincollig RFC Match Centre", body)
 
+# apple-touch-icon.png sits beside index.html in the repo, so "Add to Home Screen"
+# on an iPhone gets the club crest rather than a screenshot of the page.
 html = (
     '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
-    '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+    '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
     f"<title>{title}</title>\n"
     '<meta name="description" content="Fixtures, results and league tables for every '
     'Ballincollig RFC side in Munster domestic rugby.">\n'
@@ -31,6 +33,13 @@ html = (
     '<meta property="og:description" content="Fixtures, results and tables for every '
     'Ballincollig side, plus an opponent scout.">\n'
     '<meta property="og:type" content="website">\n'
+    '<link rel="apple-touch-icon" href="apple-touch-icon.png">\n'
+    '<link rel="icon" type="image/png" href="apple-touch-icon.png">\n'
+    '<meta name="apple-mobile-web-app-capable" content="yes">\n'
+    '<meta name="mobile-web-app-capable" content="yes">\n'
+    '<meta name="apple-mobile-web-app-status-bar-style" content="black">\n'
+    '<meta name="apple-mobile-web-app-title" content="Collig">\n'
+    '<meta name="theme-color" content="#111110">\n'
     '<style>html{color-scheme:light dark}body{margin:0}img{max-width:100%}'
     '[hidden]{display:none!important}</style>\n'
     "</head>\n<body>\n" + rest + "\n</body>\n</html>\n")
