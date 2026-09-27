@@ -175,12 +175,24 @@ def parse_matches(soup):
     """Pull every match on the page. Returns (fixtures, results)."""
     fixtures, results, seen = [], [], set()
     current_round = None
+    section = None          # "fixtures" or "results", from the page's own headings
 
     for el in soup.find_all(True):
         txt = " ".join(el.get_text(" ", strip=True).split())
-        if RE_ROUND.match(txt) and len(txt) < 40 and el.name in ("h1", "h2", "h3", "h4", "h5", "strong", "b"):
-            current_round = txt
-            continue
+        if len(txt) < 40 and el.name in ("h1", "h2", "h3", "h4", "h5", "strong", "b"):
+            low = txt.lower()
+            if "upcoming fixture" in low:
+                section, current_round = "fixtures", None
+                continue
+            if "latest result" in low or low.startswith("result"):
+                section, current_round = "results", None
+                continue
+            if "current standings" in low or "league table" in low:
+                section = None
+                continue
+            if RE_ROUND.match(txt):
+                current_round = txt
+                continue
         if el.name not in ("ul", "ol", "tr", "li", "div"):
             continue
 
@@ -218,7 +230,12 @@ def parse_matches(soup):
         seen.add(key)
 
         tries = lambda t: (int(t[1]) if t[1] else None)
-        if len(scores) >= 2:
+        if len(scores) < 2 and section == "results":
+            # played but no score entered, usually a concession
+            results.append(dict(date=date, home=home, homeScore=None, homeTries=None,
+                                away=away, awayScore=None, awayTries=None,
+                                venue=venue, round=current_round))
+        elif len(scores) >= 2:
             results.append(dict(date=date, home=home, homeScore=scores[0][0],
                                 homeTries=tries(scores[0]), away=away,
                                 awayScore=scores[1][0], awayTries=tries(scores[1]),
@@ -236,9 +253,17 @@ def fetch(url, tries=3):
             r = requests.get(url, headers={"User-Agent": UA,
                                            "Accept-Language": "en-IE,en;q=0.9"},
                              timeout=45)
-            if r.status_code == 200 and len(r.text) > 2000:
-                return r.text
-            last = f"HTTP {r.status_code}, {len(r.text)} bytes"
+            body = r.text or ""
+            # One or two of these pages answer HTTP 500 while still serving the
+            # full document. Judge the body, not the status line.
+            usable = len(body) > 20000 and ("sportlomo" in body.lower() or "<table" in body.lower())
+            if r.status_code == 200 and len(body) > 2000:
+                return body
+            if usable:
+                print(f"  note: HTTP {r.status_code} but the page body looks complete "
+                      f"({len(body)} bytes), using it")
+                return body
+            last = f"HTTP {r.status_code}, {len(body)} bytes"
         except Exception as e:                                  # noqa: BLE001
             last = f"{type(e).__name__}: {e}"
         time.sleep(3 * (i + 1))
@@ -256,15 +281,17 @@ def sample_log(html, comp_id):
             print("  ROW:", [td.get_text(" ", strip=True)
                              for td in tr.find_all(["td", "th"])][:14])
     lines = [l.strip() for l in soup.get_text("\n").split("\n") if l.strip()]
-    print("TEXT LINES 1-80:")
-    for l in lines[:80]:
+    print("TEXT LINES 1-60:")
+    for l in lines[:60]:
         print("  |", l[:120])
     print("=== END SAMPLE ===\n")
 
 
 def main():
     os.makedirs(OUT, exist_ok=True)
-    failures, first = [], True
+    failures = []
+    sampled_ok = False          # one healthy page, for reference
+    sampled_empty = 0           # and up to two that yielded nothing
 
     for cid, (name, route, only_ours) in COMPS.items():
         url = f"{BASE}/{route}/{cid}/"
@@ -274,10 +301,6 @@ def main():
             print(f"FAIL {cid} {name}: {e}", file=sys.stderr)
             failures.append(cid)
             continue
-
-        if first:
-            sample_log(html, cid)
-            first = False
 
         soup = BeautifulSoup(html, "html.parser")
         cols, rows = parse_table(soup)
@@ -301,7 +324,18 @@ def main():
         with open(os.path.join(OUT, f"comp_{cid}.json"), "w", encoding="utf-8") as f:
             json.dump(doc, f, ensure_ascii=False, indent=1)
 
+        nothing = not rows and not fixtures and not results
+        if nothing and sampled_empty < 2:
+            print(f"  nothing parsed from {cid}, dumping its structure:")
+            sample_log(html, cid)
+            sampled_empty += 1
+        elif not sampled_ok and (rows or fixtures or results):
+            sample_log(html, cid)
+            sampled_ok = True
+
         flag = "" if (ours or only_ours) else "  <-- NO BALLINCOLLIG TEAM FOUND"
+        if nothing:
+            flag += "  <-- PARSED NOTHING"
         print(f"ok  {cid} {name[:44]:44s} table={len(rows):2d} fix={len(fixtures):3d} "
               f"res={len(results):3d} ours={ours}{flag}")
         time.sleep(2)
@@ -310,9 +344,13 @@ def main():
     if len(failures) > 5:
         sys.exit(f"ABORT: {len(failures)} of {len(COMPS)} pages failed: {failures}")
     league_ids = [c for c, (_, r, _) in COMPS.items() if r == "league"]
-    empty = [c for c in league_ids
-             if not json.load(open(os.path.join(OUT, f"comp_{c}.json"), encoding="utf-8"))["table"]
-             and os.path.exists(os.path.join(OUT, f"comp_{c}.json"))]
+    empty = []
+    for c in league_ids:
+        path = os.path.join(OUT, f"comp_{c}.json")
+        if not os.path.exists(path):
+            continue                      # already counted as a fetch failure
+        if not json.load(open(path, encoding="utf-8"))["table"]:
+            empty.append(c)
     if len(empty) > len(league_ids) // 2:
         sys.exit(f"ABORT: {len(empty)} league tables came back empty, the page layout has "
                  f"probably changed: {empty}")
