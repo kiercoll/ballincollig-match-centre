@@ -1,0 +1,41 @@
+{
+  "compId": "220164",
+  "name": "Boys Clubs U14 South Munster League Group 1",
+  "route": "league",
+  "url": "https://munsterrugby.sportlomo.com/league/220164/",
+  "ballincolligTeams": ["Ballincollig RFC"],
+  "tableColumns": ["Pos", "Team", "Pld", "W", "D", "L", "Pts"],
+  "table": [
+    {"pos": 0, "team": "Midleton RFC", "pld": 0, "w": 0, "d": 0, "l": 0, "bp": null, "pts": 0, "f": null, "a": null, "diff": null, "tries": null},
+    {"pos": 0, "team": "Old Christians RFC", "pld": 0, "w": 0, "d": 0, "l": 0, "bp": null, "pts": 0, "f": null, "a": null, "diff": null, "tries": null},
+    {"pos": 0, "team": "Mitchelstown-Galbally", "pld": 0, "w": 0, "d": 0, "l": 0, "bp": null, "pts": 0, "f": null, "a": null, "diff": null, "tries": null},
+    {"pos": 0, "team": "Ballincollig RFC", "pld": 0, "w": 0, "d": 0, "l": 0, "bp": null, "pts": 0, "f": null, "a": null, "diff": null, "tries": null},
+    {"pos": 0, "team": "Fermoy RFC", "pld": 0, "w": 0, "d": 0, "l": 0, "bp": null, "pts": 0, "f": null, "a": null, "diff": null, "tries": null},
+    {"pos": 0, "team": "Youghal RFC", "pld": 0, "w": 0, "d": 0, "l": 0, "bp": null, "pts": 0, "f": null, "a": null, "diff": null, "tries": null},
+    {"pos": 0, "team": "Cobh Pirates RFC", "pld": 0, "w": 0, "d": 0, "l": 0, "bp": null, "pts": 0, "f": null, "a": null, "diff": null, "tries": null}
+  ],
+  "fixtures": [
+    {"date": "2026-10-03", "time": "12:00", "home": "Midleton RFC", "away": "Old Christians RFC", "venue": "Towns Park", "round": null},
+    {"date": "2026-10-03", "time": "12:00", "home": "Mitchelstown-Galbally", "away": "Ballincollig RFC", "venue": "Mitchelstown", "round": null},
+    {"date": "2026-10-05", "time": "19:30", "home": "Fermoy RFC", "away": "Youghal RFC", "venue": "Fermoy", "round": null},
+    {"date": "2026-10-17", "time": "12:00", "home": "Ballincollig RFC", "away": "Midleton RFC", "venue": "Tanner Park", "round": null},
+    {"date": "2026-10-17", "time": "12:00", "home": "Old Christians RFC", "away": "Cobh Pirates RFC", "venue": "Rathcooney", "round": null},
+    {"date": "2026-10-17", "time": "12:00", "home": "Youghal RFC", "away": "Mitchelstown-Galbally", "venue": "Youghal", "round": null},
+    {"date": "2026-10-31", "time": "12:00", "home": "Cobh Pirates RFC", "away": "Youghal RFC", "venue": "Cobh", "round": null},
+    {"date": "2026-10-31", "time": "12:00", "home": "Fermoy RFC", "away": "Ballincollig RFC", "venue": "Fermoy", "round": null},
+    {"date": "2026-10-31", "time": "12:00", "home": "Mitchelstown-Galbally", "away": "Old Christians RFC", "venue": "TBC", "round": null},
+    {"date": "2026-11-14", "time": "12:00", "home": "Ballincollig RFC", "away": "Cobh Pirates RFC", "venue": "Tanner Park", "round": null},
+    {"date": "2026-11-14", "time": "12:00", "home": "Old Christians RFC", "away": "Fermoy RFC", "venue": "Rathcooney", "round": null},
+    {"date": "2026-11-14", "time": "12:00", "home": "Youghal RFC", "away": "Midleton RFC", "venue": "Youghal", "round": null},
+    {"date": "2026-11-28", "time": "12:00", "home": "Ballincollig RFC", "away": "Old Christians RFC", "venue": "Tanner Park", "round": null},
+    {"date": "2026-11-28", "time": "12:00", "home": "Cobh Pirates RFC", "away": "Fermoy RFC", "venue": "Cobh", "round": null},
+    {"date": "2026-11-28", "time": "12:00", "home": "Mitchelstown-Galbally", "away": "Midleton RFC", "venue": "TBC", "round": null},
+    {"date": "2026-12-12", "time": "12:00", "home": "Fermoy RFC", "away": "Mitchelstown-Galbally", "venue": "Fermoy", "round": null},
+    {"date": "2026-12-12", "time": "12:00", "home": "Midleton RFC", "away": "Cobh Pirates RFC", "venue": "Towns Park", "round": null},
+    {"date": "2026-12-12", "time": "12:00", "home": "Youghal RFC", "away": "Ballincollig RFC", "venue": "Youghal", "round": null},
+    {"date": "2026-12-19", "time": "12:00", "home": "Cobh Pirates RFC", "away": "Mitchelstown-Galbally", "venue": "Cobh", "round": null},
+    {"date": "2026-12-19", "time": "12:00", "home": "Midleton RFC", "away": "Fermoy RFC", "venue": "Towns Park", "round": null},
+    {"date": "2026-12-19", "time": "12:00", "home": "Old Christians RFC", "away": "Youghal RFC", "venue": "Rathcooney", "round": null}
+  ],
+  "results": []
+}

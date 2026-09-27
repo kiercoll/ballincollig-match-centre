@@ -1,0 +1,92 @@
+{
+  "compId": "216436",
+  "name": "South - O'Neill Cup",
+  "route": "league-diagram",
+  "url": "https://munsterrugby.sportlomo.com/league-diagram/216436/",
+  "ballincolligTeams": ["Ballincollig RFC 1st XV"],
+  "tableColumns": [],
+  "table": [],
+  "fixtures": [
+    {
+      "date": "2026-12-14",
+      "time": null,
+      "home": "Muskerry RFC 1st XV",
+      "away": "Ballincollig RFC 1st XV",
+      "venue": "Virgin Media Park",
+      "round": null
+    },
+    {
+      "date": "2026-09-06",
+      "time": "14:30",
+      "home": "Muskerry RFC 1st XV",
+      "away": "Cobh Pirates RFC 1st XV",
+      "venue": "Ballyanly",
+      "round": "2nd Round"
+    },
+    {
+      "date": "2026-09-06",
+      "time": "14:30",
+      "home": "Fermoy RFC 1st XV",
+      "away": "Bantry Bay RFC 1st XV",
+      "venue": "Fermoy",
+      "round": "2nd Round"
+    }
+  ],
+  "results": [
+    {
+      "date": "2026-08-30",
+      "home": "Bantry Bay RFC 1st XV",
+      "homeScore": 45,
+      "homeTries": 5,
+      "away": "Douglas RFC 1st XV",
+      "awayScore": 13,
+      "awayTries": 1,
+      "venue": "Bantry",
+      "round": "1st Round"
+    },
+    {
+      "date": "2026-09-06",
+      "home": "Ballincollig RFC 1st XV",
+      "homeScore": 22,
+      "homeTries": 3,
+      "away": "Kinsale RFC 2nd XV",
+      "awayScore": 20,
+      "awayTries": 4,
+      "venue": "Tanner Park",
+      "round": "2nd Round"
+    },
+    {
+      "date": "2026-09-06",
+      "home": "Charleville and District RFC 1st XV",
+      "homeScore": 20,
+      "homeTries": 3,
+      "away": "Youghal RFC 1st XV",
+      "awayScore": 10,
+      "awayTries": 2,
+      "venue": "Charleville",
+      "round": "2nd Round"
+    },
+    {
+      "date": "2026-09-13",
+      "home": "Ballincollig RFC 1st XV",
+      "homeScore": 41,
+      "homeTries": 6,
+      "away": "Fermoy RFC 1st XV",
+      "awayScore": 14,
+      "awayTries": 2,
+      "venue": "Tanner Park",
+      "round": "3rd Round"
+    },
+    {
+      "date": "2026-09-13",
+      "home": "Charleville and District RFC 1st XV",
+      "homeScore": 17,
+      "homeTries": 2,
+      "away": "Muskerry RFC 1st XV",
+      "awayScore": 47,
+      "awayTries": 7,
+      "venue": "Charleville",
+      "round": "3rd Round"
+    }
+  ]
+}

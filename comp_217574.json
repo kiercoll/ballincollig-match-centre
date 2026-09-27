@@ -1,0 +1,60 @@
+{
+  "compId": "217574",
+  "name": "Junior Clubs Challenge Shield",
+  "route": "league-diagram",
+  "url": "https://munsterrugby.sportlomo.com/league-diagram/217574/",
+  "ballincolligTeams": ["Ballincollig RFC 1st XV"],
+  "tableColumns": [],
+  "table": [],
+  "fixtures": [
+    {
+      "date": "2026-10-18",
+      "time": "14:30",
+      "home": "Carrick on Suir RFC 1st XV",
+      "away": "Ballincollig RFC 1st XV",
+      "venue": "Carrick-on-Suir",
+      "round": null
+    },
+    {
+      "date": "2026-10-18",
+      "time": "14:30",
+      "home": "Cobh Pirates RFC 1st XV",
+      "away": "Ennis RFC 1st XV",
+      "venue": "Cobh",
+      "round": null
+    },
+    {
+      "date": "2026-10-18",
+      "time": "14:30",
+      "home": "Killarney RFC 1st XV",
+      "away": "Youghal RFC 1st XV",
+      "venue": "Killarney",
+      "round": null
+    },
+    {
+      "date": "2026-10-18",
+      "time": "14:30",
+      "home": "Thurles RFC 1st XV",
+      "away": "Fermoy RFC 1st XV",
+      "venue": "Thurles",
+      "round": null
+    },
+    {
+      "date": "2026-10-18",
+      "time": "14:30",
+      "home": "Waterpark RFC 1st XV",
+      "away": "Castleisland RFC 1st XV",
+      "venue": "Ballinakill",
+      "round": null
+    },
+    {
+      "date": "2026-10-18",
+      "time": "14:30",
+      "home": "Tralee RFC 1st XV",
+      "away": "Charleville and District RFC 1st XV",
+      "venue": "Tralee",
+      "round": "1st Round"
+    }
+  ],
+  "results": []
+}

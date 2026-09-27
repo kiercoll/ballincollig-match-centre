@@ -1,0 +1,29 @@
+{
+  "compId": "216134",
+  "name": "Girls Clubs U18.5 Friendly",
+  "route": "competition_fixtures_results",
+  "url": "https://munsterrugby.sportlomo.com/competition_fixtures_results/216134/",
+  "ballincolligOnly": true,
+  "ballincolligTeams": ["Ballincollig RFC"],
+  "tableColumns": [],
+  "table": [],
+  "fixtures": [
+    {
+      "date": "2026-09-27",
+      "time": "16:00",
+      "home": "Ballincollig RFC",
+      "away": "Dolphin RFC",
+      "venue": "Dolphin",
+      "round": null
+    },
+    {
+      "date": "2026-10-03",
+      "time": "11:00",
+      "home": "Ballincollig RFC",
+      "away": "Bantry Bay-Skibbereen",
+      "venue": "Tanner Park",
+      "round": null
+    }
+  ],
+  "results": []
+}
