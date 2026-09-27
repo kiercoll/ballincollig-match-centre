@@ -1,0 +1,228 @@
+{
+ "compId": "219998",
+ "name": "Boys Clubs U16 Munster Conference 7",
+ "route": "league",
+ "url": "https://munsterrugby.sportlomo.com/league/219998/",
+ "ballincolligTeams": [
+  "Ballincollig RFC White"
+ ],
+ "tableColumns": [
+  "",
+  "Pos",
+  "Team",
+  "Pld",
+  "W",
+  "D",
+  "L",
+  "Pts"
+ ],
+ "table": [
+  {
+   "pos": 0,
+   "team": "Ballincollig RFC White",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Mallow RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Crosshaven/Cork Con",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Muskerry RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Highfield RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Kanturk RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  }
+ ],
+ "fixtures": [
+  {
+   "date": "2026-10-03",
+   "time": "12:00",
+   "home": "Ballincollig RFC White",
+   "away": "Mallow RFC",
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-10-03",
+   "time": "12:00",
+   "home": "Crosshaven/Cork Con",
+   "away": "Muskerry RFC",
+   "venue": "TBC",
+   "round": null
+  },
+  {
+   "date": "2026-10-03",
+   "time": "12:00",
+   "home": "Highfield RFC",
+   "away": "Kanturk RFC",
+   "venue": "Woodleigh Park",
+   "round": null
+  },
+  {
+   "date": "2026-10-10",
+   "time": "12:00",
+   "home": "Crosshaven/Cork Con",
+   "away": "Ballincollig RFC White",
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-10-10",
+   "time": "12:00",
+   "home": "Kanturk RFC",
+   "away": "Muskerry RFC",
+   "venue": "Kanturk",
+   "round": null
+  },
+  {
+   "date": "2026-10-10",
+   "time": "12:00",
+   "home": "Mallow RFC",
+   "away": "Highfield RFC",
+   "venue": "Mallow",
+   "round": null
+  },
+  {
+   "date": "2026-10-17",
+   "time": "12:00",
+   "home": "Ballincollig RFC White",
+   "away": "Kanturk RFC",
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-10-17",
+   "time": "12:00",
+   "home": "Mallow RFC",
+   "away": "Crosshaven/Cork Con",
+   "venue": "Mallow",
+   "round": null
+  },
+  {
+   "date": "2026-10-17",
+   "time": "12:00",
+   "home": "Muskerry RFC",
+   "away": "Highfield RFC",
+   "venue": "Ballyanly",
+   "round": null
+  },
+  {
+   "date": "2026-10-24",
+   "time": "12:00",
+   "home": "Crosshaven/Cork Con",
+   "away": "Highfield RFC",
+   "venue": "TBC",
+   "round": null
+  },
+  {
+   "date": "2026-10-24",
+   "time": "12:00",
+   "home": "Mallow RFC",
+   "away": "Kanturk RFC",
+   "venue": "Mallow",
+   "round": null
+  },
+  {
+   "date": "2026-10-24",
+   "time": "12:00",
+   "home": "Muskerry RFC",
+   "away": "Ballincollig RFC White",
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-11-07",
+   "time": "12:00",
+   "home": "Highfield RFC",
+   "away": "Ballincollig RFC White",
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-11-07",
+   "time": "12:00",
+   "home": "Kanturk RFC",
+   "away": "Crosshaven/Cork Con",
+   "venue": "Kanturk",
+   "round": null
+  },
+  {
+   "date": "2026-11-07",
+   "time": "12:00",
+   "home": "Muskerry RFC",
+   "away": "Mallow RFC",
+   "venue": "Ballyanly",
+   "round": null
+  }
+ ],
+ "results": []
+}

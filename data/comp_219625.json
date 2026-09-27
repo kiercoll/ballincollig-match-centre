@@ -1,0 +1,184 @@
+{
+ "compId": "219625",
+ "name": "Boys Clubs U16 South Munster League Group 3",
+ "route": "league",
+ "url": "https://munsterrugby.sportlomo.com/league/219625/",
+ "ballincolligTeams": [
+  "Ballincollig RFC Black"
+ ],
+ "tableColumns": [
+  "",
+  "Pos",
+  "Team",
+  "Pld",
+  "W",
+  "D",
+  "L",
+  "Pts"
+ ],
+ "table": [
+  {
+   "pos": 0,
+   "team": "Old Christians RFC",
+   "pld": 2,
+   "w": 2,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 8,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Ballincollig RFC Black",
+   "pld": 1,
+   "w": 1,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 4,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Kanturk RFC",
+   "pld": 2,
+   "w": 1,
+   "d": 0,
+   "l": 1,
+   "bp": null,
+   "pts": 4,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Mallow RFC",
+   "pld": 1,
+   "w": 0,
+   "d": 0,
+   "l": 1,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Sundays Well RFC",
+   "pld": 2,
+   "w": 0,
+   "d": 0,
+   "l": 2,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  }
+ ],
+ "fixtures": [
+  {
+   "date": "2026-12-19",
+   "time": "12:00",
+   "home": "Mallow RFC",
+   "away": "Ballincollig RFC Black",
+   "venue": "Mallow",
+   "round": null
+  },
+  {
+   "date": "2026-12-19",
+   "time": "12:00",
+   "home": "Old Christians RFC",
+   "away": "Kanturk RFC",
+   "venue": "Rathcooney",
+   "round": null
+  },
+  {
+   "date": "2027-01-02",
+   "time": "12:00",
+   "home": "Kanturk RFC",
+   "away": "Mallow RFC",
+   "venue": "Kanturk",
+   "round": null
+  },
+  {
+   "date": "2027-01-02",
+   "time": "12:00",
+   "home": "Sundays Well RFC",
+   "away": "Ballincollig RFC Black",
+   "venue": "Virgin Media Park",
+   "round": null
+  },
+  {
+   "date": "2027-02-13",
+   "time": "12:00",
+   "home": "Ballincollig RFC Black",
+   "away": "Old Christians RFC",
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2027-02-13",
+   "time": "12:00",
+   "home": "Mallow RFC",
+   "away": "Sundays Well RFC",
+   "venue": "Mallow",
+   "round": null
+  },
+  {
+   "date": "2026-09-19",
+   "time": "14:00",
+   "home": "Ballincollig RFC Black",
+   "away": "Kanturk RFC",
+   "venue": "Tanner Park",
+   "round": "1st Round"
+  }
+ ],
+ "results": [
+  {
+   "date": "2026-09-19",
+   "home": "Sundays Well RFC",
+   "homeScore": 14,
+   "homeTries": null,
+   "away": "Old Christians RFC",
+   "awayScore": 44,
+   "awayTries": null,
+   "venue": "Virgin Media Park",
+   "round": "1st Round"
+  },
+  {
+   "date": "2026-09-26",
+   "home": "Old Christians RFC",
+   "homeScore": 44,
+   "homeTries": 0,
+   "away": "Mallow RFC",
+   "awayScore": 28,
+   "awayTries": 0,
+   "venue": "Rathcooney",
+   "round": "2nd Round"
+  },
+  {
+   "date": "2026-09-26",
+   "home": "Kanturk RFC",
+   "homeScore": 50,
+   "homeTries": 8,
+   "away": "Sundays Well RFC",
+   "awayScore": 10,
+   "awayTries": 2,
+   "venue": "Kanturk",
+   "round": "2nd Round"
+  }
+ ]
+}

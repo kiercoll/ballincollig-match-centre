@@ -1,0 +1,130 @@
+{
+ "compId": "219620",
+ "name": "Boys Clubs U18.5 South Munster League Group 3",
+ "route": "league",
+ "url": "https://munsterrugby.sportlomo.com/league/219620/",
+ "ballincolligTeams": [
+  "Ballincollig RFC"
+ ],
+ "tableColumns": [
+  "",
+  "Pos",
+  "Team",
+  "Pld",
+  "W",
+  "D",
+  "L",
+  "Pts"
+ ],
+ "table": [
+  {
+   "pos": 0,
+   "team": "Kanturk RFC",
+   "pld": 2,
+   "w": 2,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 8,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Ballincollig RFC",
+   "pld": 2,
+   "w": 1,
+   "d": 0,
+   "l": 1,
+   "bp": null,
+   "pts": 4,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Crosshaven/Cork Con",
+   "pld": 1,
+   "w": 0,
+   "d": 0,
+   "l": 1,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Muskerry RFC",
+   "pld": 1,
+   "w": 0,
+   "d": 0,
+   "l": 1,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  }
+ ],
+ "fixtures": [
+  {
+   "date": "2026-12-19",
+   "time": "12:00",
+   "home": "Ballincollig RFC",
+   "away": "Muskerry RFC",
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-12-19",
+   "time": "12:00",
+   "home": "Kanturk RFC",
+   "away": "Crosshaven/Cork Con",
+   "venue": "Kanturk",
+   "round": null
+  }
+ ],
+ "results": [
+  {
+   "date": "2026-09-19",
+   "home": "Crosshaven/Cork Con",
+   "homeScore": 17,
+   "homeTries": 3,
+   "away": "Ballincollig RFC",
+   "awayScore": 26,
+   "awayTries": 4,
+   "venue": "Crosshaven",
+   "round": "1st Round"
+  },
+  {
+   "date": "2026-09-19",
+   "home": "Muskerry RFC",
+   "homeScore": 14,
+   "homeTries": 2,
+   "away": "Kanturk RFC",
+   "awayScore": 46,
+   "awayTries": 8,
+   "venue": "Ballyanly",
+   "round": "1st Round"
+  },
+  {
+   "date": "2026-09-26",
+   "home": "Kanturk RFC",
+   "homeScore": 34,
+   "homeTries": 5,
+   "away": "Ballincollig RFC",
+   "awayScore": 27,
+   "awayTries": 4,
+   "venue": "Kanturk",
+   "round": "3rd Round"
+  }
+ ]
+}

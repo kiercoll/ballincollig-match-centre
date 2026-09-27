@@ -1,0 +1,187 @@
+{
+ "compId": "219627",
+ "name": "Boys Clubs U16 South Munster League Group 4",
+ "route": "league",
+ "url": "https://munsterrugby.sportlomo.com/league/219627/",
+ "ballincolligTeams": [
+  "Ballincollig RFC White"
+ ],
+ "tableColumns": [
+  "",
+  "Pos",
+  "Team",
+  "Pld",
+  "W",
+  "D",
+  "L",
+  "Pts"
+ ],
+ "table": [
+  {
+   "pos": 0,
+   "team": "Highfield RFC",
+   "pld": 2,
+   "w": 2,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 8,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Midleton RFC",
+   "pld": 1,
+   "w": 1,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 4,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Cobh Pirates RFC",
+   "pld": 1,
+   "w": 1,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 4,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Crosshaven/Cork Con",
+   "pld": 2,
+   "w": 0,
+   "d": 0,
+   "l": 2,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Ballincollig RFC White",
+   "pld": 2,
+   "w": 0,
+   "d": 0,
+   "l": 2,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  }
+ ],
+ "fixtures": [
+  {
+   "date": "2026-12-19",
+   "time": "12:00",
+   "home": "Cobh Pirates RFC",
+   "away": "Midleton RFC",
+   "venue": "Cobh",
+   "round": null
+  },
+  {
+   "date": "2026-12-19",
+   "time": "12:00",
+   "home": "Crosshaven/Cork Con",
+   "away": "Ballincollig RFC White",
+   "venue": "TBC",
+   "round": null
+  },
+  {
+   "date": "2027-01-02",
+   "time": "12:00",
+   "home": "Ballincollig RFC White",
+   "away": "Cobh Pirates RFC",
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2027-01-02",
+   "time": "12:00",
+   "home": "Highfield RFC",
+   "away": "Midleton RFC",
+   "venue": "Woodleigh Park",
+   "round": null
+  },
+  {
+   "date": "2027-02-13",
+   "time": "12:00",
+   "home": "Cobh Pirates RFC",
+   "away": "Highfield RFC",
+   "venue": "Cobh",
+   "round": null
+  },
+  {
+   "date": "2027-02-13",
+   "time": "12:00",
+   "home": "Midleton RFC",
+   "away": "Crosshaven/Cork Con",
+   "venue": "Towns Park",
+   "round": null
+  }
+ ],
+ "results": [
+  {
+   "date": "2026-09-19",
+   "home": "Highfield RFC",
+   "homeScore": 17,
+   "homeTries": 0,
+   "away": "Crosshaven/Cork Con",
+   "awayScore": 12,
+   "awayTries": 0,
+   "venue": "Woodleigh Park",
+   "round": "1st Round"
+  },
+  {
+   "date": "2026-09-19",
+   "home": "Midleton RFC",
+   "homeScore": 7,
+   "homeTries": 1,
+   "away": "Ballincollig RFC White",
+   "awayScore": 0,
+   "awayTries": 0,
+   "venue": "Towns Park",
+   "round": "1st Round"
+  },
+  {
+   "date": "2026-09-26",
+   "home": "Crosshaven/Cork Con",
+   "homeScore": 12,
+   "homeTries": 2,
+   "away": "Cobh Pirates RFC",
+   "awayScore": 14,
+   "awayTries": 2,
+   "venue": "Crosshaven",
+   "round": "2nd Round"
+  },
+  {
+   "date": "2026-09-25",
+   "home": "Ballincollig RFC White",
+   "homeScore": 17,
+   "homeTries": 0,
+   "away": "Highfield RFC",
+   "awayScore": 20,
+   "awayTries": 0,
+   "venue": "Tanner Park",
+   "round": "2nd Round"
+  }
+ ]
+}

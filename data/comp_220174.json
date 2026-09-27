@@ -1,0 +1,438 @@
+{
+ "compId": "220174",
+ "name": "Boys Clubs U14 South Munster Dev 2014 Group 2 NC",
+ "route": "league",
+ "url": "https://munsterrugby.sportlomo.com/league/220174/",
+ "ballincolligTeams": [
+  "Ballincollig RFC"
+ ],
+ "tableColumns": [
+  "",
+  "Pos",
+  "Team",
+  "Pld",
+  "W",
+  "D",
+  "L",
+  "Pts"
+ ],
+ "table": [
+  {
+   "pos": 0,
+   "team": "Bandon RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Kinsale RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Cork Constitution FC White",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Clonakilty RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Crosshaven RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Highfield RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Skibbereen RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Dolphin-Sundays Well",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Ballincollig RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  }
+ ],
+ "fixtures": [
+  {
+   "date": "2026-10-10",
+   "time": "12:00",
+   "home": "Bandon RFC",
+   "away": "Kinsale RFC",
+   "venue": "Bandon",
+   "round": null
+  },
+  {
+   "date": "2026-10-10",
+   "time": "12:00",
+   "home": "Cork Constitution FC White",
+   "away": "Clonakilty RFC",
+   "venue": "Temple Hill",
+   "round": null
+  },
+  {
+   "date": "2026-10-10",
+   "time": "12:00",
+   "home": "Crosshaven RFC",
+   "away": "Highfield RFC",
+   "venue": "Crosshaven",
+   "round": null
+  },
+  {
+   "date": "2026-10-10",
+   "time": "12:00",
+   "home": "Skibbereen RFC",
+   "away": "Dolphin-Sundays Well",
+   "venue": "Skibbereen",
+   "round": null
+  },
+  {
+   "date": "2026-10-24",
+   "time": "12:00",
+   "home": "Ballincollig RFC",
+   "away": "Cork Constitution FC White",
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-10-24",
+   "time": "12:00",
+   "home": "Clonakilty RFC",
+   "away": "Bandon RFC",
+   "venue": "The Vale",
+   "round": null
+  },
+  {
+   "date": "2026-10-24",
+   "time": "12:00",
+   "home": "Highfield RFC",
+   "away": "Dolphin-Sundays Well",
+   "venue": "Woodleigh Park",
+   "round": null
+  },
+  {
+   "date": "2026-10-24",
+   "time": "12:00",
+   "home": "Skibbereen RFC",
+   "away": "Crosshaven RFC",
+   "venue": "Skibbereen",
+   "round": null
+  },
+  {
+   "date": "2026-11-07",
+   "time": "12:00",
+   "home": "Ballincollig RFC",
+   "away": "Skibbereen RFC",
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-11-07",
+   "time": "12:00",
+   "home": "Clonakilty RFC",
+   "away": "Crosshaven RFC",
+   "venue": "The Vale",
+   "round": null
+  },
+  {
+   "date": "2026-11-07",
+   "time": "12:00",
+   "home": "Cork Constitution FC White",
+   "away": "Kinsale RFC",
+   "venue": "Temple Hill",
+   "round": null
+  },
+  {
+   "date": "2026-11-07",
+   "time": "12:00",
+   "home": "Dolphin-Sundays Well",
+   "away": "Bandon RFC",
+   "venue": "TBC",
+   "round": null
+  },
+  {
+   "date": "2026-11-21",
+   "time": "12:00",
+   "home": "Bandon RFC",
+   "away": "Ballincollig RFC",
+   "venue": "Bandon",
+   "round": null
+  },
+  {
+   "date": "2026-11-21",
+   "time": "12:00",
+   "home": "Cork Constitution FC White",
+   "away": "Dolphin-Sundays Well",
+   "venue": "Temple Hill",
+   "round": null
+  },
+  {
+   "date": "2026-11-21",
+   "time": "12:00",
+   "home": "Kinsale RFC",
+   "away": "Crosshaven RFC",
+   "venue": "Kinsale",
+   "round": null
+  },
+  {
+   "date": "2026-11-21",
+   "time": "12:00",
+   "home": "Skibbereen RFC",
+   "away": "Highfield RFC",
+   "venue": "Skibbereen",
+   "round": null
+  },
+  {
+   "date": "2026-12-05",
+   "time": "12:00",
+   "home": "Bandon RFC",
+   "away": "Cork Constitution FC White",
+   "venue": "Bandon",
+   "round": null
+  },
+  {
+   "date": "2026-12-05",
+   "time": "12:00",
+   "home": "Dolphin-Sundays Well",
+   "away": "Ballincollig RFC",
+   "venue": "TBC",
+   "round": null
+  },
+  {
+   "date": "2026-12-05",
+   "time": "12:00",
+   "home": "Highfield RFC",
+   "away": "Clonakilty RFC",
+   "venue": "Woodleigh Park",
+   "round": null
+  },
+  {
+   "date": "2026-12-05",
+   "time": "12:00",
+   "home": "Kinsale RFC",
+   "away": "Skibbereen RFC",
+   "venue": "Kinsale",
+   "round": null
+  },
+  {
+   "date": "2027-01-09",
+   "time": "12:00",
+   "home": "Ballincollig RFC",
+   "away": "Highfield RFC",
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2027-01-09",
+   "time": "12:00",
+   "home": "Clonakilty RFC",
+   "away": "Kinsale RFC",
+   "venue": "The Vale",
+   "round": null
+  },
+  {
+   "date": "2027-01-09",
+   "time": "12:00",
+   "home": "Cork Constitution FC White",
+   "away": "Skibbereen RFC",
+   "venue": "Temple Hill",
+   "round": null
+  },
+  {
+   "date": "2027-01-09",
+   "time": "12:00",
+   "home": "Crosshaven RFC",
+   "away": "Dolphin-Sundays Well",
+   "venue": "Crosshaven",
+   "round": null
+  },
+  {
+   "date": "2027-01-23",
+   "time": "12:00",
+   "home": "Ballincollig RFC",
+   "away": "Crosshaven RFC",
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2027-01-23",
+   "time": "12:00",
+   "home": "Dolphin-Sundays Well",
+   "away": "Kinsale RFC",
+   "venue": "TBC",
+   "round": null
+  },
+  {
+   "date": "2027-01-23",
+   "time": "12:00",
+   "home": "Highfield RFC",
+   "away": "Bandon RFC",
+   "venue": "Woodleigh Park",
+   "round": null
+  },
+  {
+   "date": "2027-01-23",
+   "time": "12:00",
+   "home": "Skibbereen RFC",
+   "away": "Clonakilty RFC",
+   "venue": "Skibbereen",
+   "round": null
+  },
+  {
+   "date": "2027-02-06",
+   "time": "12:00",
+   "home": "Bandon RFC",
+   "away": "Skibbereen RFC",
+   "venue": "Bandon",
+   "round": null
+  },
+  {
+   "date": "2027-02-06",
+   "time": "12:00",
+   "home": "Clonakilty RFC",
+   "away": "Ballincollig RFC",
+   "venue": "The Vale",
+   "round": null
+  },
+  {
+   "date": "2027-02-06",
+   "time": "12:00",
+   "home": "Crosshaven RFC",
+   "away": "Cork Constitution FC White",
+   "venue": "Crosshaven",
+   "round": null
+  },
+  {
+   "date": "2027-02-06",
+   "time": "12:00",
+   "home": "Kinsale RFC",
+   "away": "Highfield RFC",
+   "venue": "Kinsale",
+   "round": null
+  },
+  {
+   "date": "2027-02-20",
+   "time": "12:00",
+   "home": "Crosshaven RFC",
+   "away": "Bandon RFC",
+   "venue": "Crosshaven",
+   "round": null
+  },
+  {
+   "date": "2027-02-20",
+   "time": "12:00",
+   "home": "Dolphin-Sundays Well",
+   "away": "Clonakilty RFC",
+   "venue": "TBC",
+   "round": null
+  },
+  {
+   "date": "2027-02-20",
+   "time": "12:00",
+   "home": "Highfield RFC",
+   "away": "Cork Constitution FC White",
+   "venue": "Woodleigh Park",
+   "round": null
+  },
+  {
+   "date": "2027-02-20",
+   "time": "12:00",
+   "home": "Kinsale RFC",
+   "away": "Ballincollig RFC",
+   "venue": "Kinsale",
+   "round": null
+  }
+ ],
+ "results": []
+}

@@ -1,0 +1,174 @@
+{
+ "compId": "219989",
+ "name": "Boys Clubs U16 Munster 15 S",
+ "route": "league",
+ "url": "https://munsterrugby.sportlomo.com/league/219989/",
+ "ballincolligTeams": [
+  "Ballincollig RFC Black"
+ ],
+ "tableColumns": [
+  "",
+  "Pos",
+  "Team",
+  "Pld",
+  "W",
+  "D",
+  "L",
+  "Pts"
+ ],
+ "table": [
+  {
+   "pos": 0,
+   "team": "Charleville and District RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Sundays Well RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Crosshaven/Cork Con 15s",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Ballincollig RFC Black",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Clonakilty RFC Red",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  }
+ ],
+ "fixtures": [
+  {
+   "date": "2026-10-03",
+   "time": "12:00",
+   "home": "Charleville and District RFC",
+   "away": "Sundays Well RFC",
+   "venue": "Charleville",
+   "round": null
+  },
+  {
+   "date": "2026-10-03",
+   "time": "12:00",
+   "home": "Crosshaven/Cork Con 15s",
+   "away": "Ballincollig RFC Black",
+   "venue": "TBC",
+   "round": null
+  },
+  {
+   "date": "2026-10-10",
+   "time": "12:00",
+   "home": "Ballincollig RFC Black",
+   "away": "Charleville and District RFC",
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-10-10",
+   "time": "12:00",
+   "home": "Clonakilty RFC Red",
+   "away": "Crosshaven/Cork Con 15s",
+   "venue": "The Vale",
+   "round": null
+  },
+  {
+   "date": "2026-10-24",
+   "time": "12:00",
+   "home": "Ballincollig RFC Black",
+   "away": "Clonakilty RFC Red",
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-10-24",
+   "time": "12:00",
+   "home": "Crosshaven/Cork Con 15s",
+   "away": "Sundays Well RFC",
+   "venue": "TBC",
+   "round": null
+  },
+  {
+   "date": "2026-10-31",
+   "time": "12:00",
+   "home": "Clonakilty RFC Red",
+   "away": "Charleville and District RFC",
+   "venue": "The Vale",
+   "round": null
+  },
+  {
+   "date": "2026-10-31",
+   "time": "12:00",
+   "home": "Sundays Well RFC",
+   "away": "Ballincollig RFC Black",
+   "venue": "Virgin Media Park",
+   "round": null
+  },
+  {
+   "date": "2026-11-14",
+   "time": "12:00",
+   "home": "Charleville and District RFC",
+   "away": "Crosshaven/Cork Con 15s",
+   "venue": "Charleville",
+   "round": null
+  },
+  {
+   "date": "2026-11-14",
+   "time": "12:00",
+   "home": "Clonakilty RFC Red",
+   "away": "Sundays Well RFC",
+   "venue": "The Vale",
+   "round": null
+  }
+ ],
+ "results": []
+}

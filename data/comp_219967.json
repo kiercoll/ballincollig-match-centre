@@ -1,0 +1,228 @@
+{
+ "compId": "219967",
+ "name": "Boys Clubs U18.5 Munster Conference 5",
+ "route": "league",
+ "url": "https://munsterrugby.sportlomo.com/league/219967/",
+ "ballincolligTeams": [
+  "Ballincollig RFC"
+ ],
+ "tableColumns": [
+  "",
+  "Pos",
+  "Team",
+  "Pld",
+  "W",
+  "D",
+  "L",
+  "Pts"
+ ],
+ "table": [
+  {
+   "pos": 0,
+   "team": "Bandon RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Ballincollig RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Bantry Bay-Skibbereen",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Kinsale RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Clonakilty RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Sundays Well-Carrigaline",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  }
+ ],
+ "fixtures": [
+  {
+   "date": "2026-10-03",
+   "time": "12:00",
+   "home": "Bandon RFC",
+   "away": "Ballincollig RFC",
+   "venue": "Bandon",
+   "round": null
+  },
+  {
+   "date": "2026-10-03",
+   "time": "12:00",
+   "home": "Bantry Bay-Skibbereen",
+   "away": "Kinsale RFC",
+   "venue": "TBC",
+   "round": null
+  },
+  {
+   "date": "2026-10-04",
+   "time": "11:00",
+   "home": "Clonakilty RFC",
+   "away": "Sundays Well-Carrigaline",
+   "venue": "The Vale",
+   "round": null
+  },
+  {
+   "date": "2026-10-10",
+   "time": "12:00",
+   "home": "Bandon RFC",
+   "away": "Bantry Bay-Skibbereen",
+   "venue": "Bandon",
+   "round": null
+  },
+  {
+   "date": "2026-10-10",
+   "time": "12:00",
+   "home": "Kinsale RFC",
+   "away": "Clonakilty RFC",
+   "venue": "Kinsale",
+   "round": null
+  },
+  {
+   "date": "2026-10-10",
+   "time": "12:00",
+   "home": "Sundays Well-Carrigaline",
+   "away": "Ballincollig RFC",
+   "venue": "TBC",
+   "round": null
+  },
+  {
+   "date": "2026-10-17",
+   "time": "12:00",
+   "home": "Ballincollig RFC",
+   "away": "Clonakilty RFC",
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-10-17",
+   "time": "12:00",
+   "home": "Bantry Bay-Skibbereen",
+   "away": "Sundays Well-Carrigaline",
+   "venue": "TBC",
+   "round": null
+  },
+  {
+   "date": "2026-10-17",
+   "time": "12:00",
+   "home": "Kinsale RFC",
+   "away": "Bandon RFC",
+   "venue": "Kinsale",
+   "round": null
+  },
+  {
+   "date": "2026-10-24",
+   "time": "12:00",
+   "home": "Ballincollig RFC",
+   "away": "Bantry Bay-Skibbereen",
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-10-24",
+   "time": "12:00",
+   "home": "Bandon RFC",
+   "away": "Clonakilty RFC",
+   "venue": "Bandon",
+   "round": null
+  },
+  {
+   "date": "2026-10-24",
+   "time": "12:00",
+   "home": "Kinsale RFC",
+   "away": "Sundays Well-Carrigaline",
+   "venue": "Kinsale",
+   "round": null
+  },
+  {
+   "date": "2026-11-07",
+   "time": "12:00",
+   "home": "Ballincollig RFC",
+   "away": "Kinsale RFC",
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-11-07",
+   "time": "12:00",
+   "home": "Clonakilty RFC",
+   "away": "Bantry Bay-Skibbereen",
+   "venue": "The Vale",
+   "round": null
+  },
+  {
+   "date": "2026-11-07",
+   "time": "12:00",
+   "home": "Sundays Well-Carrigaline",
+   "away": "Bandon RFC",
+   "venue": "TBC",
+   "round": null
+  }
+ ],
+ "results": []
+}
