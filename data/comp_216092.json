@@ -3,10 +3,24 @@
  "name": "Junior 1 Friendly",
  "route": "competition_fixtures_results",
  "url": "https://munsterrugby.sportlomo.com/competition_fixtures_results/216092/",
- "ballincolligTeams": [],
+ "ballincolligTeams": [
+  "Ballincollig RFC 1st XV"
+ ],
  "tableColumns": [],
  "table": [],
  "fixtures": [],
- "results": [],
+ "results": [
+  {
+   "date": "2026-08-22",
+   "home": "Ballincollig RFC 1st XV",
+   "homeScore": 10,
+   "homeTries": 0,
+   "away": "Old Christians RFC 1st XV",
+   "awayScore": 25,
+   "awayTries": 0,
+   "venue": "Tanner Park",
+   "round": null
+  }
+ ],
  "ballincolligOnly": true
 }

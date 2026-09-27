@@ -3,10 +3,24 @@
  "name": "Boys Club/School U18 Friendly",
  "route": "competition_fixtures_results",
  "url": "https://munsterrugby.sportlomo.com/competition_fixtures_results/216122/",
- "ballincolligTeams": [],
+ "ballincolligTeams": [
+  "Ballincollig RFC"
+ ],
  "tableColumns": [],
  "table": [],
  "fixtures": [],
- "results": [],
+ "results": [
+  {
+   "date": "2026-08-29",
+   "home": "Ballincollig RFC",
+   "homeScore": 31,
+   "homeTries": 5,
+   "away": "Presentation Brothers Cork",
+   "awayScore": 22,
+   "awayTries": 4,
+   "venue": "Tanner Park",
+   "round": null
+  }
+ ],
  "ballincolligOnly": true
 }

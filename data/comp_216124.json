@@ -3,10 +3,24 @@
  "name": "Boys Clubs U13 Friendly",
  "route": "competition_fixtures_results",
  "url": "https://munsterrugby.sportlomo.com/competition_fixtures_results/216124/",
- "ballincolligTeams": [],
+ "ballincolligTeams": [
+  "Ballincollig RFC"
+ ],
  "tableColumns": [],
  "table": [],
  "fixtures": [],
- "results": [],
+ "results": [
+  {
+   "date": "2026-09-25",
+   "home": "Kinsale RFC",
+   "homeScore": 36,
+   "homeTries": 0,
+   "away": "Ballincollig RFC",
+   "awayScore": 39,
+   "awayTries": 0,
+   "venue": "Kinsale",
+   "round": null
+  }
+ ],
  "ballincolligOnly": true
 }

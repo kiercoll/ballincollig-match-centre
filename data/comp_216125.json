@@ -3,10 +3,24 @@
  "name": "Boys Clubs U14 Friendly",
  "route": "competition_fixtures_results",
  "url": "https://munsterrugby.sportlomo.com/competition_fixtures_results/216125/",
- "ballincolligTeams": [],
+ "ballincolligTeams": [
+  "Ballincollig RFC"
+ ],
  "tableColumns": [],
  "table": [],
  "fixtures": [],
- "results": [],
+ "results": [
+  {
+   "date": "2026-09-25",
+   "home": "Cobh Pirates RFC",
+   "homeScore": 10,
+   "homeTries": 0,
+   "away": "Ballincollig RFC",
+   "awayScore": 5,
+   "awayTries": 0,
+   "venue": "Cobh",
+   "round": null
+  }
+ ],
  "ballincolligOnly": true
 }

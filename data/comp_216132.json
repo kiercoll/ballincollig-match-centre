@@ -3,10 +3,55 @@
  "name": "Girls Clubs U16 Friendly",
  "route": "competition_fixtures_results",
  "url": "https://munsterrugby.sportlomo.com/competition_fixtures_results/216132/",
- "ballincolligTeams": [],
+ "ballincolligTeams": [
+  "Ballincollig RFC"
+ ],
  "tableColumns": [],
  "table": [],
- "fixtures": [],
- "results": [],
+ "fixtures": [
+  {
+   "date": "2026-10-02",
+   "time": "19:30",
+   "home": "Ballincollig RFC",
+   "away": "Kinsale/Muskerry",
+   "venue": "Tanner Park",
+   "round": null
+  }
+ ],
+ "results": [
+  {
+   "date": "2026-09-27",
+   "home": "Ballincollig RFC",
+   "homeScore": 22,
+   "homeTries": 4,
+   "away": "Clonakilty RFC",
+   "awayScore": 34,
+   "awayTries": 6,
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-09-20",
+   "home": "Bantry Bay-Skibbereen",
+   "homeScore": 39,
+   "homeTries": 5,
+   "away": "Ballincollig RFC",
+   "awayScore": 14,
+   "awayTries": 2,
+   "venue": "Skibbereen",
+   "round": null
+  },
+  {
+   "date": "2026-09-13",
+   "home": "Cobh Pirates RFC",
+   "homeScore": 24,
+   "homeTries": 4,
+   "away": "Ballincollig RFC",
+   "awayScore": 22,
+   "awayTries": 4,
+   "venue": "Cobh",
+   "round": null
+  }
+ ],
  "ballincolligOnly": true
 }
