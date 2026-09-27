@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Put the Match Centre on your phone</title>
+<meta name="description" content="How to add the Ballincollig RFC Match Centre to your iPhone or Android home screen.">
+<meta property="og:title" content="Ballincollig RFC Match Centre">
+<meta property="og:description" content="How to put the fixtures, results and tables app on your phone.">
+<meta property="og:type" content="website">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="apple-touch-icon.png">
+<meta name="theme-color" content="#111110">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{
+  --brand:#111110; --brand-soft:#3b3934; --brand-wash:#e9e7e1;
+  --mast:#111110; --mast-ink:#ffffff;
+  --ground:#f4f3f0; --panel:#ffffff; --sunken:#eceae5;
+  --ink:#111110; --ink-2:#55534e; --ink-3:#84817a;
+  --line:#dedbd4; --line-hard:#c2beb5;
+  --win:#1f7a46; --win-wash:#e3f1e8;
+  --even:#a8730f; --even-wash:#faeed6;
+  --hard:#a8332a; --hard-wash:#f9e3e0;
+  --none:#84817a; --none-wash:#eceae5;
+  --shadow:0 1px 2px rgba(17,17,16,.06), 0 6px 18px rgba(17,17,16,.05);
+  --r:10px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --brand:#ffffff; --brand-soft:#d6d3cc; --brand-wash:#26241f;
+    --mast:#000000; --mast-ink:#ffffff;
+    --ground:#0d0d0c; --panel:#171715; --sunken:#201f1c;
+    --ink:#f2f0ea; --ink-2:#adaaa2; --ink-3:#7f7c74;
+    --line:#2a2924; --line-hard:#3d3b34;
+    --win:#63c08a; --win-wash:#132318;
+    --even:#d9a344; --even-wash:#2a2112;
+    --hard:#e07b6c; --hard-wash:#2b1613;
+    --none:#8b887f; --none-wash:#1e1d19;
+    --shadow:0 1px 2px rgba(0,0,0,.5), 0 6px 18px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  --brand:#ffffff; --brand-soft:#d6d3cc; --brand-wash:#26241f;
+  --mast:#000000; --mast-ink:#ffffff;
+  --ground:#0d0d0c; --panel:#171715; --sunken:#201f1c;
+  --ink:#f2f0ea; --ink-2:#adaaa2; --ink-3:#7f7c74;
+  --line:#2a2924; --line-hard:#3d3b34;
+  --win:#63c08a; --win-wash:#132318;
+  --even:#d9a344; --even-wash:#2a2112;
+  --hard:#e07b6c; --hard-wash:#2b1613;
+  --none:#8b887f; --none-wash:#1e1d19;
+  --shadow:0 1px 2px rgba(0,0,0,.5), 0 6px 18px rgba(0,0,0,.35);
+}
+
+
+*{box-sizing:border-box}
+body{margin:0; background:var(--ground); color:var(--ink);
+  font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:16px; line-height:1.55; -webkit-font-smoothing:antialiased}
+h1,h2{font-family:Archivo,"IBM Plex Sans",sans-serif; margin:0; text-wrap:balance; letter-spacing:-.012em}
+a{color:var(--brand)}
+:focus-visible{outline:2px solid var(--brand); outline-offset:2px; border-radius:4px}
+
+.mast{background:var(--mast); color:var(--mast-ink); padding:14px 20px;
+  display:flex; align-items:center; gap:15px}
+.hoops{height:9px; background:repeating-linear-gradient(90deg,
+  var(--mast) 0 26px, var(--mast-ink) 26px 52px); border-bottom:1px solid var(--line)}
+.mast .crest{height:44px; flex:0 0 auto; border-radius:7px; padding:4px 8px;
+  background:#fff; display:grid; place-items:center}
+.mast .crest img{height:36px; width:auto; display:block}
+.mast h1{font-size:17px; font-weight:700; line-height:1.15; color:var(--mast-ink)}
+.mast .sub{font-size:11.5px; opacity:.72; letter-spacing:.08em; text-transform:uppercase; font-weight:500}
+
+main{max-width:40rem; margin:0 auto; padding:26px 20px 60px}
+.lede{font-size:17px; color:var(--ink-2); margin:0 0 14px; max-width:36rem}
+
+.pick{display:flex; gap:9px; margin:22px 0 4px; flex-wrap:wrap}
+.picklink{flex:1 1 150px; text-align:center; text-decoration:none; font-weight:600; font-size:15px;
+  padding:12px 14px; border:1px solid var(--line-hard); border-radius:9px;
+  background:var(--panel); color:var(--ink)}
+.picklink:hover{border-color:var(--brand)}
+
+section{margin-top:38px; scroll-margin-top:14px}
+h2{font-size:21px; font-weight:700; display:flex; align-items:center; gap:11px; margin-bottom:12px}
+.badge{width:29px; height:29px; flex:0 0 auto; border-radius:50%; background:var(--brand);
+  color:var(--ground); display:grid; place-items:center; font-size:14px; font-weight:700}
+
+.must{font-size:14px; color:var(--ink-2); background:var(--sunken); border-left:3px solid var(--brand);
+  padding:10px 13px; border-radius:0 7px 7px 0; margin:0 0 16px}
+.aside{font-size:14px; color:var(--ink-2); margin:14px 0 0}
+
+ol.steps{list-style:none; counter-reset:s; padding:0; margin:0;
+  display:flex; flex-direction:column; gap:11px}
+ol.steps li{counter-increment:s; background:var(--panel); border:1px solid var(--line);
+  border-radius:10px; padding:13px 15px 13px 50px; position:relative;
+  box-shadow:0 1px 2px rgba(17,17,16,.05)}
+ol.steps li::before{content:counter(s); position:absolute; left:15px; top:13px;
+  font-family:Archivo; font-weight:700; font-size:15px; color:var(--ink-3)}
+ol.steps li b{display:block; font-size:15.5px; font-weight:600}
+ol.steps li span{display:block; font-size:14px; color:var(--ink-2); margin-top:3px}
+code{font-family:"IBM Plex Mono",monospace; font-size:13.5px; background:var(--sunken);
+  padding:1px 5px; border-radius:4px; word-break:break-all}
+
+dl.faq{margin:0}
+dl.faq dt{font-weight:600; font-size:15px; margin-top:15px}
+dl.faq dt:first-child{margin-top:0}
+dl.faq dd{margin:3px 0 0; font-size:14.5px; color:var(--ink-2)}
+
+.cta{display:block; text-align:center; margin:38px 0 0; padding:15px;
+  background:var(--brand); color:var(--ground); text-decoration:none;
+  font-weight:600; font-size:16px; border-radius:10px}
+
+footer{border-top:1px solid var(--line); margin-top:34px; padding-top:14px;
+  font-size:12px; color:var(--ink-3)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
+</style>
+</head>
+<body>
+<header class="mast">
+  <div class="crest"><img src="data:image/webp;base64,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" alt="Ballincollig RFC crest"></div>
+  <div>
+    <h1>Match Centre</h1>
+    <div class="sub">Put it on your phone</div>
+  </div>
+</header>
+<div class="hoops" aria-hidden="true"></div>
+
+<main>
+  <p class="lede">The Match Centre has fixtures, results and league tables for every Ballincollig
+  side, from the 1st XV down to the U13s. It updates itself every morning.</p>
+
+  <p class="lede">It works in any browser, but it is worth spending thirty seconds putting it on your
+  home screen. You get the club crest as an icon, it opens full screen with no address bar, and you
+  never have to go hunting for the link again.</p>
+
+  <div class="pick">
+    <a class="picklink" href="#iphone">iPhone or iPad</a>
+    <a class="picklink" href="#android">Android</a>
+  </div>
+
+  <section id="iphone">
+    <h2><span class="badge">1</span>iPhone and iPad</h2>
+    <p class="must">This has to be done in <strong>Safari</strong>. It will not work from Chrome
+    on an iPhone.</p>
+    <ol class="steps">
+      <li><b>Open the Match Centre in Safari.</b>
+        <span>Tap the link the club sent you, or type <code>ballincollig-rfc.netlify.app</code>
+        into the address bar. Wait for the crest and the fixtures to appear.</span></li>
+      <li><b>Tap the Share button.</b>
+        <span>It is the square with an arrow pointing up out of it, in the bar along the bottom of
+        the screen. If you cannot see that bar, scroll up slightly on the page and it comes back.</span></li>
+      <li><b>Scroll down the panel that slides up.</b>
+        <span>Go past Copy, Add to Reading List and Add Bookmark.</span></li>
+      <li><b>Tap “Add to Home Screen”.</b>
+        <span>It has a small square-with-a-plus beside it.</span></li>
+      <li><b>Tap “Add”, top right.</b>
+        <span>The name will already say <b>Collig</b>. Change it to whatever you like, that is what
+        sits under the icon.</span></li>
+    </ol>
+  </section>
+
+  <section id="android">
+    <h2><span class="badge">2</span>Android</h2>
+    <p class="must">Steps are for <strong>Chrome</strong>, which is what most Android phones use.
+    Samsung Internet is slightly different and is covered underneath.</p>
+    <ol class="steps">
+      <li><b>Open the Match Centre in Chrome.</b>
+        <span>Tap the link, or type <code>ballincollig-rfc.netlify.app</code> into the address bar.</span></li>
+      <li><b>Tap the three dots.</b>
+        <span>Top right corner, stacked vertically.</span></li>
+      <li><b>Tap “Add to Home screen”.</b>
+        <span>Some versions of Chrome call this <b>Install app</b> instead. Either is the right one.</span></li>
+      <li><b>Tap “Add” or “Install”.</b>
+        <span>If it offers to place the icon for you, choose <b>Add automatically</b>, or drag it
+        where you want it.</span></li>
+    </ol>
+    <p class="aside"><b>Samsung Internet:</b> tap the three lines at the bottom right, then
+    <b>Add page to</b>, then <b>Home screen</b>.</p>
+  </section>
+
+  <section id="help">
+    <h2><span class="badge">?</span>If something looks wrong</h2>
+    <dl class="faq">
+      <dt>The icon is a grey screenshot instead of the crest</dt>
+      <dd>Press and hold the icon, remove it, close the browser tab for the site, then add it again.
+      Phones cache these icons for a while.</dd>
+
+      <dt>The page is blank</dt>
+      <dd>Pull down on the page to reload it. If it is still blank, you may be on a very old browser.
+      Updating the browser fixes it.</dd>
+
+      <dt>Nothing has changed since last week</dt>
+      <dd>Check the “Data as of” stamp in the top right of the Match Centre. If that date is more than
+      a day or two old, the automatic update has stopped and it needs looking at. Let Kieran know.</dd>
+
+      <dt>My team is not listed</dt>
+      <dd>Only sides entered in Munster Rugby's own competition system appear. If a team is missing,
+      it is missing at source rather than here.</dd>
+    </dl>
+  </section>
+
+  <section id="about">
+    <h2><span class="badge">i</span>Where the information comes from</h2>
+    <p>Everything is read straight from Munster Rugby's domestic competition system, the same source
+    behind the
+    <a href="https://www.munsterrugby.ie/domestic-fixtures-results" target="_blank" rel="noopener">Domestic
+    Fixtures &amp; Results</a> pages. Nothing is typed in by hand, so if a result is wrong or a fixture
+    has moved, it is wrong on Munster Rugby's system too and will correct itself here once they fix it.</p>
+    <p>One thing you will not find is team sheets. Munster Rugby keeps line-ups behind a club-admin
+    login, so there is no public data on who is starting.</p>
+  </section>
+
+  <a class="cta" href="./">Open the Match Centre</a>
+
+  <footer>
+    Ballincollig RFC Match Centre · fixtures, results and tables for every side ·
+    rebuilt each morning from munsterrugby.sportlomo.com
+  </footer>
+</main>
+
+</body>
+</html>
