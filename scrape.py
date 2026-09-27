@@ -176,6 +176,7 @@ def parse_matches(soup):
     fixtures, results, seen = [], [], set()
     current_round = None
     section = None          # "fixtures" or "results", from the page's own headings
+    current_date = None     # friendly pages put the date in a heading above the row
 
     for el in soup.find_all(True):
         txt = " ".join(el.get_text(" ", strip=True).split())
@@ -193,13 +194,22 @@ def parse_matches(soup):
             if RE_ROUND.match(txt):
                 current_round = txt
                 continue
+        # a short standalone date, e.g. "Sun 27/09/2026", heading the rows beneath it
+        if len(txt) <= 32 and not RE_VS.search(txt):
+            d = parse_date(txt)
+            if d and not re.search(r"[A-Za-z]{4}", re.sub(r"[A-Za-z]{3}\b", "", txt)):
+                current_date = d
+
         if el.name not in ("ul", "ol", "tr", "li", "div"):
             continue
 
-        cells = cell_texts(el)
+        cells = [c for c in cell_texts(el) if c.strip().lower() != "team sheet"]
         if not (3 <= len(cells) <= 12):
             continue
         date = parse_date(cells[0]) or (parse_date(cells[1]) if len(cells) > 1 else None)
+        own_date = date is not None
+        if not date:
+            date = current_date
         if not date:
             continue
 
@@ -220,7 +230,14 @@ def parse_matches(soup):
                 teams.append(c)
         if len(teams) < 2:
             continue
+        # borrowing the heading's date is only safe for a row that really is a match,
+        # so insist on a kick-off time or a score before accepting one
+        if not own_date and not scores and not RE_TIME.search(" ".join(cells[:2])):
+            continue
         home, away = teams[0], teams[1]
+        # these pages give the venue positionally rather than labelled
+        if venue is None and len(teams) >= 3:
+            venue = teams[2]
         if home == away:
             continue
 
