@@ -304,9 +304,59 @@ def sample_log(html, comp_id):
     print("=== END SAMPLE ===\n")
 
 
+def sweep_site_wide(docs):
+    """Backfill from Munster Rugby's own all-competition feeds.
+
+    Individual competition pages occasionally answer HTTP 500 and serve a
+    truncated document: the standings and fixtures render, the results section
+    never does. The site-wide /results/ and /fixtures/ pages carry the same
+    matches, so anything a broken page dropped can be recovered from them.
+
+    A match is filed by team name rather than by the feed's own competition
+    heading, because those headings are not always right.
+    """
+    added = 0
+    for path, kind in (("results", "results"), ("fixtures", "fixtures")):
+        try:
+            html = fetch(f"{BASE}/{path}/")
+        except Exception as e:                                  # noqa: BLE001
+            print(f"  site-wide /{path}/ unavailable, skipping backfill: {e}")
+            continue
+        fx, rs = parse_matches(BeautifulSoup(html, "html.parser"))
+        for m in (rs if kind == "results" else fx):
+            if "ballincollig" not in (m["home"] + m["away"]).lower():
+                continue
+            target, ambiguous = None, False
+            for doc in docs.values():
+                names = {r["team"] for r in doc["table"]}
+                if m["home"] in names and m["away"] in names:
+                    if target is not None:
+                        ambiguous = True
+                    target = doc
+            if target is None or ambiguous:
+                continue
+            key = (m["date"], m["home"], m["away"])
+            # A result may legitimately replace a fixture still listed as upcoming,
+            # so only compare against the list it is going into.
+            if any((x["date"], x["home"], x["away"]) == key for x in target[kind]):
+                continue
+            if kind == "results":
+                # a played match must not also sit in the fixture list
+                target["fixtures"] = [x for x in target["fixtures"]
+                                      if (x["date"], x["home"], x["away"]) != key]
+            elif any((x["date"], x["home"], x["away"]) == key for x in target["results"]):
+                continue                      # already played, do not re-add as upcoming
+            target[kind].append(m)
+            added += 1
+            print(f"  backfilled {kind[:-1]}: {m['date']} {m['home']} v {m['away']} "
+                  f"-> {target['name']}")
+        time.sleep(2)
+    return added
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
-    failures = []
+    failures, docs = [], {}
     sampled_ok = False          # one healthy page, for reference
     sampled_empty = 0           # and up to two that yielded nothing
 
@@ -338,8 +388,7 @@ def main():
                    fixtures=fixtures, results=results)
         if only_ours:
             doc["ballincolligOnly"] = True
-        with open(os.path.join(OUT, f"comp_{cid}.json"), "w", encoding="utf-8") as f:
-            json.dump(doc, f, ensure_ascii=False, indent=1)
+        docs[cid] = doc
 
         nothing = not rows and not fixtures and not results
         if nothing and sampled_empty < 2:
@@ -356,6 +405,16 @@ def main():
         print(f"ok  {cid} {name[:44]:44s} table={len(rows):2d} fix={len(fixtures):3d} "
               f"res={len(results):3d} ours={ours}{flag}")
         time.sleep(2)
+
+    n = sweep_site_wide(docs)
+    print(f"Backfilled {n} match(es) the competition pages had dropped."
+          if n else "Nothing needed backfilling.")
+
+    for cid, doc in docs.items():
+        doc["fixtures"].sort(key=lambda x: (x.get("date") or "", x.get("time") or ""))
+        doc["results"].sort(key=lambda x: (x.get("date") or ""))
+        with open(os.path.join(OUT, f"comp_{cid}.json"), "w", encoding="utf-8") as f:
+            json.dump(doc, f, ensure_ascii=False, indent=1)
 
     # Refuse to hand on a bad scrape rather than publishing an empty page.
     if len(failures) > 5:
