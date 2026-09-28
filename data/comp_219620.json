@@ -77,6 +77,14 @@
  "fixtures": [
   {
    "date": "2026-12-19",
+   "time": null,
+   "home": "TBC",
+   "away": "Muskerry RFC",
+   "venue": "Ballyanly",
+   "round": null
+  },
+  {
+   "date": "2026-12-19",
    "time": "12:00",
    "home": "Ballincollig RFC",
    "away": "Muskerry RFC",
@@ -89,14 +97,6 @@
    "home": "Kanturk RFC",
    "away": "Crosshaven/Cork Con",
    "venue": "Kanturk",
-   "round": null
-  },
-  {
-   "date": "2026-12-19",
-   "time": null,
-   "home": "TBC",
-   "away": "Muskerry RFC",
-   "venue": "Ballyanly",
    "round": null
   }
  ],

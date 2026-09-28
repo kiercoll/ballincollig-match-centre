@@ -47,34 +47,6 @@
   },
   {
    "pos": 0,
-   "team": "Bantry Bay-Skibbereen",
-   "pld": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 0,
-   "f": null,
-   "a": null,
-   "diff": null,
-   "tries": null
-  },
-  {
-   "pos": 0,
-   "team": "Kinsale RFC",
-   "pld": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 0,
-   "f": null,
-   "a": null,
-   "diff": null,
-   "tries": null
-  },
-  {
-   "pos": 0,
    "team": "Clonakilty RFC",
    "pld": 0,
    "w": 0,
@@ -100,23 +72,51 @@
    "a": null,
    "diff": null,
    "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Bantry Bay-Skibbereen",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Kinsale RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
   }
  ],
  "fixtures": [
+  {
+   "date": "2026-10-03",
+   "time": "11:00",
+   "home": "Ballincollig RFC",
+   "away": "Bantry Bay-Skibbereen",
+   "venue": "Tanner Park Comment :",
+   "round": null
+  },
   {
    "date": "2026-10-03",
    "time": "12:00",
    "home": "Bandon RFC",
    "away": "Ballincollig RFC",
    "venue": "Bandon",
-   "round": null
-  },
-  {
-   "date": "2026-10-03",
-   "time": "12:00",
-   "home": "Bantry Bay-Skibbereen",
-   "away": "Kinsale RFC",
-   "venue": "TBC",
    "round": null
   },
   {
@@ -128,6 +128,14 @@
    "round": null
   },
   {
+   "date": "2026-10-04",
+   "time": "12:00",
+   "home": "Bantry Bay-Skibbereen",
+   "away": "Kinsale RFC",
+   "venue": "Bantry",
+   "round": null
+  },
+  {
    "date": "2026-10-10",
    "time": "12:00",
    "home": "Bandon RFC",
@@ -224,5 +232,17 @@
    "round": null
   }
  ],
- "results": []
+ "results": [
+  {
+   "date": "2026-09-20",
+   "home": "Bantry Bay-Skibbereen",
+   "homeScore": 39,
+   "homeTries": 5,
+   "away": "Ballincollig RFC",
+   "awayScore": 14,
+   "awayTries": 2,
+   "venue": "Skibbereen Venue: Skibbereen",
+   "round": null
+  }
+ ]
 }

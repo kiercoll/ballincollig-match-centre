@@ -19,34 +19,6 @@
  "table": [
   {
    "pos": 0,
-   "team": "Charleville and District RFC",
-   "pld": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 0,
-   "f": null,
-   "a": null,
-   "diff": null,
-   "tries": null
-  },
-  {
-   "pos": 0,
-   "team": "Sundays Well RFC",
-   "pld": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 0,
-   "f": null,
-   "a": null,
-   "diff": null,
-   "tries": null
-  },
-  {
-   "pos": 0,
    "team": "Crosshaven/Cork Con 15s",
    "pld": 0,
    "w": 0,
@@ -75,7 +47,35 @@
   },
   {
    "pos": 0,
+   "team": "Charleville and District RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
    "team": "Clonakilty RFC Red",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Sundays Well RFC",
    "pld": 0,
    "w": 0,
    "d": 0,
@@ -98,11 +98,11 @@
    "round": null
   },
   {
-   "date": "2026-10-03",
+   "date": "2026-10-04",
    "time": "12:00",
    "home": "Crosshaven/Cork Con 15s",
    "away": "Ballincollig RFC Black",
-   "venue": "TBC",
+   "venue": "Temple Hill",
    "round": null
   },
   {

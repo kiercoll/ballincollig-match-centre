@@ -162,17 +162,6 @@
    "round": "1st Round"
   },
   {
-   "date": "2026-09-26",
-   "home": "Crosshaven/Cork Con",
-   "homeScore": 12,
-   "homeTries": 2,
-   "away": "Cobh Pirates RFC",
-   "awayScore": 14,
-   "awayTries": 2,
-   "venue": "Crosshaven",
-   "round": "2nd Round"
-  },
-  {
    "date": "2026-09-25",
    "home": "Ballincollig RFC White",
    "homeScore": 17,
@@ -181,6 +170,17 @@
    "awayScore": 20,
    "awayTries": 0,
    "venue": "Tanner Park",
+   "round": "2nd Round"
+  },
+  {
+   "date": "2026-09-26",
+   "home": "Crosshaven/Cork Con",
+   "homeScore": 12,
+   "homeTries": 2,
+   "away": "Cobh Pirates RFC",
+   "awayScore": 14,
+   "awayTries": 2,
+   "venue": "Crosshaven",
    "round": "2nd Round"
   }
  ]

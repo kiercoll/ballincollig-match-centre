@@ -20,14 +20,14 @@
  ],
  "results": [
   {
-   "date": "2026-09-27",
-   "home": "Ballincollig RFC",
-   "homeScore": 22,
+   "date": "2026-09-13",
+   "home": "Cobh Pirates RFC",
+   "homeScore": 24,
    "homeTries": 4,
-   "away": "Clonakilty RFC",
-   "awayScore": 34,
-   "awayTries": 6,
-   "venue": "Tanner Park",
+   "away": "Ballincollig RFC",
+   "awayScore": 22,
+   "awayTries": 4,
+   "venue": "Cobh",
    "round": null
   },
   {
@@ -42,14 +42,14 @@
    "round": null
   },
   {
-   "date": "2026-09-13",
-   "home": "Cobh Pirates RFC",
-   "homeScore": 24,
+   "date": "2026-09-27",
+   "home": "Ballincollig RFC",
+   "homeScore": 22,
    "homeTries": 4,
-   "away": "Ballincollig RFC",
-   "awayScore": 22,
-   "awayTries": 4,
-   "venue": "Cobh",
+   "away": "Clonakilty RFC",
+   "awayScore": 34,
+   "awayTries": 6,
+   "venue": "Tanner Park",
    "round": null
   }
  ],

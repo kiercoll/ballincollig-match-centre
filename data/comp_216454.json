@@ -65,6 +65,20 @@
   },
   {
    "pos": 0,
+   "team": "St. Senans RFC 1st XV",
+   "pld": 1,
+   "w": 1,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 5,
+   "f": null,
+   "a": null,
+   "diff": 32,
+   "tries": 7
+  },
+  {
+   "pos": 0,
    "team": "Cobh Pirates RFC 1st XV",
    "pld": 1,
    "w": 1,
@@ -191,43 +205,21 @@
   },
   {
    "pos": 0,
-   "team": "St. Senans RFC 1st XV",
-   "pld": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 0,
-   "f": null,
-   "a": null,
-   "diff": 0,
-   "tries": 0
-  },
-  {
-   "pos": 0,
    "team": "Charleville and District RFC 1st XV",
-   "pld": 0,
+   "pld": 1,
    "w": 0,
    "d": 0,
-   "l": 0,
+   "l": 1,
    "bp": null,
    "pts": 0,
    "f": null,
    "a": null,
-   "diff": 0,
-   "tries": 0
+   "diff": -32,
+   "tries": 3
   }
  ],
  "fixtures": [
   {
-   "date": "2026-09-27",
-   "time": "14:30",
-   "home": "St. Senans RFC 1st XV",
-   "away": "Charleville and District RFC 1st XV",
-   "venue": "Jimmy Slattery Park",
-   "round": null
-  },
-  {
    "date": "2026-10-04",
    "time": "14:30",
    "home": "Carrick on Suir RFC 1st XV",
@@ -900,5 +892,28 @@
    "round": null
   }
  ],
- "results": []
+ "results": [
+  {
+   "date": "2026-09-13",
+   "home": "Ballincollig RFC 1st XV",
+   "homeScore": 41,
+   "homeTries": 6,
+   "away": "Fermoy RFC 1st XV",
+   "awayScore": 14,
+   "awayTries": 2,
+   "venue": "Tanner Park Venue: Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-09-27",
+   "home": "Ballincollig RFC 1st XV",
+   "homeScore": 47,
+   "homeTries": 7,
+   "away": "Castleisland RFC 1st XV",
+   "awayScore": 7,
+   "awayTries": 1,
+   "venue": "Tanner Park Venue: Tanner Park",
+   "round": null
+  }
+ ]
 }

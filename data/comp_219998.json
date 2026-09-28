@@ -104,24 +104,24 @@
  ],
  "fixtures": [
   {
-   "date": "2026-10-03",
-   "time": "12:00",
+   "date": "2026-10-02",
+   "time": "19:30",
    "home": "Ballincollig RFC White",
    "away": "Mallow RFC",
    "venue": "Tanner Park",
    "round": null
   },
   {
-   "date": "2026-10-03",
-   "time": "12:00",
+   "date": "2026-10-02",
+   "time": "20:00",
    "home": "Crosshaven/Cork Con",
    "away": "Muskerry RFC",
-   "venue": "TBC",
+   "venue": "Temple Hill",
    "round": null
   },
   {
    "date": "2026-10-03",
-   "time": "12:00",
+   "time": "12:30",
    "home": "Highfield RFC",
    "away": "Kanturk RFC",
    "venue": "Woodleigh Park",

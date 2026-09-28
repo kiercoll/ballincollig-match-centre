@@ -10,14 +10,6 @@
  "table": [],
  "fixtures": [
   {
-   "date": "2026-12-14",
-   "time": null,
-   "home": "Muskerry RFC 1st XV",
-   "away": "Ballincollig RFC 1st XV",
-   "venue": "Virgin Media Park",
-   "round": null
-  },
-  {
    "date": "2026-09-06",
    "time": "14:30",
    "home": "Muskerry RFC 1st XV",
@@ -32,6 +24,14 @@
    "away": "Bantry Bay RFC 1st XV",
    "venue": "Fermoy",
    "round": "2nd Round"
+  },
+  {
+   "date": "2026-12-14",
+   "time": null,
+   "home": "Muskerry RFC 1st XV",
+   "away": "Ballincollig RFC 1st XV",
+   "venue": "Virgin Media Park",
+   "round": null
   }
  ],
  "results": [
