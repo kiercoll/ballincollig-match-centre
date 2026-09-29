@@ -15,6 +15,7 @@ from bs4 import BeautifulSoup
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "data")
 BASE = "https://munsterrugby.sportlomo.com"
+PARTIAL = set()   # pages served with an error status, so possibly truncated
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/125.0 Safari/537.36")
 
@@ -171,6 +172,22 @@ def parse_table(soup):
     return heads, rows
 
 
+def clean_venue(v):
+    """Venue cells sometimes carry a neighbouring label or repeat themselves,
+    e.g. "Tanner Park Comment :" or "Skibbereen Venue: Skibbereen"."""
+    if not v:
+        return None
+    v = re.sub(r"\bComments?\s*:.*$", "", v, flags=re.I).strip()
+    parts = [x.strip() for x in re.split(r"\bVenue\s*:", v, flags=re.I) if x.strip()]
+    if parts:
+        v = parts[-1]
+    words = v.split()
+    if len(words) % 2 == 0 and words[:len(words)//2] == words[len(words)//2:]:
+        v = " ".join(words[:len(words)//2])          # "Skibbereen Skibbereen"
+    v = v.strip(" -:,")
+    return v or None
+
+
 def parse_matches(soup):
     """Pull every match on the page. Returns (fixtures, results)."""
     fixtures, results, seen = [], [], set()
@@ -216,7 +233,7 @@ def parse_matches(soup):
         teams, scores, venue = [], [], None
         for c in cells:
             if c.lower().startswith("venue"):
-                venue = c.split(":", 1)[1].strip() if ":" in c else None
+                venue = clean_venue(c.split(":", 1)[1]) if ":" in c else None
                 continue
             m = RE_VS.match(c)
             if m:
@@ -237,7 +254,7 @@ def parse_matches(soup):
         home, away = teams[0], teams[1]
         # these pages give the venue positionally rather than labelled
         if venue is None and len(teams) >= 3:
-            venue = teams[2]
+            venue = clean_venue(teams[2])
         if home == away:
             continue
 
@@ -278,7 +295,8 @@ def fetch(url, tries=3):
                 return body
             if usable:
                 print(f"  note: HTTP {r.status_code} but the page body looks complete "
-                      f"({len(body)} bytes), using it")
+                      f"({len(body)} bytes), using it (marked partial)")
+                PARTIAL.add(url)
                 return body
             last = f"HTTP {r.status_code}, {len(body)} bytes"
         except Exception as e:                                  # noqa: BLE001
@@ -328,6 +346,12 @@ def sweep_site_wide(docs):
                 continue
             target, ambiguous = None, False
             for doc in docs.values():
+                # Only a page we know was truncated may be topped up. Youth teams
+                # are listed as bare club names, so the same pair of names occurs
+                # across boys, girls and several age grades; matching on names
+                # alone would file a girls friendly into a boys league.
+                if not doc.get("_partial"):
+                    continue
                 names = {r["team"] for r in doc["table"]}
                 if m["home"] in names and m["away"] in names:
                     if target is not None:
@@ -388,6 +412,7 @@ def main():
                    fixtures=fixtures, results=results)
         if only_ours:
             doc["ballincolligOnly"] = True
+        doc["_partial"] = url in PARTIAL
         docs[cid] = doc
 
         nothing = not rows and not fixtures and not results
@@ -411,6 +436,7 @@ def main():
           if n else "Nothing needed backfilling.")
 
     for cid, doc in docs.items():
+        doc.pop("_partial", None)
         doc["fixtures"].sort(key=lambda x: (x.get("date") or "", x.get("time") or ""))
         doc["results"].sort(key=lambda x: (x.get("date") or ""))
         with open(os.path.join(OUT, f"comp_{cid}.json"), "w", encoding="utf-8") as f:
