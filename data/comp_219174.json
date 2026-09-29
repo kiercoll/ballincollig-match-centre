@@ -354,28 +354,5 @@
    "round": null
   }
  ],
- "results": [
-  {
-   "date": "2026-09-18",
-   "home": "Douglas RFC 2nd XV",
-   "homeScore": 5,
-   "homeTries": 1,
-   "away": "Ballincollig RFC 2nd XV",
-   "awayScore": 50,
-   "awayTries": 7,
-   "venue": "Tanner Park Venue: Tanner Park",
-   "round": null
-  },
-  {
-   "date": "2026-09-25",
-   "home": "Ballincollig RFC 2nd XV",
-   "homeScore": 32,
-   "homeTries": 4,
-   "away": "Youghal RFC 2nd XV",
-   "awayScore": 22,
-   "awayTries": 4,
-   "venue": "Ballyanly Venue: Ballyanly",
-   "round": null
-  }
- ]
+ "results": []
 }

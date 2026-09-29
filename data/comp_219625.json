@@ -90,6 +90,14 @@
  ],
  "fixtures": [
   {
+   "date": "2026-09-19",
+   "time": "14:00",
+   "home": "Ballincollig RFC Black",
+   "away": "Kanturk RFC",
+   "venue": "Tanner Park",
+   "round": "1st Round"
+  },
+  {
    "date": "2026-12-19",
    "time": "12:00",
    "home": "Mallow RFC",
@@ -149,17 +157,6 @@
    "awayTries": null,
    "venue": "Virgin Media Park",
    "round": "1st Round"
-  },
-  {
-   "date": "2026-09-19",
-   "home": "Ballincollig RFC Black",
-   "homeScore": null,
-   "homeTries": null,
-   "away": "Kanturk RFC",
-   "awayScore": null,
-   "awayTries": null,
-   "venue": "Tanner Park Venue: Tanner Park",
-   "round": null
   },
   {
    "date": "2026-09-26",

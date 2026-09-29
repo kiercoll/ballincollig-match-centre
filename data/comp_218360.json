@@ -110,14 +110,6 @@
  ],
  "fixtures": [
   {
-   "date": "2026-10-04",
-   "time": "13:00",
-   "home": "Ballincollig RFC 2nd XV",
-   "away": "Dungarvan RFC 1st XV",
-   "venue": "Tanner Park Comment :",
-   "round": null
-  },
-  {
    "date": "2026-10-18",
    "time": "13:00",
    "home": "Ballincollig RFC 2nd XV",
