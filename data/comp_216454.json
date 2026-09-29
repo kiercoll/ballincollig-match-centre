@@ -905,6 +905,61 @@
    "round": null
   },
   {
+   "date": "2026-09-26",
+   "home": "Youghal RFC 1st XV",
+   "homeScore": 57,
+   "homeTries": 9,
+   "away": "Tralee RFC 1st XV",
+   "awayScore": 12,
+   "awayTries": 2,
+   "venue": "Youghal",
+   "round": "0th Round"
+  },
+  {
+   "date": "2026-09-27",
+   "home": "St. Senans RFC 1st XV",
+   "homeScore": 49,
+   "homeTries": 7,
+   "away": "Charleville and District RFC 1st XV",
+   "awayScore": 17,
+   "awayTries": 3,
+   "venue": "Jimmy Slattery Park",
+   "round": null
+  },
+  {
+   "date": "2026-09-27",
+   "home": "Killarney RFC 1st XV",
+   "homeScore": 27,
+   "homeTries": 3,
+   "away": "Muskerry RFC 1st XV",
+   "awayScore": 25,
+   "awayTries": 4,
+   "venue": "Killarney",
+   "round": null
+  },
+  {
+   "date": "2026-09-27",
+   "home": "Ennis RFC 1st XV",
+   "homeScore": 42,
+   "homeTries": 6,
+   "away": "Waterpark RFC 1st XV",
+   "awayScore": 14,
+   "awayTries": 2,
+   "venue": "Ennis",
+   "round": null
+  },
+  {
+   "date": "2026-09-27",
+   "home": "Cobh Pirates RFC 1st XV",
+   "homeScore": 25,
+   "homeTries": 3,
+   "away": "Fermoy RFC 1st XV",
+   "awayScore": 20,
+   "awayTries": 3,
+   "venue": "Cobh",
+   "round": null
+  },
+  {
    "date": "2026-09-27",
    "home": "Ballincollig RFC 1st XV",
    "homeScore": 47,
@@ -912,8 +967,19 @@
    "away": "Castleisland RFC 1st XV",
    "awayScore": 7,
    "awayTries": 1,
-   "venue": "Tanner Park Venue: Tanner Park",
+   "venue": "Tanner Park",
    "round": null
+  },
+  {
+   "date": "2026-09-27",
+   "home": "Thurles RFC 1st XV",
+   "homeScore": 19,
+   "homeTries": 3,
+   "away": "Carrick on Suir RFC 1st XV",
+   "awayScore": 22,
+   "awayTries": 3,
+   "venue": "Thurles",
+   "round": "0th Round"
   }
  ]
 }
