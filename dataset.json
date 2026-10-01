@@ -2,8 +2,8 @@
  "club": "Ballincollig RFC",
  "homeGround": "Tanner Park",
  "season": "2026/27",
- "generatedAt": "2026-09-29T12:37:23",
- "generatedDate": "2026-09-29",
+ "generatedAt": "2026-10-01T10:06:08",
+ "generatedDate": "2026-10-01",
  "source": "munsterrugby.sportlomo.com (the data engine behind munsterrugby.ie domestic fixtures & results)",
  "teams": [
   {
@@ -2936,7 +2936,7 @@
       },
       {
        "pos": 0,
-       "team": "Kanturk RFC 2nd XV",
+       "team": "Fermoy RFC 2nd XV",
        "pld": 0,
        "w": 0,
        "d": 0,
@@ -2965,6 +2965,20 @@
       {
        "pos": 0,
        "team": "Muskerry RFC 2nd XV",
+       "pld": 0,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "bp": null,
+       "pts": 0,
+       "f": 0,
+       "a": 0,
+       "diff": 0,
+       "tries": 0
+      },
+      {
+       "pos": 0,
+       "team": "Kanturk RFC 2nd XV",
        "pld": 0,
        "w": 0,
        "d": 0,
@@ -3266,7 +3280,7 @@
       "a": 0,
       "diff": 0,
       "tries": 0,
-      "rowIndex": 6
+      "rowIndex": 9
      },
      "form": {
       "played": 1,
@@ -3691,8 +3705,8 @@
      "compId": "218360",
      "compUrl": "https://munsterrugby.sportlomo.com/league/218360/",
      "ourTeam": "Ballincollig RFC 2nd XV",
-     "opponent": "Midleton RFC 1st XV",
-     "venue": "Towns Park",
+     "opponent": "UL Bohemian RFC 2nd XV",
+     "venue": "Annacotty",
      "home": false,
      "round": null,
      "rating": {
@@ -3704,7 +3718,7 @@
         "label": "Venue",
         "weight": 0.1,
         "value": -0.5,
-        "detail": "Away at Towns Park"
+        "detail": "Away at Annacotty"
        }
       ],
       "commonOpponents": [],
@@ -3832,9 +3846,9 @@
      "compId": "218360",
      "compUrl": "https://munsterrugby.sportlomo.com/league/218360/",
      "ourTeam": "Ballincollig RFC 2nd XV",
-     "opponent": "Midleton RFC 1st XV",
-     "venue": "Tanner Park",
-     "home": true,
+     "opponent": "UL Bohemian RFC 2nd XV",
+     "venue": "Annacotty",
+     "home": false,
      "round": null,
      "rating": {
       "band": "grey",
@@ -3844,8 +3858,8 @@
        {
         "label": "Venue",
         "weight": 0.1,
-        "value": 0.5,
-        "detail": "At Tanner Park"
+        "value": -0.5,
+        "detail": "Away at Annacotty"
        }
       ],
       "commonOpponents": [],
@@ -3959,6 +3973,34 @@
      "rows": [
       {
        "pos": 0,
+       "team": "Sundays Well RFC 1st XV",
+       "pld": 0,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "bp": null,
+       "pts": 0,
+       "f": 0,
+       "a": 0,
+       "diff": 0,
+       "tries": 0
+      },
+      {
+       "pos": 0,
+       "team": "Dungarvan RFC 1st XV",
+       "pld": 0,
+       "w": 0,
+       "d": 0,
+       "l": 0,
+       "bp": null,
+       "pts": 0,
+       "f": 0,
+       "a": 0,
+       "diff": 0,
+       "tries": 0
+      },
+      {
+       "pos": 0,
        "team": "Ballincollig RFC 2nd XV",
        "pld": 0,
        "w": 0,
@@ -3987,7 +4029,7 @@
       },
       {
        "pos": 0,
-       "team": "Midleton RFC 1st XV",
+       "team": "UL Bohemian RFC 2nd XV",
        "pld": 0,
        "w": 0,
        "d": 0,
@@ -4002,34 +4044,6 @@
       {
        "pos": 0,
        "team": "Roaring Water Bay 1st XV",
-       "pld": 0,
-       "w": 0,
-       "d": 0,
-       "l": 0,
-       "bp": null,
-       "pts": 0,
-       "f": 0,
-       "a": 0,
-       "diff": 0,
-       "tries": 0
-      },
-      {
-       "pos": 0,
-       "team": "Sundays Well RFC 1st XV",
-       "pld": 0,
-       "w": 0,
-       "d": 0,
-       "l": 0,
-       "bp": null,
-       "pts": 0,
-       "f": 0,
-       "a": 0,
-       "diff": 0,
-       "tries": 0
-      },
-      {
-       "pos": 0,
-       "team": "Dungarvan RFC 1st XV",
        "pld": 0,
        "w": 0,
        "d": 0,
@@ -4065,7 +4079,7 @@
       "a": 0,
       "diff": 0,
       "tries": 0,
-      "rowIndex": 6
+      "rowIndex": 2
      },
      "form": {
       "played": 0,
@@ -4123,80 +4137,6 @@
      }
     },
     {
-     "name": "Midleton RFC 1st XV",
-     "comp": "Womens Division 2B",
-     "compId": "218360",
-     "tableRow": {
-      "pos": 0,
-      "team": "Midleton RFC 1st XV",
-      "pld": 0,
-      "w": 0,
-      "d": 0,
-      "l": 0,
-      "bp": null,
-      "pts": 0,
-      "f": 0,
-      "a": 0,
-      "diff": 0,
-      "tries": 0,
-      "rowIndex": 3
-     },
-     "form": {
-      "played": 0,
-      "w": 0,
-      "d": 0,
-      "l": 0,
-      "pf": 0,
-      "pa": 0,
-      "avgMargin": null,
-      "winRate": null,
-      "last5": []
-     },
-     "headToHead": [],
-     "nextMeeting": {
-      "date": "2026-11-01",
-      "time": "13:00",
-      "comp": "Womens Division 2B",
-      "compId": "218360",
-      "compUrl": "https://munsterrugby.sportlomo.com/league/218360/",
-      "ourTeam": "Ballincollig RFC 2nd XV",
-      "opponent": "Midleton RFC 1st XV",
-      "venue": "Towns Park",
-      "home": false,
-      "round": null,
-      "rating": {
-       "band": "grey",
-       "score": null,
-       "confidence": "none",
-       "signals": [
-        {
-         "label": "Venue",
-         "weight": 0.1,
-         "value": -0.5,
-         "detail": "Away at Towns Park"
-        }
-       ],
-       "commonOpponents": [],
-       "summary": "Neither side has enough played matches on record yet to rate this one."
-      }
-     },
-     "rating": {
-      "band": "grey",
-      "score": null,
-      "confidence": "none",
-      "signals": [
-       {
-        "label": "Venue",
-        "weight": 0.1,
-        "value": -0.5,
-        "detail": "Away at Towns Park"
-       }
-      ],
-      "commonOpponents": [],
-      "summary": "Neither side has enough played matches on record yet to rate this one."
-     }
-    },
-    {
      "name": "Roaring Water Bay 1st XV",
      "comp": "Womens Division 2B",
      "compId": "218360",
@@ -4213,7 +4153,7 @@
       "a": 0,
       "diff": 0,
       "tries": 0,
-      "rowIndex": 4
+      "rowIndex": 6
      },
      "form": {
       "played": 0,
@@ -4287,7 +4227,7 @@
       "a": 0,
       "diff": 0,
       "tries": 0,
-      "rowIndex": 5
+      "rowIndex": 1
      },
      "form": {
       "played": 0,
@@ -4345,6 +4285,80 @@
      }
     },
     {
+     "name": "UL Bohemian RFC 2nd XV",
+     "comp": "Womens Division 2B",
+     "compId": "218360",
+     "tableRow": {
+      "pos": 0,
+      "team": "UL Bohemian RFC 2nd XV",
+      "pld": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "bp": null,
+      "pts": 0,
+      "f": 0,
+      "a": 0,
+      "diff": 0,
+      "tries": 0,
+      "rowIndex": 5
+     },
+     "form": {
+      "played": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pf": 0,
+      "pa": 0,
+      "avgMargin": null,
+      "winRate": null,
+      "last5": []
+     },
+     "headToHead": [],
+     "nextMeeting": {
+      "date": "2026-11-01",
+      "time": "13:00",
+      "comp": "Womens Division 2B",
+      "compId": "218360",
+      "compUrl": "https://munsterrugby.sportlomo.com/league/218360/",
+      "ourTeam": "Ballincollig RFC 2nd XV",
+      "opponent": "UL Bohemian RFC 2nd XV",
+      "venue": "Annacotty",
+      "home": false,
+      "round": null,
+      "rating": {
+       "band": "grey",
+       "score": null,
+       "confidence": "none",
+       "signals": [
+        {
+         "label": "Venue",
+         "weight": 0.1,
+         "value": -0.5,
+         "detail": "Away at Annacotty"
+        }
+       ],
+       "commonOpponents": [],
+       "summary": "Neither side has enough played matches on record yet to rate this one."
+      }
+     },
+     "rating": {
+      "band": "grey",
+      "score": null,
+      "confidence": "none",
+      "signals": [
+       {
+        "label": "Venue",
+        "weight": 0.1,
+        "value": -0.5,
+        "detail": "Away at Annacotty"
+       }
+      ],
+      "commonOpponents": [],
+      "summary": "Neither side has enough played matches on record yet to rate this one."
+     }
+    },
+    {
      "name": "Waterpark RFC 1st XV",
      "comp": "Womens Division 2B",
      "compId": "218360",
@@ -4361,7 +4375,7 @@
       "a": 0,
       "diff": 0,
       "tries": 0,
-      "rowIndex": 2
+      "rowIndex": 4
      },
      "form": {
       "played": 1,
@@ -8377,7 +8391,7 @@
      "compId": "220164",
      "compUrl": "https://munsterrugby.sportlomo.com/league/220164/",
      "ourTeam": "Ballincollig RFC",
-     "opponent": "Mitchelstown-Galbally",
+     "opponent": "Galbally-Mitchelstown",
      "venue": "Mitchelstown",
      "home": false,
      "round": null,
@@ -8879,7 +8893,7 @@
       },
       {
        "pos": 0,
-       "team": "Mitchelstown-Galbally",
+       "team": "Galbally-Mitchelstown",
        "pld": 0,
        "w": 0,
        "d": 0,
@@ -9748,6 +9762,80 @@
      }
     },
     {
+     "name": "Galbally-Mitchelstown",
+     "comp": "Boys Clubs U14 South Munster League Group 1",
+     "compId": "220164",
+     "tableRow": {
+      "pos": 0,
+      "team": "Galbally-Mitchelstown",
+      "pld": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "bp": null,
+      "pts": 0,
+      "f": null,
+      "a": null,
+      "diff": null,
+      "tries": null,
+      "rowIndex": 3
+     },
+     "form": {
+      "played": 0,
+      "w": 0,
+      "d": 0,
+      "l": 0,
+      "pf": 0,
+      "pa": 0,
+      "avgMargin": null,
+      "winRate": null,
+      "last5": []
+     },
+     "headToHead": [],
+     "nextMeeting": {
+      "date": "2026-10-04",
+      "time": "10:30",
+      "comp": "Boys Clubs U14 South Munster League Group 1",
+      "compId": "220164",
+      "compUrl": "https://munsterrugby.sportlomo.com/league/220164/",
+      "ourTeam": "Ballincollig RFC",
+      "opponent": "Galbally-Mitchelstown",
+      "venue": "Mitchelstown",
+      "home": false,
+      "round": null,
+      "rating": {
+       "band": "grey",
+       "score": null,
+       "confidence": "none",
+       "signals": [
+        {
+         "label": "Venue",
+         "weight": 0.1,
+         "value": -0.5,
+         "detail": "Away at Mitchelstown"
+        }
+       ],
+       "commonOpponents": [],
+       "summary": "Neither side has enough played matches on record yet to rate this one."
+      }
+     },
+     "rating": {
+      "band": "grey",
+      "score": null,
+      "confidence": "none",
+      "signals": [
+       {
+        "label": "Venue",
+        "weight": 0.1,
+        "value": -0.5,
+        "detail": "Away at Mitchelstown"
+       }
+      ],
+      "commonOpponents": [],
+      "summary": "Neither side has enough played matches on record yet to rate this one."
+     }
+    },
+    {
      "name": "Highfield RFC",
      "comp": "Boys Clubs U14 South Munster Dev 2014 Group 2 NC",
      "compId": "220174",
@@ -10095,80 +10183,6 @@
      }
     },
     {
-     "name": "Mitchelstown-Galbally",
-     "comp": "Boys Clubs U14 South Munster League Group 1",
-     "compId": "220164",
-     "tableRow": {
-      "pos": 0,
-      "team": "Mitchelstown-Galbally",
-      "pld": 0,
-      "w": 0,
-      "d": 0,
-      "l": 0,
-      "bp": null,
-      "pts": 0,
-      "f": null,
-      "a": null,
-      "diff": null,
-      "tries": null,
-      "rowIndex": 3
-     },
-     "form": {
-      "played": 0,
-      "w": 0,
-      "d": 0,
-      "l": 0,
-      "pf": 0,
-      "pa": 0,
-      "avgMargin": null,
-      "winRate": null,
-      "last5": []
-     },
-     "headToHead": [],
-     "nextMeeting": {
-      "date": "2026-10-04",
-      "time": "10:30",
-      "comp": "Boys Clubs U14 South Munster League Group 1",
-      "compId": "220164",
-      "compUrl": "https://munsterrugby.sportlomo.com/league/220164/",
-      "ourTeam": "Ballincollig RFC",
-      "opponent": "Mitchelstown-Galbally",
-      "venue": "Mitchelstown",
-      "home": false,
-      "round": null,
-      "rating": {
-       "band": "grey",
-       "score": null,
-       "confidence": "none",
-       "signals": [
-        {
-         "label": "Venue",
-         "weight": 0.1,
-         "value": -0.5,
-         "detail": "Away at Mitchelstown"
-        }
-       ],
-       "commonOpponents": [],
-       "summary": "Neither side has enough played matches on record yet to rate this one."
-      }
-     },
-     "rating": {
-      "band": "grey",
-      "score": null,
-      "confidence": "none",
-      "signals": [
-       {
-        "label": "Venue",
-        "weight": 0.1,
-        "value": -0.5,
-        "detail": "Away at Mitchelstown"
-       }
-      ],
-      "commonOpponents": [],
-      "summary": "Neither side has enough played matches on record yet to rate this one."
-     }
-    },
-    {
      "name": "Old Christians RFC",
      "comp": "Boys Clubs U14 South Munster League Group 1",
      "compId": "220164",
@@ -10454,7 +10468,41 @@
     "pf": 39,
     "pa": 36
    },
-   "fixtures": [],
+   "fixtures": [
+    {
+     "date": "2026-10-02",
+     "time": "19:30",
+     "comp": "Boys Clubs U13 Friendly",
+     "compId": "216124",
+     "compUrl": "https://munsterrugby.sportlomo.com/competition_fixtures_results/216124/",
+     "ourTeam": "Ballincollig RFC",
+     "opponent": "Clonakilty RFC",
+     "venue": "The Vale",
+     "home": false,
+     "round": null,
+     "rating": {
+      "band": "red",
+      "score": -0.463,
+      "confidence": "low",
+      "signals": [
+       {
+        "label": "Recent form",
+        "weight": 0.067,
+        "value": -0.407,
+        "detail": "Ballincollig 2W-0D-3L (-0 avg over 5), opponent 1W-0D-0L (+12 avg over 1)"
+       },
+       {
+        "label": "Venue",
+        "weight": 0.1,
+        "value": -0.5,
+        "detail": "Away at The Vale"
+       }
+      ],
+      "commonOpponents": [],
+      "summary": "A hard one. Expect to be underdogs. Based on limited data so far."
+     }
+    }
+   ],
    "results": [
     {
      "date": "2026-09-25",
@@ -10475,6 +10523,93 @@
    ],
    "tables": [],
    "opponents": [
+    {
+     "name": "Clonakilty RFC",
+     "comp": "Boys Clubs U13 Friendly",
+     "compId": "216124",
+     "tableRow": null,
+     "form": {
+      "played": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "pf": 34,
+      "pa": 22,
+      "avgMargin": 12.0,
+      "winRate": 1.0,
+      "last5": [
+       {
+        "team": "Clonakilty RFC",
+        "opponent": "Ballincollig RFC",
+        "oppKey": "ballincollig rfc",
+        "pf": 34,
+        "pa": 22,
+        "margin": 12,
+        "outcome": "W",
+        "date": "2026-09-27",
+        "venue": "Tanner Park",
+        "comp": "Girls Clubs U16 Friendly",
+        "compId": "216132",
+        "home": true
+       }
+      ]
+     },
+     "headToHead": [],
+     "nextMeeting": {
+      "date": "2026-10-02",
+      "time": "19:30",
+      "comp": "Boys Clubs U13 Friendly",
+      "compId": "216124",
+      "compUrl": "https://munsterrugby.sportlomo.com/competition_fixtures_results/216124/",
+      "ourTeam": "Ballincollig RFC",
+      "opponent": "Clonakilty RFC",
+      "venue": "The Vale",
+      "home": false,
+      "round": null,
+      "rating": {
+       "band": "red",
+       "score": -0.463,
+       "confidence": "low",
+       "signals": [
+        {
+         "label": "Recent form",
+         "weight": 0.067,
+         "value": -0.407,
+         "detail": "Ballincollig 2W-0D-3L (-0 avg over 5), opponent 1W-0D-0L (+12 avg over 1)"
+        },
+        {
+         "label": "Venue",
+         "weight": 0.1,
+         "value": -0.5,
+         "detail": "Away at The Vale"
+        }
+       ],
+       "commonOpponents": [],
+       "summary": "A hard one. Expect to be underdogs. Based on limited data so far."
+      }
+     },
+     "rating": {
+      "band": "red",
+      "score": -0.463,
+      "confidence": "low",
+      "signals": [
+       {
+        "label": "Recent form",
+        "weight": 0.067,
+        "value": -0.407,
+        "detail": "Ballincollig 2W-0D-3L (-0 avg over 5), opponent 1W-0D-0L (+12 avg over 1)"
+       },
+       {
+        "label": "Venue",
+        "weight": 0.1,
+        "value": -0.5,
+        "detail": "Away at The Vale"
+       }
+      ],
+      "commonOpponents": [],
+      "summary": "A hard one. Expect to be underdogs. Based on limited data so far."
+     }
+    },
     {
      "name": "Kinsale RFC",
      "comp": "Boys Clubs U13 Friendly",

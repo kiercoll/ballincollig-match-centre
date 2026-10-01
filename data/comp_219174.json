@@ -95,7 +95,7 @@
   },
   {
    "pos": 0,
-   "team": "Kanturk RFC 2nd XV",
+   "team": "Fermoy RFC 2nd XV",
    "pld": 0,
    "w": 0,
    "d": 0,
@@ -134,6 +134,20 @@
    "a": 0,
    "diff": 0,
    "tries": 0
+  },
+  {
+   "pos": 0,
+   "team": "Kanturk RFC 2nd XV",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": 0,
+   "a": 0,
+   "diff": 0,
+   "tries": 0
   }
  ],
  "fixtures": [
@@ -157,7 +171,7 @@
    "date": "2026-10-09",
    "time": "19:30",
    "home": "Youghal RFC 2nd XV",
-   "away": "Kanturk RFC 2nd XV",
+   "away": "Fermoy RFC 2nd XV",
    "venue": "Youghal",
    "round": null
   },

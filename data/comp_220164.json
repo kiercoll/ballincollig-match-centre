@@ -47,7 +47,7 @@
   },
   {
    "pos": 0,
-   "team": "Mitchelstown-Galbally",
+   "team": "Galbally-Mitchelstown",
    "pld": 0,
    "w": 0,
    "d": 0,
@@ -128,7 +128,7 @@
   {
    "date": "2026-10-04",
    "time": "10:30",
-   "home": "Mitchelstown-Galbally",
+   "home": "Galbally-Mitchelstown",
    "away": "Ballincollig RFC",
    "venue": "Mitchelstown",
    "round": null
@@ -161,7 +161,7 @@
    "date": "2026-10-17",
    "time": "12:00",
    "home": "Youghal RFC",
-   "away": "Mitchelstown-Galbally",
+   "away": "Galbally-Mitchelstown",
    "venue": "Youghal",
    "round": null
   },
@@ -184,7 +184,7 @@
   {
    "date": "2026-10-31",
    "time": "12:00",
-   "home": "Mitchelstown-Galbally",
+   "home": "Galbally-Mitchelstown",
    "away": "Old Christians RFC",
    "venue": "TBC",
    "round": null
@@ -232,7 +232,7 @@
   {
    "date": "2026-11-28",
    "time": "12:00",
-   "home": "Mitchelstown-Galbally",
+   "home": "Galbally-Mitchelstown",
    "away": "Midleton RFC",
    "venue": "TBC",
    "round": null
@@ -241,7 +241,7 @@
    "date": "2026-12-12",
    "time": "12:00",
    "home": "Fermoy RFC",
-   "away": "Mitchelstown-Galbally",
+   "away": "Galbally-Mitchelstown",
    "venue": "Fermoy",
    "round": null
   },
@@ -265,7 +265,7 @@
    "date": "2026-12-19",
    "time": "12:00",
    "home": "Cobh Pirates RFC",
-   "away": "Mitchelstown-Galbally",
+   "away": "Galbally-Mitchelstown",
    "venue": "Cobh",
    "round": null
   },

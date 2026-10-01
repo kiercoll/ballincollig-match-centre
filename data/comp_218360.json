@@ -25,6 +25,34 @@
  "table": [
   {
    "pos": 0,
+   "team": "Sundays Well RFC 1st XV",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": 0,
+   "a": 0,
+   "diff": 0,
+   "tries": 0
+  },
+  {
+   "pos": 0,
+   "team": "Dungarvan RFC 1st XV",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": 0,
+   "a": 0,
+   "diff": 0,
+   "tries": 0
+  },
+  {
+   "pos": 0,
    "team": "Ballincollig RFC 2nd XV",
    "pld": 0,
    "w": 0,
@@ -53,7 +81,7 @@
   },
   {
    "pos": 0,
-   "team": "Midleton RFC 1st XV",
+   "team": "UL Bohemian RFC 2nd XV",
    "pld": 0,
    "w": 0,
    "d": 0,
@@ -78,38 +106,18 @@
    "a": 0,
    "diff": 0,
    "tries": 0
-  },
-  {
-   "pos": 0,
-   "team": "Sundays Well RFC 1st XV",
-   "pld": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 0,
-   "f": 0,
-   "a": 0,
-   "diff": 0,
-   "tries": 0
-  },
-  {
-   "pos": 0,
-   "team": "Dungarvan RFC 1st XV",
-   "pld": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 0,
-   "f": 0,
-   "a": 0,
-   "diff": 0,
-   "tries": 0
   }
  ],
  "fixtures": [
   {
+   "date": "2026-10-16",
+   "time": "19:30",
+   "home": "Sundays Well RFC 1st XV",
+   "away": "Dungarvan RFC 1st XV",
+   "venue": "Virgin Media Park",
+   "round": null
+  },
+  {
    "date": "2026-10-18",
    "time": "13:00",
    "home": "Ballincollig RFC 2nd XV",
@@ -120,25 +128,9 @@
   {
    "date": "2026-10-18",
    "time": "13:00",
-   "home": "Midleton RFC 1st XV",
+   "home": "UL Bohemian RFC 2nd XV",
    "away": "Roaring Water Bay 1st XV",
-   "venue": "Towns Park",
-   "round": null
-  },
-  {
-   "date": "2026-10-18",
-   "time": "13:00",
-   "home": "Sundays Well RFC 1st XV",
-   "away": "Dungarvan RFC 1st XV",
-   "venue": "Virgin Media Park",
-   "round": null
-  },
-  {
-   "date": "2026-11-01",
-   "time": "13:00",
-   "home": "Midleton RFC 1st XV",
-   "away": "Ballincollig RFC 2nd XV",
-   "venue": "Towns Park",
+   "venue": "Annacotty",
    "round": null
   },
   {
@@ -147,6 +139,14 @@
    "home": "Roaring Water Bay 1st XV",
    "away": "Dungarvan RFC 1st XV",
    "venue": "TBC",
+   "round": null
+  },
+  {
+   "date": "2026-11-01",
+   "time": "13:00",
+   "home": "UL Bohemian RFC 2nd XV",
+   "away": "Ballincollig RFC 2nd XV",
+   "venue": "Annacotty",
    "round": null
   },
   {
@@ -177,8 +177,8 @@
    "date": "2026-11-29",
    "time": "13:00",
    "home": "Waterpark RFC 1st XV",
-   "away": "Midleton RFC 1st XV",
-   "venue": "Ballinakill",
+   "away": "UL Bohemian RFC 2nd XV",
+   "venue": "Annacotty",
    "round": null
   },
   {
@@ -200,17 +200,9 @@
   {
    "date": "2026-12-06",
    "time": "13:00",
-   "home": "Midleton RFC 1st XV",
+   "home": "UL Bohemian RFC 2nd XV",
    "away": "Sundays Well RFC 1st XV",
-   "venue": "Towns Park",
-   "round": null
-  },
-  {
-   "date": "2026-12-13",
-   "time": "13:00",
-   "home": "Midleton RFC 1st XV",
-   "away": "Dungarvan RFC 1st XV",
-   "venue": "Towns Park",
+   "venue": "Annacotty",
    "round": null
   },
   {
@@ -230,6 +222,14 @@
    "round": null
   },
   {
+   "date": "2026-12-13",
+   "time": "13:00",
+   "home": "UL Bohemian RFC 2nd XV",
+   "away": "Dungarvan RFC 1st XV",
+   "venue": "Annacotty",
+   "round": null
+  },
+  {
    "date": "2027-01-10",
    "time": "13:00",
    "home": "Dungarvan RFC 1st XV",
@@ -241,8 +241,8 @@
    "date": "2027-01-10",
    "time": "13:00",
    "home": "Roaring Water Bay 1st XV",
-   "away": "Midleton RFC 1st XV",
-   "venue": "TBC",
+   "away": "UL Bohemian RFC 2nd XV",
+   "venue": "Annacotty",
    "round": null
   },
   {
@@ -257,8 +257,8 @@
    "date": "2027-01-17",
    "time": "13:00",
    "home": "Ballincollig RFC 2nd XV",
-   "away": "Midleton RFC 1st XV",
-   "venue": "Tanner Park",
+   "away": "UL Bohemian RFC 2nd XV",
+   "venue": "Annacotty",
    "round": null
   },
   {
@@ -288,17 +288,17 @@
   {
    "date": "2027-02-07",
    "time": "13:00",
-   "home": "Midleton RFC 1st XV",
-   "away": "Waterpark RFC 1st XV",
-   "venue": "Towns Park",
+   "home": "Sundays Well RFC 1st XV",
+   "away": "Roaring Water Bay 1st XV",
+   "venue": "Virgin Media Park",
    "round": null
   },
   {
    "date": "2027-02-07",
    "time": "13:00",
-   "home": "Sundays Well RFC 1st XV",
-   "away": "Roaring Water Bay 1st XV",
-   "venue": "Virgin Media Park",
+   "home": "UL Bohemian RFC 2nd XV",
+   "away": "Waterpark RFC 1st XV",
+   "venue": "Annacotty",
    "round": null
   },
   {
@@ -313,8 +313,8 @@
    "date": "2027-02-28",
    "time": "13:00",
    "home": "Sundays Well RFC 1st XV",
-   "away": "Midleton RFC 1st XV",
-   "venue": "Virgin Media Park",
+   "away": "UL Bohemian RFC 2nd XV",
+   "venue": "Annacotty",
    "round": null
   },
   {
@@ -337,16 +337,16 @@
    "date": "2027-03-07",
    "time": "13:00",
    "home": "Dungarvan RFC 1st XV",
-   "away": "Midleton RFC 1st XV",
-   "venue": "Dungarvan",
+   "away": "UL Bohemian RFC 2nd XV",
+   "venue": "Annacotty",
    "round": null
   },
   {
    "date": "2027-03-07",
    "time": "13:00",
    "home": "Waterpark RFC 1st XV",
-   "away": "Midleton RFC 1st XV",
-   "venue": "Ballinakill",
+   "away": "UL Bohemian RFC 2nd XV",
+   "venue": "Annacotty",
    "round": null
   }
  ],

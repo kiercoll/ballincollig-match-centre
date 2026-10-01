@@ -8,7 +8,16 @@
  ],
  "tableColumns": [],
  "table": [],
- "fixtures": [],
+ "fixtures": [
+  {
+   "date": "2026-10-02",
+   "time": "19:30",
+   "home": "Clonakilty RFC",
+   "away": "Ballincollig RFC",
+   "venue": "The Vale",
+   "round": null
+  }
+ ],
  "results": [
   {
    "date": "2026-09-25",
