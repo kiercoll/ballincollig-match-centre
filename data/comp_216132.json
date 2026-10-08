@@ -8,16 +8,7 @@
  ],
  "tableColumns": [],
  "table": [],
- "fixtures": [
-  {
-   "date": "2026-10-02",
-   "time": "19:30",
-   "home": "Ballincollig RFC",
-   "away": "Kinsale/Muskerry",
-   "venue": "Tanner Park",
-   "round": null
-  }
- ],
+ "fixtures": [],
  "results": [
   {
    "date": "2026-09-13",
@@ -49,6 +40,17 @@
    "away": "Clonakilty RFC",
    "awayScore": 34,
    "awayTries": 6,
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-10-02",
+   "home": "Ballincollig RFC",
+   "homeScore": 48,
+   "homeTries": 8,
+   "away": "Kinsale/Muskerry",
+   "awayScore": 19,
+   "awayTries": 2,
    "venue": "Tanner Park",
    "round": null
   }

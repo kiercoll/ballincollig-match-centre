@@ -53,34 +53,6 @@
   },
   {
    "pos": 0,
-   "team": "Douglas RFC 2nd XV",
-   "pld": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 0,
-   "f": 0,
-   "a": 0,
-   "diff": 0,
-   "tries": 0
-  },
-  {
-   "pos": 0,
-   "team": "Mallow RFC 2nd XV",
-   "pld": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 0,
-   "f": 0,
-   "a": 0,
-   "diff": 0,
-   "tries": 0
-  },
-  {
-   "pos": 0,
    "team": "Youghal RFC 2nd XV",
    "pld": 0,
    "w": 0,
@@ -96,6 +68,34 @@
   {
    "pos": 0,
    "team": "Fermoy RFC 2nd XV",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": 0,
+   "a": 0,
+   "diff": 0,
+   "tries": 0
+  },
+  {
+   "pos": 0,
+   "team": "Douglas RFC 2nd XV",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": 0,
+   "a": 0,
+   "diff": 0,
+   "tries": 0
+  },
+  {
+   "pos": 0,
+   "team": "Mallow RFC 2nd XV",
    "pld": 0,
    "w": 0,
    "d": 0,
@@ -161,18 +161,18 @@
   },
   {
    "date": "2026-10-09",
-   "time": "19:30",
-   "home": "Douglas RFC 2nd XV",
-   "away": "Mallow RFC 2nd XV",
-   "venue": "Castletreasure",
-   "round": null
-  },
-  {
-   "date": "2026-10-09",
-   "time": "19:30",
+   "time": "20:00",
    "home": "Youghal RFC 2nd XV",
    "away": "Fermoy RFC 2nd XV",
    "venue": "Youghal",
+   "round": null
+  },
+  {
+   "date": "2026-10-10",
+   "time": "15:00",
+   "home": "Douglas RFC 2nd XV",
+   "away": "Mallow RFC 2nd XV",
+   "venue": "Castletreasure",
    "round": null
   },
   {
@@ -186,9 +186,9 @@
   {
    "date": "2026-10-23",
    "time": "19:30",
-   "home": "Cobh Pirates RFC 2nd XV",
+   "home": "Fermoy RFC 2nd XV",
    "away": "Douglas RFC 2nd XV",
-   "venue": "Cobh",
+   "venue": "Fermoy",
    "round": null
   },
   {
@@ -266,32 +266,72 @@
   {
    "date": "2026-11-20",
    "time": "19:30",
+   "home": "Mallow RFC 2nd XV",
+   "away": "Fermoy RFC 2nd XV",
+   "venue": "Mallow",
+   "round": null
+  },
+  {
+   "date": "2026-11-20",
+   "time": "19:30",
    "home": "Muskerry RFC 2nd XV",
    "away": "Youghal RFC 2nd XV",
    "venue": "Ballyanly",
    "round": null
   },
   {
-   "date": "2027-01-15",
+   "date": "2026-12-04",
    "time": "19:30",
-   "home": "Douglas RFC 2nd XV",
+   "home": "Ballincollig RFC 2nd XV",
+   "away": "Youghal RFC 2nd XV",
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-12-04",
+   "time": "19:30",
+   "home": "Cobh Pirates RFC 2nd XV",
+   "away": "Carrigaline RFC 1st XV",
+   "venue": "Cobh",
+   "round": null
+  },
+  {
+   "date": "2026-12-04",
+   "time": "19:30",
+   "home": "Fermoy RFC 2nd XV",
+   "away": "Kanturk RFC 2nd XV",
+   "venue": "Fermoy",
+   "round": null
+  },
+  {
+   "date": "2026-12-04",
+   "time": "19:30",
+   "home": "Mallow RFC 2nd XV",
    "away": "Muskerry RFC 2nd XV",
-   "venue": "Castletreasure",
+   "venue": "Mallow",
    "round": null
   },
   {
    "date": "2027-01-15",
    "time": "19:30",
-   "home": "Kanturk RFC 2nd XV",
-   "away": "Mallow RFC 2nd XV",
-   "venue": "Kanturk",
+   "home": "Douglas RFC 2nd XV",
+   "away": "Cobh Pirates RFC 2nd XV",
+   "venue": "Cobh",
+   "round": null
+  },
+  {
+   "date": "2027-01-15",
+   "time": "19:30",
+   "home": "Fermoy RFC 2nd XV",
+   "away": "Muskerry RFC 2nd XV",
+   "venue": "Fermoy",
    "round": null
   },
   {
    "date": "2027-01-15",
    "time": "19:30",
    "home": "Youghal RFC 2nd XV",
-   "away": "Cobh Pirates RFC 2nd XV",
+   "away": "Kanturk RFC 2nd XV",
    "venue": "Youghal",
    "round": null
   },
@@ -322,37 +362,61 @@
   {
    "date": "2027-01-29",
    "time": "19:30",
+   "home": "Fermoy RFC 2nd XV",
+   "away": "Carrigaline RFC 1st XV",
+   "venue": "Fermoy",
+   "round": null
+  },
+  {
+   "date": "2027-01-29",
+   "time": "19:30",
    "home": "Muskerry RFC 2nd XV",
    "away": "Kanturk RFC 2nd XV",
    "venue": "Ballyanly",
    "round": null
   },
   {
-   "date": "2027-01-29",
-   "time": "19:30",
-   "home": "Youghal RFC 2nd XV",
-   "away": "Carrigaline RFC 1st XV",
-   "venue": "Youghal",
-   "round": null
-  },
-  {
    "date": "2027-02-12",
    "time": "19:30",
    "home": "Ballincollig RFC 2nd XV",
-   "away": "Youghal RFC 2nd XV",
+   "away": "Fermoy RFC 2nd XV",
    "venue": "Tanner Park",
    "round": null
   },
   {
    "date": "2027-02-12",
    "time": "19:30",
-   "home": "Cobh Pirates RFC 2nd XV",
-   "away": "Carrigaline RFC 1st XV",
-   "venue": "Cobh",
+   "home": "Kanturk RFC 2nd XV",
+   "away": "Mallow RFC 2nd XV",
+   "venue": "Kanturk",
    "round": null
   },
   {
    "date": "2027-02-12",
+   "time": "19:30",
+   "home": "Muskerry RFC 2nd XV",
+   "away": "Douglas RFC 2nd XV",
+   "venue": "Ballyanly",
+   "round": null
+  },
+  {
+   "date": "2027-02-12",
+   "time": "19:30",
+   "home": "Youghal RFC 2nd XV",
+   "away": "Cobh Pirates RFC 2nd XV",
+   "venue": "Youghal",
+   "round": null
+  },
+  {
+   "date": "2027-02-26",
+   "time": "19:30",
+   "home": "Cobh Pirates RFC 2nd XV",
+   "away": "Fermoy RFC 2nd XV",
+   "venue": "Cobh",
+   "round": null
+  },
+  {
+   "date": "2027-02-26",
    "time": "19:30",
    "home": "Kanturk RFC 2nd XV",
    "away": "Douglas RFC 2nd XV",
@@ -360,11 +424,19 @@
    "round": null
   },
   {
-   "date": "2027-02-12",
+   "date": "2027-02-26",
    "time": "19:30",
    "home": "Mallow RFC 2nd XV",
-   "away": "Muskerry RFC 2nd XV",
+   "away": "Ballincollig RFC 2nd XV",
    "venue": "Mallow",
+   "round": null
+  },
+  {
+   "date": "2027-02-26",
+   "time": "19:30",
+   "home": "Youghal RFC 2nd XV",
+   "away": "Carrigaline RFC 1st XV",
+   "venue": "Youghal",
    "round": null
   }
  ],

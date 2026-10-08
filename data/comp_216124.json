@@ -8,16 +8,7 @@
  ],
  "tableColumns": [],
  "table": [],
- "fixtures": [
-  {
-   "date": "2026-10-02",
-   "time": "19:30",
-   "home": "Clonakilty RFC",
-   "away": "Ballincollig RFC",
-   "venue": "The Vale",
-   "round": null
-  }
- ],
+ "fixtures": [],
  "results": [
   {
    "date": "2026-09-25",
@@ -28,6 +19,17 @@
    "awayScore": 39,
    "awayTries": 0,
    "venue": "Kinsale",
+   "round": null
+  },
+  {
+   "date": "2026-10-02",
+   "home": "Clonakilty RFC",
+   "homeScore": 10,
+   "homeTries": 0,
+   "away": "Ballincollig RFC",
+   "awayScore": 33,
+   "awayTries": 0,
+   "venue": "The Vale",
    "round": null
   }
  ],

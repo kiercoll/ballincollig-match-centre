@@ -19,34 +19,6 @@
  "table": [
   {
    "pos": 0,
-   "team": "Bandon RFC",
-   "pld": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 0,
-   "f": null,
-   "a": null,
-   "diff": null,
-   "tries": null
-  },
-  {
-   "pos": 0,
-   "team": "Kinsale RFC",
-   "pld": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 0,
-   "f": null,
-   "a": null,
-   "diff": null,
-   "tries": null
-  },
-  {
-   "pos": 0,
    "team": "Cork Constitution FC White",
    "pld": 0,
    "w": 0,
@@ -103,7 +75,35 @@
   },
   {
    "pos": 0,
-   "team": "Skibbereen RFC",
+   "team": "Bandon RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Kinsale RFC",
+   "pld": 0,
+   "w": 0,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 0,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Ballincollig RFC",
    "pld": 0,
    "w": 0,
    "d": 0,
@@ -131,7 +131,7 @@
   },
   {
    "pos": 0,
-   "team": "Ballincollig RFC",
+   "team": "Skibbereen RFC",
    "pld": 0,
    "w": 0,
    "d": 0,
@@ -148,33 +148,25 @@
   {
    "date": "2026-10-10",
    "time": "12:00",
-   "home": "Bandon RFC",
-   "away": "Kinsale RFC",
-   "venue": "Bandon",
-   "round": null
-  },
-  {
-   "date": "2026-10-10",
-   "time": "12:00",
    "home": "Cork Constitution FC White",
    "away": "Clonakilty RFC",
-   "venue": "Temple Hill",
+   "venue": "Mahon",
    "round": null
   },
   {
    "date": "2026-10-10",
-   "time": "12:00",
+   "time": "12:30",
    "home": "Crosshaven RFC",
    "away": "Highfield RFC",
    "venue": "Crosshaven",
    "round": null
   },
   {
-   "date": "2026-10-10",
+   "date": "2026-10-11",
    "time": "12:00",
-   "home": "Skibbereen RFC",
-   "away": "Dolphin-Sundays Well",
-   "venue": "Skibbereen",
+   "home": "Bandon RFC",
+   "away": "Kinsale RFC",
+   "venue": "Bandon",
    "round": null
   },
   {
@@ -399,6 +391,14 @@
    "home": "Kinsale RFC",
    "away": "Highfield RFC",
    "venue": "Kinsale",
+   "round": null
+  },
+  {
+   "date": "2027-02-20",
+   "time": null,
+   "home": "TBC",
+   "away": "Skibbereen RFC",
+   "venue": "Skibbereen",
    "round": null
   },
   {
