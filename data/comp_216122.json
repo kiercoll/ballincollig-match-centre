@@ -8,16 +8,7 @@
  ],
  "tableColumns": [],
  "table": [],
- "fixtures": [
-  {
-   "date": "2026-10-10",
-   "time": "10:30",
-   "home": "Presentation Brothers Cork",
-   "away": "Ballincollig RFC",
-   "venue": "Wilton",
-   "round": null
-  }
- ],
+ "fixtures": [],
  "results": [
   {
    "date": "2026-08-29",
@@ -28,6 +19,17 @@
    "awayScore": 22,
    "awayTries": 4,
    "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-10-10",
+   "home": "Presentation Brothers Cork",
+   "homeScore": 42,
+   "homeTries": 6,
+   "away": "Ballincollig RFC",
+   "awayScore": 14,
+   "awayTries": 2,
+   "venue": "Wilton",
    "round": null
   }
  ],

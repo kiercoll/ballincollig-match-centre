@@ -10,6 +10,14 @@
  "table": [],
  "fixtures": [
   {
+   "date": "2026-10-17",
+   "time": "14:30",
+   "home": "Waterpark RFC 1st XV",
+   "away": "Castleisland RFC 1st XV",
+   "venue": "Ballinakill",
+   "round": null
+  },
+  {
    "date": "2026-10-18",
    "time": "14:30",
    "home": "Carrick on Suir RFC 1st XV",
@@ -40,23 +48,19 @@
    "away": "Fermoy RFC 1st XV",
    "venue": "Thurles",
    "round": null
-  },
+  }
+ ],
+ "results": [
   {
    "date": "2026-10-18",
-   "time": "14:30",
-   "home": "Waterpark RFC 1st XV",
-   "away": "Castleisland RFC 1st XV",
-   "venue": "Ballinakill",
-   "round": null
-  },
-  {
-   "date": "2026-10-18",
-   "time": "14:30",
    "home": "Tralee RFC 1st XV",
+   "homeScore": 0,
+   "homeTries": 0,
    "away": "Charleville and District RFC 1st XV",
+   "awayScore": 28,
+   "awayTries": 4,
    "venue": "Tralee",
    "round": "1st Round"
   }
- ],
- "results": []
+ ]
 }

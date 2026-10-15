@@ -118,8 +118,8 @@
  ],
  "fixtures": [
   {
-   "date": "2026-10-17",
-   "time": "12:00",
+   "date": "2026-10-16",
+   "time": "19:30",
    "home": "Ballincollig RFC",
    "away": "Midleton RFC",
    "venue": "Tanner Park",
@@ -128,17 +128,17 @@
   {
    "date": "2026-10-17",
    "time": "12:00",
-   "home": "Old Christians RFC",
-   "away": "Cobh Pirates RFC",
-   "venue": "Rathcooney",
+   "home": "Youghal RFC",
+   "away": "Galbally-Mitchelstown",
+   "venue": "Youghal",
    "round": null
   },
   {
    "date": "2026-10-17",
-   "time": "12:00",
-   "home": "Youghal RFC",
-   "away": "Galbally-Mitchelstown",
-   "venue": "Youghal",
+   "time": "14:00",
+   "home": "Old Christians RFC",
+   "away": "Cobh Pirates RFC",
+   "venue": "Rathcooney",
    "round": null
   },
   {

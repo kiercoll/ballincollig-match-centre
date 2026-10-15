@@ -33,13 +33,13 @@
   },
   {
    "pos": 0,
-   "team": "Charleville and District RFC",
-   "pld": 0,
-   "w": 0,
+   "team": "Clonakilty RFC Red",
+   "pld": 1,
+   "w": 1,
    "d": 0,
    "l": 0,
    "bp": null,
-   "pts": 0,
+   "pts": 4,
    "f": null,
    "a": null,
    "diff": null,
@@ -47,7 +47,7 @@
   },
   {
    "pos": 0,
-   "team": "Clonakilty RFC Red",
+   "team": "Charleville and District RFC",
    "pld": 0,
    "w": 0,
    "d": 0,
@@ -76,10 +76,10 @@
   {
    "pos": 0,
    "team": "Crosshaven/Cork Con 15s",
-   "pld": 1,
+   "pld": 2,
    "w": 0,
    "d": 0,
-   "l": 1,
+   "l": 2,
    "bp": null,
    "pts": 0,
    "f": null,
@@ -90,19 +90,11 @@
  ],
  "fixtures": [
   {
-   "date": "2026-10-11",
-   "time": "12:00",
+   "date": "2026-10-18",
+   "time": "11:30",
    "home": "Ballincollig RFC Black",
    "away": "Charleville and District RFC",
    "venue": "Tanner Park",
-   "round": null
-  },
-  {
-   "date": "2026-10-13",
-   "time": "19:45",
-   "home": "Clonakilty RFC Red",
-   "away": "Crosshaven/Cork Con 15s",
-   "venue": "The Vale",
    "round": null
   },
   {
@@ -176,6 +168,17 @@
    "awayTries": 8,
    "venue": "Temple Hill",
    "round": "1st Round"
+  },
+  {
+   "date": "2026-10-13",
+   "home": "Clonakilty RFC Red",
+   "homeScore": 30,
+   "homeTries": 0,
+   "away": "Crosshaven/Cork Con 15s",
+   "awayScore": 0,
+   "awayTries": 0,
+   "venue": "The Vale",
+   "round": "2nd Round"
   }
  ]
 }

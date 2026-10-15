@@ -26,58 +26,58 @@
   {
    "pos": 0,
    "team": "Ballincollig RFC 2nd XV",
-   "pld": 0,
-   "w": 0,
+   "pld": 1,
+   "w": 1,
    "d": 0,
    "l": 0,
    "bp": null,
-   "pts": 0,
-   "f": 0,
+   "pts": 5,
+   "f": 28,
    "a": 0,
-   "diff": 0,
-   "tries": 0
-  },
-  {
-   "pos": 0,
-   "team": "Cobh Pirates RFC 2nd XV",
-   "pld": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 0,
-   "f": 0,
-   "a": 0,
-   "diff": 0,
-   "tries": 0
+   "diff": 28,
+   "tries": 4
   },
   {
    "pos": 0,
    "team": "Youghal RFC 2nd XV",
-   "pld": 0,
-   "w": 0,
+   "pld": 1,
+   "w": 1,
    "d": 0,
    "l": 0,
    "bp": null,
-   "pts": 0,
-   "f": 0,
-   "a": 0,
-   "diff": 0,
-   "tries": 0
+   "pts": 5,
+   "f": 38,
+   "a": 12,
+   "diff": 26,
+   "tries": 5
   },
   {
    "pos": 0,
-   "team": "Fermoy RFC 2nd XV",
-   "pld": 0,
-   "w": 0,
+   "team": "Muskerry RFC 2nd XV",
+   "pld": 1,
+   "w": 1,
    "d": 0,
    "l": 0,
    "bp": null,
-   "pts": 0,
-   "f": 0,
-   "a": 0,
-   "diff": 0,
-   "tries": 0
+   "pts": 5,
+   "f": 45,
+   "a": 36,
+   "diff": 9,
+   "tries": 7
+  },
+  {
+   "pos": 0,
+   "team": "Carrigaline RFC 1st XV",
+   "pld": 1,
+   "w": 0,
+   "d": 0,
+   "l": 1,
+   "bp": null,
+   "pts": 1,
+   "f": 36,
+   "a": 45,
+   "diff": -9,
+   "tries": 6
   },
   {
    "pos": 0,
@@ -109,34 +109,6 @@
   },
   {
    "pos": 0,
-   "team": "Carrigaline RFC 1st XV",
-   "pld": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 0,
-   "f": 0,
-   "a": 0,
-   "diff": 0,
-   "tries": 0
-  },
-  {
-   "pos": 0,
-   "team": "Muskerry RFC 2nd XV",
-   "pld": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 0,
-   "f": 0,
-   "a": 0,
-   "diff": 0,
-   "tries": 0
-  },
-  {
-   "pos": 0,
    "team": "Kanturk RFC 2nd XV",
    "pld": 0,
    "w": 0,
@@ -148,39 +120,43 @@
    "a": 0,
    "diff": 0,
    "tries": 0
+  },
+  {
+   "pos": 0,
+   "team": "Fermoy RFC 2nd XV",
+   "pld": 1,
+   "w": 0,
+   "d": 0,
+   "l": 1,
+   "bp": null,
+   "pts": 0,
+   "f": 12,
+   "a": 38,
+   "diff": -26,
+   "tries": 2
+  },
+  {
+   "pos": 0,
+   "team": "Cobh Pirates RFC 2nd XV",
+   "pld": 1,
+   "w": 0,
+   "d": 0,
+   "l": 1,
+   "bp": null,
+   "pts": 0,
+   "f": 0,
+   "a": 28,
+   "diff": -28,
+   "tries": 0
   }
  ],
  "fixtures": [
   {
-   "date": "2026-10-09",
-   "time": "19:30",
-   "home": "Ballincollig RFC 2nd XV",
-   "away": "Cobh Pirates RFC 2nd XV",
-   "venue": "Tanner Park",
-   "round": null
-  },
-  {
-   "date": "2026-10-09",
-   "time": "20:00",
-   "home": "Youghal RFC 2nd XV",
-   "away": "Fermoy RFC 2nd XV",
-   "venue": "Youghal",
-   "round": null
-  },
-  {
-   "date": "2026-10-10",
+   "date": "2026-10-02",
    "time": "15:00",
    "home": "Douglas RFC 2nd XV",
    "away": "Mallow RFC 2nd XV",
    "venue": "Castletreasure",
-   "round": null
-  },
-  {
-   "date": "2026-10-10",
-   "time": "20:00",
-   "home": "Carrigaline RFC 1st XV",
-   "away": "Muskerry RFC 2nd XV",
-   "venue": "Virgin Media Park",
    "round": null
   },
   {
@@ -440,5 +416,39 @@
    "round": null
   }
  ],
- "results": []
+ "results": [
+  {
+   "date": "2026-10-09",
+   "home": "Youghal RFC 2nd XV",
+   "homeScore": 38,
+   "homeTries": 5,
+   "away": "Fermoy RFC 2nd XV",
+   "awayScore": 12,
+   "awayTries": 2,
+   "venue": "Youghal",
+   "round": null
+  },
+  {
+   "date": "2026-10-09",
+   "home": "Ballincollig RFC 2nd XV",
+   "homeScore": 28,
+   "homeTries": 4,
+   "away": "Cobh Pirates RFC 2nd XV",
+   "awayScore": 0,
+   "awayTries": 0,
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-10-10",
+   "home": "Carrigaline RFC 1st XV",
+   "homeScore": 36,
+   "homeTries": 6,
+   "away": "Muskerry RFC 2nd XV",
+   "awayScore": 45,
+   "awayTries": 7,
+   "venue": "Virgin Media Park",
+   "round": "0th Round"
+  }
+ ]
 }
