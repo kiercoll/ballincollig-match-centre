@@ -90,6 +90,22 @@
  ],
  "fixtures": [
   {
+   "date": "2026-11-21",
+   "time": "12:00",
+   "home": "Ballincollig RFC White",
+   "away": "Cobh Pirates RFC",
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-11-21",
+   "time": "12:00",
+   "home": "Highfield RFC",
+   "away": "Midleton RFC",
+   "venue": "Woodleigh Park",
+   "round": null
+  },
+  {
    "date": "2026-12-19",
    "time": "12:00",
    "home": "Cobh Pirates RFC",
@@ -103,22 +119,6 @@
    "home": "Crosshaven/Cork Con",
    "away": "Ballincollig RFC White",
    "venue": "TBC",
-   "round": null
-  },
-  {
-   "date": "2027-01-02",
-   "time": "12:00",
-   "home": "Ballincollig RFC White",
-   "away": "Cobh Pirates RFC",
-   "venue": "Tanner Park",
-   "round": null
-  },
-  {
-   "date": "2027-01-02",
-   "time": "12:00",
-   "home": "Highfield RFC",
-   "away": "Midleton RFC",
-   "venue": "Woodleigh Park",
    "round": null
   },
   {

@@ -20,12 +20,12 @@
   {
    "pos": 0,
    "team": "Ballincollig RFC Black",
-   "pld": 1,
-   "w": 1,
+   "pld": 2,
+   "w": 2,
    "d": 0,
    "l": 0,
    "bp": null,
-   "pts": 4,
+   "pts": 8,
    "f": null,
    "a": null,
    "diff": null,
@@ -48,12 +48,12 @@
   {
    "pos": 0,
    "team": "Charleville and District RFC",
-   "pld": 0,
-   "w": 0,
+   "pld": 2,
+   "w": 1,
    "d": 0,
-   "l": 0,
+   "l": 1,
    "bp": null,
-   "pts": 0,
+   "pts": 4,
    "f": null,
    "a": null,
    "diff": null,
@@ -62,10 +62,10 @@
   {
    "pos": 0,
    "team": "Sundays Well RFC",
-   "pld": 0,
+   "pld": 1,
    "w": 0,
    "d": 0,
-   "l": 0,
+   "l": 1,
    "bp": null,
    "pts": 0,
    "f": null,
@@ -90,14 +90,6 @@
  ],
  "fixtures": [
   {
-   "date": "2026-10-18",
-   "time": "11:30",
-   "home": "Ballincollig RFC Black",
-   "away": "Charleville and District RFC",
-   "venue": "Tanner Park",
-   "round": null
-  },
-  {
    "date": "2026-10-24",
    "time": "12:00",
    "home": "Ballincollig RFC Black",
@@ -107,10 +99,10 @@
   },
   {
    "date": "2026-10-24",
-   "time": "12:00",
+   "time": "12:30",
    "home": "Crosshaven/Cork Con 15s",
    "away": "Sundays Well RFC",
-   "venue": "TBC",
+   "venue": "Crosshaven",
    "round": null
   },
   {
@@ -178,6 +170,17 @@
    "awayScore": 0,
    "awayTries": 0,
    "venue": "The Vale",
+   "round": "2nd Round"
+  },
+  {
+   "date": "2026-10-18",
+   "home": "Ballincollig RFC Black",
+   "homeScore": 24,
+   "homeTries": 4,
+   "away": "Charleville and District RFC",
+   "awayScore": 22,
+   "awayTries": 4,
+   "venue": "Tanner Park",
    "round": "2nd Round"
   }
  ]

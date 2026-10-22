@@ -19,27 +19,13 @@
  "table": [
   {
    "pos": 0,
-   "team": "Bandon RFC",
-   "pld": 2,
-   "w": 2,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 8,
-   "f": null,
-   "a": null,
-   "diff": null,
-   "tries": null
-  },
-  {
-   "pos": 0,
    "team": "Kinsale RFC",
-   "pld": 2,
-   "w": 2,
+   "pld": 3,
+   "w": 3,
    "d": 0,
    "l": 0,
    "bp": null,
-   "pts": 8,
+   "pts": 12,
    "f": null,
    "a": null,
    "diff": null,
@@ -48,10 +34,38 @@
   {
    "pos": 0,
    "team": "Clonakilty RFC",
-   "pld": 2,
-   "w": 1,
+   "pld": 3,
+   "w": 2,
    "d": 0,
    "l": 1,
+   "bp": null,
+   "pts": 8,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Bandon RFC",
+   "pld": 3,
+   "w": 2,
+   "d": 0,
+   "l": 1,
+   "bp": null,
+   "pts": 8,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Ballincollig RFC",
+   "pld": 3,
+   "w": 1,
+   "d": 0,
+   "l": 2,
    "bp": null,
    "pts": 4,
    "f": null,
@@ -61,11 +75,11 @@
   },
   {
    "pos": 0,
-   "team": "Ballincollig RFC",
-   "pld": 2,
+   "team": "Bantry Bay-Skibbereen",
+   "pld": 3,
    "w": 1,
    "d": 0,
-   "l": 1,
+   "l": 2,
    "bp": null,
    "pts": 4,
    "f": null,
@@ -76,24 +90,10 @@
   {
    "pos": 0,
    "team": "Sundays Well-Carrigaline",
-   "pld": 2,
+   "pld": 3,
    "w": 0,
    "d": 0,
-   "l": 2,
-   "bp": null,
-   "pts": 0,
-   "f": null,
-   "a": null,
-   "diff": null,
-   "tries": null
-  },
-  {
-   "pos": 0,
-   "team": "Bantry Bay-Skibbereen",
-   "pld": 2,
-   "w": 0,
-   "d": 0,
-   "l": 2,
+   "l": 3,
    "bp": null,
    "pts": 0,
    "f": null,
@@ -104,32 +104,16 @@
  ],
  "fixtures": [
   {
-   "date": "2026-10-17",
-   "time": "13:00",
-   "home": "Ballincollig RFC",
-   "away": "Clonakilty RFC",
-   "venue": "Tanner Park",
-   "round": null
-  },
-  {
-   "date": "2026-10-17",
-   "time": "13:00",
+   "date": "2026-10-23",
+   "time": "19:30",
    "home": "Kinsale RFC",
-   "away": "Bandon RFC",
+   "away": "Sundays Well-Carrigaline",
    "venue": "Kinsale",
    "round": null
   },
   {
-   "date": "2026-10-18",
-   "time": "13:00",
-   "home": "Bantry Bay-Skibbereen",
-   "away": "Sundays Well-Carrigaline",
-   "venue": "Skibbereen",
-   "round": null
-  },
-  {
-   "date": "2026-10-24",
-   "time": "12:00",
+   "date": "2026-10-23",
+   "time": "20:00",
    "home": "Ballincollig RFC",
    "away": "Bantry Bay-Skibbereen",
    "venue": "Tanner Park",
@@ -137,18 +121,10 @@
   },
   {
    "date": "2026-10-24",
-   "time": "12:00",
+   "time": "13:00",
    "home": "Bandon RFC",
    "away": "Clonakilty RFC",
    "venue": "Bandon",
-   "round": null
-  },
-  {
-   "date": "2026-10-24",
-   "time": "12:00",
-   "home": "Kinsale RFC",
-   "away": "Sundays Well-Carrigaline",
-   "venue": "Kinsale",
    "round": null
   },
   {
@@ -242,6 +218,39 @@
    "awayTries": 2,
    "venue": "Kinsale",
    "round": "2nd Round"
+  },
+  {
+   "date": "2026-10-17",
+   "home": "Kinsale RFC",
+   "homeScore": 34,
+   "homeTries": 5,
+   "away": "Bandon RFC",
+   "awayScore": 14,
+   "awayTries": 2,
+   "venue": "Kinsale",
+   "round": "3rd Round"
+  },
+  {
+   "date": "2026-10-17",
+   "home": "Ballincollig RFC",
+   "homeScore": 17,
+   "homeTries": 3,
+   "away": "Clonakilty RFC",
+   "awayScore": 29,
+   "awayTries": 5,
+   "venue": "Tanner Park",
+   "round": "3rd Round"
+  },
+  {
+   "date": "2026-10-18",
+   "home": "Bantry Bay-Skibbereen",
+   "homeScore": 17,
+   "homeTries": 3,
+   "away": "Sundays Well-Carrigaline",
+   "awayScore": 14,
+   "awayTries": 2,
+   "venue": "Skibbereen",
+   "round": "3rd Round"
   }
  ]
 }

@@ -47,7 +47,7 @@
   },
   {
    "pos": 0,
-   "team": "Kinsale RFC",
+   "team": "Ballincollig RFC",
    "pld": 1,
    "w": 1,
    "d": 0,
@@ -61,13 +61,13 @@
   },
   {
    "pos": 0,
-   "team": "Ballincollig RFC",
-   "pld": 0,
-   "w": 0,
+   "team": "Kinsale RFC",
+   "pld": 1,
+   "w": 1,
    "d": 0,
    "l": 0,
    "bp": null,
-   "pts": 0,
+   "pts": 4,
    "f": null,
    "a": null,
    "diff": null,
@@ -117,7 +117,7 @@
   },
   {
    "pos": 0,
-   "team": "Highfield RFC",
+   "team": "Clonakilty RFC",
    "pld": 1,
    "w": 0,
    "d": 0,
@@ -131,11 +131,11 @@
   },
   {
    "pos": 0,
-   "team": "Clonakilty RFC",
-   "pld": 1,
+   "team": "Highfield RFC",
+   "pld": 2,
    "w": 0,
    "d": 0,
-   "l": 1,
+   "l": 2,
    "bp": null,
    "pts": 0,
    "f": null,
@@ -146,32 +146,16 @@
  ],
  "fixtures": [
   {
-   "date": "2026-10-18",
-   "time": "10:30",
-   "home": "Ballincollig RFC",
-   "away": "Highfield RFC",
-   "venue": "Tanner Park",
-   "round": null
-  },
-  {
-   "date": "2026-10-24",
-   "time": "12:00",
+   "date": "2026-10-23",
+   "time": "19:30",
    "home": "Ballincollig RFC",
    "away": "Cork Constitution FC White",
    "venue": "Tanner Park",
    "round": null
   },
   {
-   "date": "2026-10-24",
-   "time": "12:00",
-   "home": "Clonakilty RFC",
-   "away": "Bandon RFC",
-   "venue": "The Vale",
-   "round": null
-  },
-  {
-   "date": "2026-10-24",
-   "time": "12:00",
+   "date": "2026-10-23",
+   "time": "19:30",
    "home": "Highfield RFC",
    "away": "Dolphin-Sundays Well",
    "venue": "Woodleigh Park",
@@ -179,10 +163,10 @@
   },
   {
    "date": "2026-10-24",
-   "time": "12:00",
-   "home": "Skibbereen RFC",
-   "away": "Crosshaven RFC",
-   "venue": "Skibbereen",
+   "time": "14:30",
+   "home": "Clonakilty RFC",
+   "away": "Bandon RFC",
+   "venue": "The Vale",
    "round": null
   },
   {
@@ -443,6 +427,17 @@
    "awayTries": 0,
    "venue": "Bandon",
    "round": "1st Round"
+  },
+  {
+   "date": "2026-10-18",
+   "home": "Ballincollig RFC",
+   "homeScore": 20,
+   "homeTries": 4,
+   "away": "Highfield RFC",
+   "awayScore": 7,
+   "awayTries": 1,
+   "venue": "Tanner Park",
+   "round": "6th Round"
   }
  ]
 }

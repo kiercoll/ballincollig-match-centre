@@ -19,7 +19,7 @@
  "table": [
   {
    "pos": 0,
-   "team": "Highfield RFC",
+   "team": "Muskerry RFC",
    "pld": 2,
    "w": 2,
    "d": 0,
@@ -34,12 +34,12 @@
   {
    "pos": 0,
    "team": "Crosshaven/Cork Con",
-   "pld": 2,
-   "w": 1,
+   "pld": 3,
+   "w": 2,
    "d": 0,
    "l": 1,
    "bp": null,
-   "pts": 4,
+   "pts": 8,
    "f": null,
    "a": null,
    "diff": null,
@@ -47,13 +47,13 @@
   },
   {
    "pos": 0,
-   "team": "Muskerry RFC",
-   "pld": 1,
-   "w": 1,
+   "team": "Highfield RFC",
+   "pld": 3,
+   "w": 2,
    "d": 0,
-   "l": 0,
+   "l": 1,
    "bp": null,
-   "pts": 4,
+   "pts": 8,
    "f": null,
    "a": null,
    "diff": null,
@@ -62,12 +62,12 @@
   {
    "pos": 0,
    "team": "Ballincollig RFC White",
-   "pld": 2,
-   "w": 1,
+   "pld": 3,
+   "w": 2,
    "d": 0,
    "l": 1,
    "bp": null,
-   "pts": 4,
+   "pts": 8,
    "f": null,
    "a": null,
    "diff": null,
@@ -76,10 +76,10 @@
   {
    "pos": 0,
    "team": "Mallow RFC",
-   "pld": 2,
+   "pld": 3,
    "w": 0,
    "d": 0,
-   "l": 2,
+   "l": 3,
    "bp": null,
    "pts": 0,
    "f": null,
@@ -90,10 +90,10 @@
   {
    "pos": 0,
    "team": "Kanturk RFC",
-   "pld": 1,
+   "pld": 2,
    "w": 0,
    "d": 0,
-   "l": 1,
+   "l": 2,
    "bp": null,
    "pts": 0,
    "f": null,
@@ -104,51 +104,27 @@
  ],
  "fixtures": [
   {
-   "date": "2026-10-16",
-   "time": "20:00",
-   "home": "Ballincollig RFC White",
-   "away": "Kanturk RFC",
-   "venue": "Tanner Park",
-   "round": null
-  },
-  {
-   "date": "2026-10-17",
-   "time": "14:00",
+   "date": "2026-10-22",
+   "time": "19:30",
    "home": "Mallow RFC",
-   "away": "Crosshaven/Cork Con",
-   "venue": "Mallow",
+   "away": "Kanturk RFC",
+   "venue": "Kanturk",
    "round": null
   },
   {
-   "date": "2026-10-18",
-   "time": "12:00",
+   "date": "2026-10-24",
+   "time": "14:00",
    "home": "Muskerry RFC",
-   "away": "Highfield RFC",
+   "away": "Ballincollig RFC White",
    "venue": "Ballyanly",
    "round": null
   },
   {
-   "date": "2026-10-24",
-   "time": "12:00",
+   "date": "2026-10-28",
+   "time": "19:30",
    "home": "Crosshaven/Cork Con",
    "away": "Highfield RFC",
-   "venue": "TBC",
-   "round": null
-  },
-  {
-   "date": "2026-10-24",
-   "time": "12:00",
-   "home": "Mallow RFC",
-   "away": "Kanturk RFC",
-   "venue": "Mallow",
-   "round": null
-  },
-  {
-   "date": "2026-10-24",
-   "time": "12:00",
-   "home": "Muskerry RFC",
-   "away": "Ballincollig RFC White",
-   "venue": "Tanner Park",
+   "venue": "Temple Hill",
    "round": null
   },
   {
@@ -239,6 +215,39 @@
    "awayTries": 0,
    "venue": "Mallow",
    "round": "2nd Round"
+  },
+  {
+   "date": "2026-10-16",
+   "home": "Ballincollig RFC White",
+   "homeScore": 35,
+   "homeTries": 7,
+   "away": "Kanturk RFC",
+   "awayScore": 5,
+   "awayTries": 1,
+   "venue": "Tanner Park",
+   "round": "3rd Round"
+  },
+  {
+   "date": "2026-10-17",
+   "home": "Mallow RFC",
+   "homeScore": 10,
+   "homeTries": 2,
+   "away": "Crosshaven/Cork Con",
+   "awayScore": 14,
+   "awayTries": 2,
+   "venue": "Mallow",
+   "round": "3rd Round"
+  },
+  {
+   "date": "2026-10-21",
+   "home": "Muskerry RFC",
+   "homeScore": 31,
+   "homeTries": 0,
+   "away": "Highfield RFC",
+   "awayScore": 28,
+   "awayTries": 0,
+   "venue": "Ballyanly",
+   "round": "3rd Round"
   }
  ]
 }

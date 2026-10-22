@@ -98,6 +98,22 @@
    "round": "1st Round"
   },
   {
+   "date": "2026-11-21",
+   "time": "12:00",
+   "home": "Kanturk RFC",
+   "away": "Mallow RFC",
+   "venue": "Kanturk",
+   "round": null
+  },
+  {
+   "date": "2026-11-21",
+   "time": "12:00",
+   "home": "Sundays Well RFC",
+   "away": "Ballincollig RFC Black",
+   "venue": "Virgin Media Park",
+   "round": null
+  },
+  {
    "date": "2026-12-19",
    "time": "12:00",
    "home": "Mallow RFC",
@@ -111,22 +127,6 @@
    "home": "Old Christians RFC",
    "away": "Kanturk RFC",
    "venue": "Rathcooney",
-   "round": null
-  },
-  {
-   "date": "2027-01-02",
-   "time": "12:00",
-   "home": "Kanturk RFC",
-   "away": "Mallow RFC",
-   "venue": "Kanturk",
-   "round": null
-  },
-  {
-   "date": "2027-01-02",
-   "time": "12:00",
-   "home": "Sundays Well RFC",
-   "away": "Ballincollig RFC Black",
-   "venue": "Virgin Media Park",
    "round": null
   },
   {

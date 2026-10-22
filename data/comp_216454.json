@@ -220,6 +220,14 @@
  ],
  "fixtures": [
   {
+   "date": "2026-10-31",
+   "time": "19:00",
+   "home": "Charleville and District RFC 1st XV",
+   "away": "Youghal RFC 1st XV",
+   "venue": "Charleville",
+   "round": null
+  },
+  {
    "date": "2026-11-01",
    "time": "14:30",
    "home": "Carrick on Suir RFC 1st XV",
@@ -233,14 +241,6 @@
    "home": "Castleisland RFC 1st XV",
    "away": "Cobh Pirates RFC 1st XV",
    "venue": "Castleisland",
-   "round": null
-  },
-  {
-   "date": "2026-11-01",
-   "time": "14:30",
-   "home": "Charleville and District RFC 1st XV",
-   "away": "Youghal RFC 1st XV",
-   "venue": "Charleville",
    "round": null
   },
   {

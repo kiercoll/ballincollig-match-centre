@@ -76,10 +76,10 @@
  ],
  "fixtures": [
   {
-   "date": "2026-12-19",
-   "time": null,
-   "home": "TBC",
-   "away": "Muskerry RFC",
+   "date": "2026-11-21",
+   "time": "12:00",
+   "home": "Muskerry RFC",
+   "away": "Crosshaven/Cork Con",
    "venue": "Ballyanly",
    "round": null
   },
