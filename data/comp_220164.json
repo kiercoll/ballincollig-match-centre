@@ -118,27 +118,27 @@
  ],
  "fixtures": [
   {
-   "date": "2026-10-31",
-   "time": "12:00",
+   "date": "2026-10-30",
+   "time": "19:30",
    "home": "Cobh Pirates RFC",
    "away": "Youghal RFC",
    "venue": "Cobh",
    "round": null
   },
   {
-   "date": "2026-10-31",
-   "time": "12:00",
-   "home": "Fermoy RFC",
-   "away": "Ballincollig RFC",
-   "venue": "Fermoy",
+   "date": "2026-11-01",
+   "time": "11:00",
+   "home": "Galbally-Mitchelstown",
+   "away": "Old Christians RFC",
+   "venue": "Galbally",
    "round": null
   },
   {
-   "date": "2026-10-31",
-   "time": "12:00",
-   "home": "Galbally-Mitchelstown",
-   "away": "Old Christians RFC",
-   "venue": "TBC",
+   "date": "2026-11-01",
+   "time": "11:30",
+   "home": "Fermoy RFC",
+   "away": "Ballincollig RFC",
+   "venue": "Fermoy",
    "round": null
   },
   {

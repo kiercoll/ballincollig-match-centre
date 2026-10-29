@@ -26,12 +26,12 @@
   {
    "pos": 0,
    "team": "UL Bohemian RFC 2nd XV",
-   "pld": 1,
-   "w": 1,
+   "pld": 2,
+   "w": 2,
    "d": 0,
    "l": 0,
    "bp": null,
-   "pts": 5,
+   "pts": 9,
    "f": 84,
    "a": 0,
    "diff": 84,
@@ -53,6 +53,34 @@
   },
   {
    "pos": 0,
+   "team": "Ballincollig RFC 2nd XV",
+   "pld": 2,
+   "w": 1,
+   "d": 0,
+   "l": 1,
+   "bp": null,
+   "pts": 5,
+   "f": 29,
+   "a": 28,
+   "diff": 1,
+   "tries": 5
+  },
+  {
+   "pos": 0,
+   "team": "Waterpark RFC 1st XV",
+   "pld": 1,
+   "w": 0,
+   "d": 0,
+   "l": 1,
+   "bp": null,
+   "pts": 1,
+   "f": 28,
+   "a": 29,
+   "diff": -1,
+   "tries": 0
+  },
+  {
+   "pos": 0,
    "team": "Dungarvan RFC 1st XV",
    "pld": 1,
    "w": 0,
@@ -64,34 +92,6 @@
    "a": 22,
    "diff": -7,
    "tries": 3
-  },
-  {
-   "pos": 0,
-   "team": "Ballincollig RFC 2nd XV",
-   "pld": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 0,
-   "f": 0,
-   "a": 0,
-   "diff": 0,
-   "tries": 0
-  },
-  {
-   "pos": 0,
-   "team": "Waterpark RFC 1st XV",
-   "pld": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 0,
-   "f": 0,
-   "a": 0,
-   "diff": 0,
-   "tries": 0
   },
   {
    "pos": 0,
@@ -110,27 +110,11 @@
  ],
  "fixtures": [
   {
-   "date": "2026-10-18",
-   "time": "13:00",
-   "home": "Ballincollig RFC 2nd XV",
-   "away": "Waterpark RFC 1st XV",
-   "venue": "Tanner Park",
-   "round": null
-  },
-  {
    "date": "2026-11-01",
    "time": "13:00",
    "home": "Roaring Water Bay 1st XV",
    "away": "Dungarvan RFC 1st XV",
-   "venue": "TBC",
-   "round": null
-  },
-  {
-   "date": "2026-11-01",
-   "time": "13:00",
-   "home": "UL Bohemian RFC 2nd XV",
-   "away": "Ballincollig RFC 2nd XV",
-   "venue": "Annacotty",
+   "venue": "Skibbereen",
    "round": null
   },
   {
@@ -139,6 +123,14 @@
    "home": "Waterpark RFC 1st XV",
    "away": "Sundays Well RFC 1st XV",
    "venue": "Ballinakill",
+   "round": null
+  },
+  {
+   "date": "2026-11-01",
+   "time": "13:00",
+   "home": "UL Bohemian RFC 2nd XV",
+   "away": "Ballincollig RFC 2nd XV",
+   "venue": "Annacotty",
    "round": null
   },
   {
@@ -344,6 +336,17 @@
    "awayScore": 15,
    "awayTries": 3,
    "venue": "Virgin Media Park",
+   "round": null
+  },
+  {
+   "date": "2026-10-18",
+   "home": "Ballincollig RFC 2nd XV",
+   "homeScore": 29,
+   "homeTries": 5,
+   "away": "Waterpark RFC 1st XV",
+   "awayScore": 28,
+   "awayTries": 0,
+   "venue": "Tanner Park",
    "round": null
   },
   {

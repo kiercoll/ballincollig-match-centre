@@ -2,8 +2,8 @@
  "club": "Ballincollig RFC",
  "homeGround": "Tanner Park",
  "season": "2026/27",
- "generatedAt": "2026-10-22T10:22:49",
- "generatedDate": "2026-10-22",
+ "generatedAt": "2026-10-29T10:32:27",
+ "generatedDate": "2026-10-29",
  "source": "munsterrugby.sportlomo.com (the data engine behind munsterrugby.ie domestic fixtures & results)",
  "teams": [
   {
@@ -98,7 +98,7 @@
      "round": null,
      "rating": {
       "band": "green",
-      "score": 0.619,
+      "score": 0.606,
       "confidence": "high",
       "signals": [
        {
@@ -116,8 +116,8 @@
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": 0.847,
-        "detail": "Ballincollig 3W-0D-2L (+14 avg over 5), opponent 1W-0D-3L (-11 avg over 4)"
+        "value": 0.78,
+        "detail": "Ballincollig 3W-0D-2L (+14 avg over 5), opponent 1W-0D-4L (-9 avg over 5)"
        },
        {
         "label": "Venue",
@@ -3070,15 +3070,29 @@
       "rowIndex": 14
      },
      "form": {
-      "played": 4,
+      "played": 5,
       "w": 1,
       "d": 0,
-      "l": 3,
-      "pf": 61,
-      "pa": 106,
-      "avgMargin": -11.2,
-      "winRate": 0.25,
+      "l": 4,
+      "pf": 89,
+      "pa": 135,
+      "avgMargin": -9.2,
+      "winRate": 0.2,
       "last5": [
+       {
+        "team": "Waterpark RFC 1st XV",
+        "opponent": "Ballincollig RFC 2nd XV",
+        "oppKey": "ballincollig rfc 2nd xv",
+        "pf": 28,
+        "pa": 29,
+        "margin": -1,
+        "outcome": "L",
+        "date": "2026-10-18",
+        "venue": "Tanner Park",
+        "comp": "Womens Division 2B",
+        "compId": "218360",
+        "home": true
+       },
        {
         "team": "Waterpark RFC 1st XV",
         "opponent": "Castleisland RFC 1st XV",
@@ -3151,7 +3165,7 @@
       "round": null,
       "rating": {
        "band": "green",
-       "score": 0.619,
+       "score": 0.606,
        "confidence": "high",
        "signals": [
         {
@@ -3169,8 +3183,8 @@
         {
          "label": "Recent form",
          "weight": 0.2,
-         "value": 0.847,
-         "detail": "Ballincollig 3W-0D-2L (+14 avg over 5), opponent 1W-0D-3L (-11 avg over 4)"
+         "value": 0.78,
+         "detail": "Ballincollig 3W-0D-2L (+14 avg over 5), opponent 1W-0D-4L (-9 avg over 5)"
         },
         {
          "label": "Venue",
@@ -3194,7 +3208,7 @@
      },
      "rating": {
       "band": "green",
-      "score": 0.619,
+      "score": 0.606,
       "confidence": "high",
       "signals": [
        {
@@ -3212,8 +3226,8 @@
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": 0.847,
-        "detail": "Ballincollig 3W-0D-2L (+14 avg over 5), opponent 1W-0D-3L (-11 avg over 4)"
+        "value": 0.78,
+        "detail": "Ballincollig 3W-0D-2L (+14 avg over 5), opponent 1W-0D-4L (-9 avg over 5)"
        },
        {
         "label": "Venue",
@@ -3456,68 +3470,14 @@
     }
    ],
    "record": {
-    "p": 3,
+    "p": 4,
     "w": 3,
     "d": 0,
-    "l": 0,
-    "pf": 110,
-    "pa": 27
+    "l": 1,
+    "pf": 134,
+    "pa": 86
    },
    "fixtures": [
-    {
-     "date": "2026-10-23",
-     "time": "19:30",
-     "comp": "South - Junior 3 League",
-     "compId": "219174",
-     "compUrl": "https://munsterrugby.sportlomo.com/league/219174/",
-     "ourTeam": "Ballincollig RFC 2nd XV",
-     "opponent": "Muskerry RFC 2nd XV",
-     "venue": "Ballyanly",
-     "home": false,
-     "round": null,
-     "rating": {
-      "band": "green",
-      "score": 0.6,
-      "confidence": "high",
-      "signals": [
-       {
-        "label": "Common opponents",
-        "weight": 0.45,
-        "value": 1,
-        "detail": "1 shared opponent(s), average margin swing +30 pts"
-       },
-       {
-        "label": "League form",
-        "weight": 0.25,
-        "value": 0.0,
-        "detail": "5.0 vs 5.0 league points per game"
-       },
-       {
-        "label": "Recent form",
-        "weight": 0.2,
-        "value": 1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 2W-0D-1L (-3 avg over 3)"
-       },
-       {
-        "label": "Venue",
-        "weight": 0.1,
-        "value": -0.5,
-        "detail": "Away at Ballyanly"
-       }
-      ],
-      "commonOpponents": [
-       {
-        "opponent": "Youghal RFC 2nd XV",
-        "ballincolligMargin": 10,
-        "opponentMargin": -20,
-        "diff": 30,
-        "ballincolligScore": "32-22",
-        "opponentScore": "19-39"
-       }
-      ],
-      "summary": "Ballincollig should be favourites."
-     }
-    },
     {
      "date": "2026-11-06",
      "time": "19:30",
@@ -3530,15 +3490,27 @@
      "home": true,
      "round": null,
      "rating": {
-      "band": "green",
-      "score": 0.697,
-      "confidence": "low",
+      "band": "red",
+      "score": -0.614,
+      "confidence": "high",
       "signals": [
        {
+        "label": "Common opponents",
+        "weight": 0.45,
+        "value": -1,
+        "detail": "1 shared opponent(s), average margin swing -33 pts"
+       },
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": -0.5,
+        "detail": "3.0 vs 5.0 league points per game"
+       },
+       {
         "label": "Recent form",
-        "weight": 0.067,
-        "value": 0.99,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-2 avg over 1)"
+        "weight": 0.133,
+        "value": -0.357,
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 1W-0D-1L (+20 avg over 2)"
        },
        {
         "label": "Venue",
@@ -3547,8 +3519,17 @@
         "detail": "At Tanner Park"
        }
       ],
-      "commonOpponents": [],
-      "summary": "Ballincollig should be favourites. Based on limited data so far."
+      "commonOpponents": [
+       {
+        "opponent": "Muskerry RFC 2nd XV",
+        "ballincolligMargin": -35,
+        "opponentMargin": -2,
+        "diff": -33,
+        "ballincolligScore": "24-59",
+        "opponentScore": "36-38"
+       }
+      ],
+      "summary": "A hard one. Expect to be underdogs."
      }
     },
     {
@@ -3563,21 +3544,27 @@
      "home": true,
      "round": null,
      "rating": {
-      "band": "green",
-      "score": 0.281,
-      "confidence": "medium",
+      "band": "red",
+      "score": -0.57,
+      "confidence": "high",
       "signals": [
+       {
+        "label": "Common opponents",
+        "weight": 0.45,
+        "value": -1,
+        "detail": "1 shared opponent(s), average margin swing -55 pts"
+       },
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 0.0,
-        "detail": "5.0 vs 5.0 league points per game"
+        "value": -0.5,
+        "detail": "3.0 vs 5.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": 0.523,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 2W-0D-1L (+12 avg over 3)"
+        "value": -0.223,
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 3W-0D-1L (+16 avg over 4)"
        },
        {
         "label": "Venue",
@@ -3586,8 +3573,17 @@
         "detail": "At Tanner Park"
        }
       ],
-      "commonOpponents": [],
-      "summary": "Ballincollig should be favourites."
+      "commonOpponents": [
+       {
+        "opponent": "Muskerry RFC 2nd XV",
+        "ballincolligMargin": -35,
+        "opponentMargin": 20,
+        "diff": -55,
+        "ballincolligScore": "24-59",
+        "opponentScore": "39-19"
+       }
+      ],
+      "summary": "A hard one. Expect to be underdogs."
      }
     },
     {
@@ -3602,21 +3598,27 @@
      "home": false,
      "round": null,
      "rating": {
-      "band": "green",
-      "score": 0.64,
-      "confidence": "medium",
+      "band": "yellow",
+      "score": -0.162,
+      "confidence": "high",
       "signals": [
+       {
+        "label": "Common opponents",
+        "weight": 0.45,
+        "value": -0.867,
+        "detail": "1 shared opponent(s), average margin swing -26 pts"
+       },
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 1,
-        "detail": "5.0 vs 1.0 league points per game"
+        "value": 0.625,
+        "detail": "3.0 vs 0.5 league points per game"
        },
        {
         "label": "Recent form",
-        "weight": 0.067,
+        "weight": 0.133,
         "value": 1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-9 avg over 1)"
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-2L (-26 avg over 2)"
        },
        {
         "label": "Venue",
@@ -3625,8 +3627,17 @@
         "detail": "Away at Virgin Media Park"
        }
       ],
-      "commonOpponents": [],
-      "summary": "Ballincollig should be favourites."
+      "commonOpponents": [
+       {
+        "opponent": "Muskerry RFC 2nd XV",
+        "ballincolligMargin": -35,
+        "opponentMargin": -9,
+        "diff": -26,
+        "ballincolligScore": "24-59",
+        "opponentScore": "36-45"
+       }
+      ],
+      "summary": "Line ball. Could go either way."
      }
     },
     {
@@ -3649,7 +3660,7 @@
         "label": "Recent form",
         "weight": 0.067,
         "value": 1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-45 avg over 1)"
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-1L (-45 avg over 1)"
        },
        {
         "label": "Venue",
@@ -3675,7 +3686,7 @@
      "round": null,
      "rating": {
       "band": "green",
-      "score": 0.942,
+      "score": 0.87,
       "confidence": "high",
       "signals": [
        {
@@ -3687,14 +3698,14 @@
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 1,
-        "detail": "5.0 vs 0.0 league points per game"
+        "value": 0.75,
+        "detail": "3.0 vs 0.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.067,
         "value": 1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-26 avg over 1)"
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-1L (-26 avg over 1)"
        },
        {
         "label": "Venue",
@@ -3728,10 +3739,28 @@
      "home": false,
      "round": null,
      "rating": {
-      "band": "grey",
-      "score": null,
-      "confidence": "none",
+      "band": "green",
+      "score": 0.755,
+      "confidence": "high",
       "signals": [
+       {
+        "label": "Common opponents",
+        "weight": 0.45,
+        "value": 1,
+        "detail": "1 shared opponent(s), average margin swing +40 pts"
+       },
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": 0.75,
+        "detail": "3.0 vs 0.0 league points per game"
+       },
+       {
+        "label": "Recent form",
+        "weight": 0.067,
+        "value": 1,
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-1L (-30 avg over 1)"
+       },
        {
         "label": "Venue",
         "weight": 0.1,
@@ -3739,12 +3768,37 @@
         "detail": "Away at Mallow"
        }
       ],
-      "commonOpponents": [],
-      "summary": "Neither side has enough played matches on record yet to rate this one."
+      "commonOpponents": [
+       {
+        "opponent": "Youghal RFC 2nd XV",
+        "ballincolligMargin": 10,
+        "opponentMargin": -30,
+        "diff": 40,
+        "ballincolligScore": "32-22",
+        "opponentScore": "5-35"
+       }
+      ],
+      "summary": "Ballincollig should be favourites."
      }
     }
    ],
    "results": [
+    {
+     "date": "2026-10-23",
+     "comp": "South - Junior 3 League",
+     "compId": "219174",
+     "compUrl": "https://munsterrugby.sportlomo.com/league/219174/",
+     "ourTeam": "Ballincollig RFC 2nd XV",
+     "opponent": "Muskerry RFC 2nd XV",
+     "pf": 24,
+     "pa": 59,
+     "triesFor": 4,
+     "triesAgainst": 9,
+     "venue": "Ballyanly",
+     "home": false,
+     "round": null,
+     "outcome": "L"
+    },
     {
      "date": "2026-10-09",
      "comp": "South - Junior 3 League",
@@ -3818,91 +3872,77 @@
      "rows": [
       {
        "pos": 0,
-       "team": "Ballincollig RFC 2nd XV",
-       "pld": 1,
-       "w": 1,
-       "d": 0,
-       "l": 0,
-       "bp": null,
-       "pts": 5,
-       "f": 28,
-       "a": 0,
-       "diff": 28,
-       "tries": 4
-      },
-      {
-       "pos": 0,
        "team": "Youghal RFC 2nd XV",
-       "pld": 1,
-       "w": 1,
+       "pld": 2,
+       "w": 2,
        "d": 0,
        "l": 0,
        "bp": null,
-       "pts": 5,
-       "f": 38,
-       "a": 12,
-       "diff": 26,
-       "tries": 5
+       "pts": 10,
+       "f": 73,
+       "a": 17,
+       "diff": 56,
+       "tries": 10
       },
       {
        "pos": 0,
        "team": "Muskerry RFC 2nd XV",
+       "pld": 2,
+       "w": 2,
+       "d": 0,
+       "l": 0,
+       "bp": null,
+       "pts": 10,
+       "f": 104,
+       "a": 60,
+       "diff": 44,
+       "tries": 16
+      },
+      {
+       "pos": 0,
+       "team": "Ballincollig RFC 2nd XV",
+       "pld": 2,
+       "w": 1,
+       "d": 0,
+       "l": 1,
+       "bp": null,
+       "pts": 6,
+       "f": 52,
+       "a": 59,
+       "diff": -7,
+       "tries": 8
+      },
+      {
+       "pos": 0,
+       "team": "Kanturk RFC 2nd XV",
        "pld": 1,
        "w": 1,
        "d": 0,
        "l": 0,
        "bp": null,
        "pts": 5,
-       "f": 45,
-       "a": 36,
-       "diff": 9,
+       "f": 50,
+       "a": 7,
+       "diff": 43,
        "tries": 7
       },
       {
        "pos": 0,
        "team": "Carrigaline RFC 1st XV",
-       "pld": 1,
+       "pld": 2,
        "w": 0,
        "d": 0,
-       "l": 1,
+       "l": 2,
        "bp": null,
        "pts": 1,
-       "f": 36,
-       "a": 45,
-       "diff": -9,
-       "tries": 6
+       "f": 43,
+       "a": 95,
+       "diff": -52,
+       "tries": 7
       },
       {
        "pos": 0,
        "team": "Douglas RFC 2nd XV",
-       "pld": 0,
-       "w": 0,
-       "d": 0,
-       "l": 0,
-       "bp": null,
-       "pts": 0,
-       "f": 0,
-       "a": 0,
-       "diff": 0,
-       "tries": 0
-      },
-      {
-       "pos": 0,
-       "team": "Mallow RFC 2nd XV",
-       "pld": 0,
-       "w": 0,
-       "d": 0,
-       "l": 0,
-       "bp": null,
-       "pts": 0,
-       "f": 0,
-       "a": 0,
-       "diff": 0,
-       "tries": 0
-      },
-      {
-       "pos": 0,
-       "team": "Kanturk RFC 2nd XV",
        "pld": 0,
        "w": 0,
        "d": 0,
@@ -3941,6 +3981,20 @@
        "a": 28,
        "diff": -28,
        "tries": 0
+      },
+      {
+       "pos": 0,
+       "team": "Mallow RFC 2nd XV",
+       "pld": 1,
+       "w": 0,
+       "d": 0,
+       "l": 1,
+       "bp": null,
+       "pts": 0,
+       "f": 5,
+       "a": 35,
+       "diff": -30,
+       "tries": 1
       }
      ],
      "ourTeams": [
@@ -3956,28 +4010,42 @@
      "tableRow": {
       "pos": 0,
       "team": "Carrigaline RFC 1st XV",
-      "pld": 1,
+      "pld": 2,
       "w": 0,
       "d": 0,
-      "l": 1,
+      "l": 2,
       "bp": null,
       "pts": 1,
-      "f": 36,
-      "a": 45,
-      "diff": -9,
-      "tries": 6,
-      "rowIndex": 4
+      "f": 43,
+      "a": 95,
+      "diff": -52,
+      "tries": 7,
+      "rowIndex": 5
      },
      "form": {
-      "played": 1,
+      "played": 2,
       "w": 0,
       "d": 0,
-      "l": 1,
-      "pf": 36,
-      "pa": 45,
-      "avgMargin": -9.0,
+      "l": 2,
+      "pf": 43,
+      "pa": 95,
+      "avgMargin": -26.0,
       "winRate": 0.0,
       "last5": [
+       {
+        "team": "Carrigaline RFC 1st XV",
+        "opponent": "Kanturk RFC 2nd XV",
+        "oppKey": "kanturk rfc 2nd xv",
+        "pf": 7,
+        "pa": 50,
+        "margin": -43,
+        "outcome": "L",
+        "date": "2026-10-23",
+        "venue": "Kanturk",
+        "comp": "South - Junior 3 League",
+        "compId": "219174",
+        "home": false
+       },
        {
         "team": "Carrigaline RFC 1st XV",
         "opponent": "Muskerry RFC 2nd XV",
@@ -4007,21 +4075,27 @@
       "home": false,
       "round": null,
       "rating": {
-       "band": "green",
-       "score": 0.64,
-       "confidence": "medium",
+       "band": "yellow",
+       "score": -0.162,
+       "confidence": "high",
        "signals": [
+        {
+         "label": "Common opponents",
+         "weight": 0.45,
+         "value": -0.867,
+         "detail": "1 shared opponent(s), average margin swing -26 pts"
+        },
         {
          "label": "League form",
          "weight": 0.25,
-         "value": 1,
-         "detail": "5.0 vs 1.0 league points per game"
+         "value": 0.625,
+         "detail": "3.0 vs 0.5 league points per game"
         },
         {
          "label": "Recent form",
-         "weight": 0.067,
+         "weight": 0.133,
          "value": 1,
-         "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-9 avg over 1)"
+         "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-2L (-26 avg over 2)"
         },
         {
          "label": "Venue",
@@ -4030,26 +4104,41 @@
          "detail": "Away at Virgin Media Park"
         }
        ],
-       "commonOpponents": [],
-       "summary": "Ballincollig should be favourites."
+       "commonOpponents": [
+        {
+         "opponent": "Muskerry RFC 2nd XV",
+         "ballincolligMargin": -35,
+         "opponentMargin": -9,
+         "diff": -26,
+         "ballincolligScore": "24-59",
+         "opponentScore": "36-45"
+        }
+       ],
+       "summary": "Line ball. Could go either way."
       }
      },
      "rating": {
-      "band": "green",
-      "score": 0.64,
-      "confidence": "medium",
+      "band": "yellow",
+      "score": -0.162,
+      "confidence": "high",
       "signals": [
+       {
+        "label": "Common opponents",
+        "weight": 0.45,
+        "value": -0.867,
+        "detail": "1 shared opponent(s), average margin swing -26 pts"
+       },
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 1,
-        "detail": "5.0 vs 1.0 league points per game"
+        "value": 0.625,
+        "detail": "3.0 vs 0.5 league points per game"
        },
        {
         "label": "Recent form",
-        "weight": 0.067,
+        "weight": 0.133,
         "value": 1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-9 avg over 1)"
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-2L (-26 avg over 2)"
        },
        {
         "label": "Venue",
@@ -4058,8 +4147,17 @@
         "detail": "Away at Virgin Media Park"
        }
       ],
-      "commonOpponents": [],
-      "summary": "Ballincollig should be favourites."
+      "commonOpponents": [
+       {
+        "opponent": "Muskerry RFC 2nd XV",
+        "ballincolligMargin": -35,
+        "opponentMargin": -9,
+        "diff": -26,
+        "ballincolligScore": "24-59",
+        "opponentScore": "36-45"
+       }
+      ],
+      "summary": "Line ball. Could go either way."
      }
     },
     {
@@ -4079,7 +4177,7 @@
       "a": 28,
       "diff": -28,
       "tries": 0,
-      "rowIndex": 9
+      "rowIndex": 8
      },
      "form": {
       "played": 1,
@@ -4128,20 +4226,20 @@
      "nextMeeting": null,
      "rating": {
       "band": "green",
-      "score": 1.0,
+      "score": 0.803,
       "confidence": "low",
       "signals": [
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 1,
-        "detail": "5.0 vs 0.0 league points per game"
+        "value": 0.75,
+        "detail": "3.0 vs 0.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.067,
         "value": 1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-28 avg over 1)"
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-1L (-28 avg over 1)"
        }
       ],
       "commonOpponents": [],
@@ -4165,7 +4263,7 @@
       "a": 0,
       "diff": 0,
       "tries": 0,
-      "rowIndex": 5
+      "rowIndex": 6
      },
      "form": {
       "played": 1,
@@ -4231,7 +4329,7 @@
          "label": "Recent form",
          "weight": 0.067,
          "value": 1,
-         "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-45 avg over 1)"
+         "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-1L (-45 avg over 1)"
         },
         {
          "label": "Venue",
@@ -4253,7 +4351,7 @@
         "label": "Recent form",
         "weight": 0.067,
         "value": 1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-45 avg over 1)"
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-1L (-45 avg over 1)"
        },
        {
         "label": "Venue",
@@ -4283,7 +4381,7 @@
       "a": 38,
       "diff": -26,
       "tries": 2,
-      "rowIndex": 8
+      "rowIndex": 7
      },
      "form": {
       "played": 1,
@@ -4325,7 +4423,7 @@
       "round": null,
       "rating": {
        "band": "green",
-       "score": 0.942,
+       "score": 0.87,
        "confidence": "high",
        "signals": [
         {
@@ -4337,14 +4435,14 @@
         {
          "label": "League form",
          "weight": 0.25,
-         "value": 1,
-         "detail": "5.0 vs 0.0 league points per game"
+         "value": 0.75,
+         "detail": "3.0 vs 0.0 league points per game"
         },
         {
          "label": "Recent form",
          "weight": 0.067,
          "value": 1,
-         "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-26 avg over 1)"
+         "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-1L (-26 avg over 1)"
         },
         {
          "label": "Venue",
@@ -4368,7 +4466,7 @@
      },
      "rating": {
       "band": "green",
-      "score": 0.942,
+      "score": 0.87,
       "confidence": "high",
       "signals": [
        {
@@ -4380,14 +4478,14 @@
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 1,
-        "detail": "5.0 vs 0.0 league points per game"
+        "value": 0.75,
+        "detail": "3.0 vs 0.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.067,
         "value": 1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-26 avg over 1)"
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-1L (-26 avg over 1)"
        },
        {
         "label": "Venue",
@@ -4416,28 +4514,42 @@
      "tableRow": {
       "pos": 0,
       "team": "Kanturk RFC 2nd XV",
-      "pld": 0,
-      "w": 0,
+      "pld": 1,
+      "w": 1,
       "d": 0,
       "l": 0,
       "bp": null,
-      "pts": 0,
-      "f": 0,
-      "a": 0,
-      "diff": 0,
-      "tries": 0,
-      "rowIndex": 7
+      "pts": 5,
+      "f": 50,
+      "a": 7,
+      "diff": 43,
+      "tries": 7,
+      "rowIndex": 4
      },
      "form": {
-      "played": 1,
-      "w": 0,
+      "played": 2,
+      "w": 1,
       "d": 0,
       "l": 1,
-      "pf": 36,
-      "pa": 38,
-      "avgMargin": -2.0,
-      "winRate": 0.0,
+      "pf": 86,
+      "pa": 45,
+      "avgMargin": 20.5,
+      "winRate": 0.5,
       "last5": [
+       {
+        "team": "Kanturk RFC 2nd XV",
+        "opponent": "Carrigaline RFC 1st XV",
+        "oppKey": "carrigaline rfc 1st xv",
+        "pf": 50,
+        "pa": 7,
+        "margin": 43,
+        "outcome": "W",
+        "date": "2026-10-23",
+        "venue": "Kanturk",
+        "comp": "South - Junior 3 League",
+        "compId": "219174",
+        "home": false
+       },
        {
         "team": "Kanturk RFC 2nd XV",
         "opponent": "Muskerry RFC 2nd XV",
@@ -4467,15 +4579,27 @@
       "home": true,
       "round": null,
       "rating": {
-       "band": "green",
-       "score": 0.697,
-       "confidence": "low",
+       "band": "red",
+       "score": -0.614,
+       "confidence": "high",
        "signals": [
         {
+         "label": "Common opponents",
+         "weight": 0.45,
+         "value": -1,
+         "detail": "1 shared opponent(s), average margin swing -33 pts"
+        },
+        {
+         "label": "League form",
+         "weight": 0.25,
+         "value": -0.5,
+         "detail": "3.0 vs 5.0 league points per game"
+        },
+        {
          "label": "Recent form",
-         "weight": 0.067,
-         "value": 0.99,
-         "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-2 avg over 1)"
+         "weight": 0.133,
+         "value": -0.357,
+         "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 1W-0D-1L (+20 avg over 2)"
         },
         {
          "label": "Venue",
@@ -4484,20 +4608,41 @@
          "detail": "At Tanner Park"
         }
        ],
-       "commonOpponents": [],
-       "summary": "Ballincollig should be favourites. Based on limited data so far."
+       "commonOpponents": [
+        {
+         "opponent": "Muskerry RFC 2nd XV",
+         "ballincolligMargin": -35,
+         "opponentMargin": -2,
+         "diff": -33,
+         "ballincolligScore": "24-59",
+         "opponentScore": "36-38"
+        }
+       ],
+       "summary": "A hard one. Expect to be underdogs."
       }
      },
      "rating": {
-      "band": "green",
-      "score": 0.697,
-      "confidence": "low",
+      "band": "red",
+      "score": -0.614,
+      "confidence": "high",
       "signals": [
        {
+        "label": "Common opponents",
+        "weight": 0.45,
+        "value": -1,
+        "detail": "1 shared opponent(s), average margin swing -33 pts"
+       },
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": -0.5,
+        "detail": "3.0 vs 5.0 league points per game"
+       },
+       {
         "label": "Recent form",
-        "weight": 0.067,
-        "value": 0.99,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-2 avg over 1)"
+        "weight": 0.133,
+        "value": -0.357,
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 1W-0D-1L (+20 avg over 2)"
        },
        {
         "label": "Venue",
@@ -4506,8 +4651,17 @@
         "detail": "At Tanner Park"
        }
       ],
-      "commonOpponents": [],
-      "summary": "Ballincollig should be favourites. Based on limited data so far."
+      "commonOpponents": [
+       {
+        "opponent": "Muskerry RFC 2nd XV",
+        "ballincolligMargin": -35,
+        "opponentMargin": -2,
+        "diff": -33,
+        "ballincolligScore": "24-59",
+        "opponentScore": "36-38"
+       }
+      ],
+      "summary": "A hard one. Expect to be underdogs."
      }
     },
     {
@@ -4517,28 +4671,43 @@
      "tableRow": {
       "pos": 0,
       "team": "Mallow RFC 2nd XV",
-      "pld": 0,
+      "pld": 1,
       "w": 0,
       "d": 0,
-      "l": 0,
+      "l": 1,
       "bp": null,
       "pts": 0,
-      "f": 0,
-      "a": 0,
-      "diff": 0,
-      "tries": 0,
-      "rowIndex": 6
+      "f": 5,
+      "a": 35,
+      "diff": -30,
+      "tries": 1,
+      "rowIndex": 9
      },
      "form": {
-      "played": 0,
+      "played": 1,
       "w": 0,
       "d": 0,
-      "l": 0,
-      "pf": 0,
-      "pa": 0,
-      "avgMargin": null,
-      "winRate": null,
-      "last5": []
+      "l": 1,
+      "pf": 5,
+      "pa": 35,
+      "avgMargin": -30.0,
+      "winRate": 0.0,
+      "last5": [
+       {
+        "team": "Mallow RFC 2nd XV",
+        "opponent": "Youghal RFC 2nd XV",
+        "oppKey": "youghal rfc 2nd xv",
+        "pf": 5,
+        "pa": 35,
+        "margin": -30,
+        "outcome": "L",
+        "date": "2026-10-23",
+        "venue": "Virgin Media Park",
+        "comp": "South - Junior 3 League",
+        "compId": "219174",
+        "home": false
+       }
+      ]
      },
      "headToHead": [],
      "nextMeeting": {
@@ -4553,10 +4722,28 @@
       "home": false,
       "round": null,
       "rating": {
-       "band": "grey",
-       "score": null,
-       "confidence": "none",
+       "band": "green",
+       "score": 0.755,
+       "confidence": "high",
        "signals": [
+        {
+         "label": "Common opponents",
+         "weight": 0.45,
+         "value": 1,
+         "detail": "1 shared opponent(s), average margin swing +40 pts"
+        },
+        {
+         "label": "League form",
+         "weight": 0.25,
+         "value": 0.75,
+         "detail": "3.0 vs 0.0 league points per game"
+        },
+        {
+         "label": "Recent form",
+         "weight": 0.067,
+         "value": 1,
+         "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-1L (-30 avg over 1)"
+        },
         {
          "label": "Venue",
          "weight": 0.1,
@@ -4564,15 +4751,42 @@
          "detail": "Away at Mallow"
         }
        ],
-       "commonOpponents": [],
-       "summary": "Neither side has enough played matches on record yet to rate this one."
+       "commonOpponents": [
+        {
+         "opponent": "Youghal RFC 2nd XV",
+         "ballincolligMargin": 10,
+         "opponentMargin": -30,
+         "diff": 40,
+         "ballincolligScore": "32-22",
+         "opponentScore": "5-35"
+        }
+       ],
+       "summary": "Ballincollig should be favourites."
       }
      },
      "rating": {
-      "band": "grey",
-      "score": null,
-      "confidence": "none",
+      "band": "green",
+      "score": 0.755,
+      "confidence": "high",
       "signals": [
+       {
+        "label": "Common opponents",
+        "weight": 0.45,
+        "value": 1,
+        "detail": "1 shared opponent(s), average margin swing +40 pts"
+       },
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": 0.75,
+        "detail": "3.0 vs 0.0 league points per game"
+       },
+       {
+        "label": "Recent form",
+        "weight": 0.067,
+        "value": 1,
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-1L (-30 avg over 1)"
+       },
        {
         "label": "Venue",
         "weight": 0.1,
@@ -4580,8 +4794,17 @@
         "detail": "Away at Mallow"
        }
       ],
-      "commonOpponents": [],
-      "summary": "Neither side has enough played matches on record yet to rate this one."
+      "commonOpponents": [
+       {
+        "opponent": "Youghal RFC 2nd XV",
+        "ballincolligMargin": 10,
+        "opponentMargin": -30,
+        "diff": 40,
+        "ballincolligScore": "32-22",
+        "opponentScore": "5-35"
+       }
+      ],
+      "summary": "Ballincollig should be favourites."
      }
     },
     {
@@ -4591,28 +4814,42 @@
      "tableRow": {
       "pos": 0,
       "team": "Muskerry RFC 2nd XV",
-      "pld": 1,
-      "w": 1,
+      "pld": 2,
+      "w": 2,
       "d": 0,
       "l": 0,
       "bp": null,
-      "pts": 5,
-      "f": 45,
-      "a": 36,
-      "diff": 9,
-      "tries": 7,
-      "rowIndex": 3
+      "pts": 10,
+      "f": 104,
+      "a": 60,
+      "diff": 44,
+      "tries": 16,
+      "rowIndex": 2
      },
      "form": {
-      "played": 3,
-      "w": 2,
+      "played": 4,
+      "w": 3,
       "d": 0,
       "l": 1,
-      "pf": 102,
-      "pa": 111,
-      "avgMargin": -3.0,
-      "winRate": 0.667,
+      "pf": 161,
+      "pa": 135,
+      "avgMargin": 6.5,
+      "winRate": 0.75,
       "last5": [
+       {
+        "team": "Muskerry RFC 2nd XV",
+        "opponent": "Ballincollig RFC 2nd XV",
+        "oppKey": "ballincollig rfc 2nd xv",
+        "pf": 59,
+        "pa": 24,
+        "margin": 35,
+        "outcome": "W",
+        "date": "2026-10-23",
+        "venue": "Ballyanly",
+        "comp": "South - Junior 3 League",
+        "compId": "219174",
+        "home": false
+       },
        {
         "team": "Muskerry RFC 2nd XV",
         "opponent": "Carrigaline RFC 1st XV",
@@ -4657,64 +4894,28 @@
        }
       ]
      },
-     "headToHead": [],
-     "nextMeeting": {
-      "date": "2026-10-23",
-      "time": "19:30",
-      "comp": "South - Junior 3 League",
-      "compId": "219174",
-      "compUrl": "https://munsterrugby.sportlomo.com/league/219174/",
-      "ourTeam": "Ballincollig RFC 2nd XV",
-      "opponent": "Muskerry RFC 2nd XV",
-      "venue": "Ballyanly",
-      "home": false,
-      "round": null,
-      "rating": {
-       "band": "green",
-       "score": 0.6,
-       "confidence": "high",
-       "signals": [
-        {
-         "label": "Common opponents",
-         "weight": 0.45,
-         "value": 1,
-         "detail": "1 shared opponent(s), average margin swing +30 pts"
-        },
-        {
-         "label": "League form",
-         "weight": 0.25,
-         "value": 0.0,
-         "detail": "5.0 vs 5.0 league points per game"
-        },
-        {
-         "label": "Recent form",
-         "weight": 0.2,
-         "value": 1,
-         "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 2W-0D-1L (-3 avg over 3)"
-        },
-        {
-         "label": "Venue",
-         "weight": 0.1,
-         "value": -0.5,
-         "detail": "Away at Ballyanly"
-        }
-       ],
-       "commonOpponents": [
-        {
-         "opponent": "Youghal RFC 2nd XV",
-         "ballincolligMargin": 10,
-         "opponentMargin": -20,
-         "diff": 30,
-         "ballincolligScore": "32-22",
-         "opponentScore": "19-39"
-        }
-       ],
-       "summary": "Ballincollig should be favourites."
+     "headToHead": [
+      {
+       "date": "2026-10-23",
+       "comp": "South - Junior 3 League",
+       "compId": "219174",
+       "compUrl": "https://munsterrugby.sportlomo.com/league/219174/",
+       "ourTeam": "Ballincollig RFC 2nd XV",
+       "opponent": "Muskerry RFC 2nd XV",
+       "pf": 24,
+       "pa": 59,
+       "triesFor": 4,
+       "triesAgainst": 9,
+       "venue": "Ballyanly",
+       "home": false,
+       "round": null,
+       "outcome": "L"
       }
-     },
+     ],
+     "nextMeeting": null,
      "rating": {
       "band": "green",
-      "score": 0.6,
+      "score": 0.386,
       "confidence": "high",
       "signals": [
        {
@@ -4726,20 +4927,14 @@
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 0.0,
-        "detail": "5.0 vs 5.0 league points per game"
+        "value": -0.5,
+        "detail": "3.0 vs 5.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": 1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 2W-0D-1L (-3 avg over 3)"
-       },
-       {
-        "label": "Venue",
-        "weight": 0.1,
-        "value": -0.5,
-        "detail": "Away at Ballyanly"
+        "value": 0.11,
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 3W-0D-1L (+6 avg over 4)"
        }
       ],
       "commonOpponents": [
@@ -4762,28 +4957,42 @@
      "tableRow": {
       "pos": 0,
       "team": "Youghal RFC 2nd XV",
-      "pld": 1,
-      "w": 1,
+      "pld": 2,
+      "w": 2,
       "d": 0,
       "l": 0,
       "bp": null,
-      "pts": 5,
-      "f": 38,
-      "a": 12,
-      "diff": 26,
-      "tries": 5,
-      "rowIndex": 2
+      "pts": 10,
+      "f": 73,
+      "a": 17,
+      "diff": 56,
+      "tries": 10,
+      "rowIndex": 1
      },
      "form": {
-      "played": 3,
-      "w": 2,
+      "played": 4,
+      "w": 3,
       "d": 0,
       "l": 1,
-      "pf": 99,
-      "pa": 63,
-      "avgMargin": 12.0,
-      "winRate": 0.667,
+      "pf": 134,
+      "pa": 68,
+      "avgMargin": 16.5,
+      "winRate": 0.75,
       "last5": [
+       {
+        "team": "Youghal RFC 2nd XV",
+        "opponent": "Mallow RFC 2nd XV",
+        "oppKey": "mallow rfc 2nd xv",
+        "pf": 35,
+        "pa": 5,
+        "margin": 30,
+        "outcome": "W",
+        "date": "2026-10-23",
+        "venue": "Virgin Media Park",
+        "comp": "South - Junior 3 League",
+        "compId": "219174",
+        "home": false
+       },
        {
         "team": "Youghal RFC 2nd XV",
         "opponent": "Fermoy RFC 2nd XV",
@@ -4858,21 +5067,27 @@
       "home": true,
       "round": null,
       "rating": {
-       "band": "green",
-       "score": 0.281,
-       "confidence": "medium",
+       "band": "red",
+       "score": -0.57,
+       "confidence": "high",
        "signals": [
+        {
+         "label": "Common opponents",
+         "weight": 0.45,
+         "value": -1,
+         "detail": "1 shared opponent(s), average margin swing -55 pts"
+        },
         {
          "label": "League form",
          "weight": 0.25,
-         "value": 0.0,
-         "detail": "5.0 vs 5.0 league points per game"
+         "value": -0.5,
+         "detail": "3.0 vs 5.0 league points per game"
         },
         {
          "label": "Recent form",
          "weight": 0.2,
-         "value": 0.523,
-         "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 2W-0D-1L (+12 avg over 3)"
+         "value": -0.223,
+         "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 3W-0D-1L (+16 avg over 4)"
         },
         {
          "label": "Venue",
@@ -4881,26 +5096,41 @@
          "detail": "At Tanner Park"
         }
        ],
-       "commonOpponents": [],
-       "summary": "Ballincollig should be favourites."
+       "commonOpponents": [
+        {
+         "opponent": "Muskerry RFC 2nd XV",
+         "ballincolligMargin": -35,
+         "opponentMargin": 20,
+         "diff": -55,
+         "ballincolligScore": "24-59",
+         "opponentScore": "39-19"
+        }
+       ],
+       "summary": "A hard one. Expect to be underdogs."
       }
      },
      "rating": {
-      "band": "green",
-      "score": 0.281,
-      "confidence": "medium",
+      "band": "red",
+      "score": -0.57,
+      "confidence": "high",
       "signals": [
+       {
+        "label": "Common opponents",
+        "weight": 0.45,
+        "value": -1,
+        "detail": "1 shared opponent(s), average margin swing -55 pts"
+       },
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 0.0,
-        "detail": "5.0 vs 5.0 league points per game"
+        "value": -0.5,
+        "detail": "3.0 vs 5.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": 0.523,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 2W-0D-1L (+12 avg over 3)"
+        "value": -0.223,
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 3W-0D-1L (+16 avg over 4)"
        },
        {
         "label": "Venue",
@@ -4909,8 +5139,17 @@
         "detail": "At Tanner Park"
        }
       ],
-      "commonOpponents": [],
-      "summary": "Ballincollig should be favourites."
+      "commonOpponents": [
+       {
+        "opponent": "Muskerry RFC 2nd XV",
+        "ballincolligMargin": -35,
+        "opponentMargin": 20,
+        "diff": -55,
+        "ballincolligScore": "24-59",
+        "opponentScore": "39-19"
+       }
+      ],
+      "summary": "A hard one. Expect to be underdogs."
      }
     }
    ]
@@ -4929,47 +5168,14 @@
     }
    ],
    "record": {
-    "p": 0,
-    "w": 0,
+    "p": 1,
+    "w": 1,
     "d": 0,
     "l": 0,
-    "pf": 0,
-    "pa": 0
+    "pf": 29,
+    "pa": 28
    },
    "fixtures": [
-    {
-     "date": "2026-10-18",
-     "time": "13:00",
-     "comp": "Womens Division 2B",
-     "compId": "218360",
-     "compUrl": "https://munsterrugby.sportlomo.com/league/218360/",
-     "ourTeam": "Ballincollig RFC 2nd XV",
-     "opponent": "Waterpark RFC 1st XV",
-     "venue": "Tanner Park",
-     "home": true,
-     "round": null,
-     "rating": {
-      "band": "green",
-      "score": 0.833,
-      "confidence": "low",
-      "signals": [
-       {
-        "label": "Recent form",
-        "weight": 0.2,
-        "value": 1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 1W-0D-3L (-11 avg over 4)"
-       },
-       {
-        "label": "Venue",
-        "weight": 0.1,
-        "value": 0.5,
-        "detail": "At Tanner Park"
-       }
-      ],
-      "commonOpponents": [],
-      "summary": "Ballincollig should be favourites. Based on limited data so far."
-     }
-    },
     {
      "date": "2026-11-01",
      "time": "13:00",
@@ -4983,14 +5189,20 @@
      "round": null,
      "rating": {
       "band": "red",
-      "score": -0.701,
-      "confidence": "low",
+      "score": -0.58,
+      "confidence": "medium",
       "signals": [
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": -0.5,
+        "detail": "2.5 vs 4.5 league points per game"
+       },
        {
         "label": "Recent form",
         "weight": 0.067,
         "value": -1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 1W-0D-0L (+84 avg over 1)"
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 1W-0D-0L (+84 avg over 1)"
        },
        {
         "label": "Venue",
@@ -5000,7 +5212,7 @@
        }
       ],
       "commonOpponents": [],
-      "summary": "A hard one. Expect to be underdogs. Based on limited data so far."
+      "summary": "A hard one. Expect to be underdogs."
      }
     },
     {
@@ -5016,14 +5228,20 @@
      "round": null,
      "rating": {
       "band": "yellow",
-      "score": 0.102,
-      "confidence": "low",
+      "score": 0.195,
+      "confidence": "medium",
       "signals": [
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": 0.375,
+        "detail": "2.5 vs 1.0 league points per game"
+       },
        {
         "label": "Recent form",
         "weight": 0.067,
-        "value": 1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-7 avg over 1)"
+        "value": 0.56,
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-1L (-7 avg over 1)"
        },
        {
         "label": "Venue",
@@ -5033,7 +5251,7 @@
        }
       ],
       "commonOpponents": [],
-      "summary": "Line ball. Could go either way. Based on limited data so far."
+      "summary": "Line ball. Could go either way."
      }
     },
     {
@@ -5049,14 +5267,20 @@
      "round": null,
      "rating": {
       "band": "green",
-      "score": 0.701,
-      "confidence": "low",
+      "score": 0.655,
+      "confidence": "medium",
       "signals": [
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": 0.625,
+        "detail": "2.5 vs 0.0 league points per game"
+       },
        {
         "label": "Recent form",
         "weight": 0.067,
         "value": 1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-84 avg over 1)"
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-1L (-84 avg over 1)"
        },
        {
         "label": "Venue",
@@ -5066,7 +5290,7 @@
        }
       ],
       "commonOpponents": [],
-      "summary": "Ballincollig should be favourites. Based on limited data so far."
+      "summary": "Ballincollig should be favourites."
      }
     },
     {
@@ -5081,15 +5305,21 @@
      "home": false,
      "round": null,
      "rating": {
-      "band": "yellow",
-      "score": -0.023,
-      "confidence": "low",
+      "band": "red",
+      "score": -0.48,
+      "confidence": "medium",
       "signals": [
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": -0.625,
+        "detail": "2.5 vs 5.0 league points per game"
+       },
        {
         "label": "Recent form",
         "weight": 0.067,
-        "value": 0.69,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 1W-0D-0L (+7 avg over 1)"
+        "value": 0.093,
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 1W-0D-0L (+7 avg over 1)"
        },
        {
         "label": "Venue",
@@ -5099,7 +5329,7 @@
        }
       ],
       "commonOpponents": [],
-      "summary": "Line ball. Could go either way. Based on limited data so far."
+      "summary": "A hard one. Expect to be underdogs."
      }
     },
     {
@@ -5115,14 +5345,20 @@
      "round": null,
      "rating": {
       "band": "green",
-      "score": 0.5,
-      "confidence": "low",
+      "score": 0.31,
+      "confidence": "medium",
       "signals": [
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": 0.375,
+        "detail": "2.5 vs 1.0 league points per game"
+       },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": 1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 1W-0D-3L (-11 avg over 4)"
+        "value": 0.633,
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 1W-0D-4L (-9 avg over 5)"
        },
        {
         "label": "Venue",
@@ -5132,7 +5368,7 @@
        }
       ],
       "commonOpponents": [],
-      "summary": "Ballincollig should be favourites. Based on limited data so far."
+      "summary": "Ballincollig should be favourites."
      }
     },
     {
@@ -5148,14 +5384,20 @@
      "round": null,
      "rating": {
       "band": "red",
-      "score": -0.701,
-      "confidence": "low",
+      "score": -0.58,
+      "confidence": "medium",
       "signals": [
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": -0.5,
+        "detail": "2.5 vs 4.5 league points per game"
+       },
        {
         "label": "Recent form",
         "weight": 0.067,
         "value": -1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 1W-0D-0L (+84 avg over 1)"
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 1W-0D-0L (+84 avg over 1)"
        },
        {
         "label": "Venue",
@@ -5165,7 +5407,7 @@
        }
       ],
       "commonOpponents": [],
-      "summary": "A hard one. Expect to be underdogs. Based on limited data so far."
+      "summary": "A hard one. Expect to be underdogs."
      }
     },
     {
@@ -5181,14 +5423,20 @@
      "round": null,
      "rating": {
       "band": "green",
-      "score": 0.701,
-      "confidence": "low",
+      "score": 0.435,
+      "confidence": "medium",
       "signals": [
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": 0.375,
+        "detail": "2.5 vs 1.0 league points per game"
+       },
        {
         "label": "Recent form",
         "weight": 0.067,
-        "value": 1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-7 avg over 1)"
+        "value": 0.56,
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-1L (-7 avg over 1)"
        },
        {
         "label": "Venue",
@@ -5198,7 +5446,7 @@
        }
       ],
       "commonOpponents": [],
-      "summary": "Ballincollig should be favourites. Based on limited data so far."
+      "summary": "Ballincollig should be favourites."
      }
     },
     {
@@ -5213,15 +5461,21 @@
      "home": false,
      "round": null,
      "rating": {
-      "band": "yellow",
-      "score": 0.102,
-      "confidence": "low",
+      "band": "green",
+      "score": 0.415,
+      "confidence": "medium",
       "signals": [
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": 0.625,
+        "detail": "2.5 vs 0.0 league points per game"
+       },
        {
         "label": "Recent form",
         "weight": 0.067,
         "value": 1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-84 avg over 1)"
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-1L (-84 avg over 1)"
        },
        {
         "label": "Venue",
@@ -5231,7 +5485,7 @@
        }
       ],
       "commonOpponents": [],
-      "summary": "Line ball. Could go either way. Based on limited data so far."
+      "summary": "Ballincollig should be favourites."
      }
     },
     {
@@ -5246,15 +5500,21 @@
      "home": true,
      "round": null,
      "rating": {
-      "band": "green",
-      "score": 0.576,
-      "confidence": "low",
+      "band": "red",
+      "score": -0.24,
+      "confidence": "medium",
       "signals": [
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": -0.625,
+        "detail": "2.5 vs 5.0 league points per game"
+       },
        {
         "label": "Recent form",
         "weight": 0.067,
-        "value": 0.69,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 1W-0D-0L (+7 avg over 1)"
+        "value": 0.093,
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 1W-0D-0L (+7 avg over 1)"
        },
        {
         "label": "Venue",
@@ -5264,11 +5524,28 @@
        }
       ],
       "commonOpponents": [],
-      "summary": "Ballincollig should be favourites. Based on limited data so far."
+      "summary": "A hard one. Expect to be underdogs."
      }
     }
    ],
-   "results": [],
+   "results": [
+    {
+     "date": "2026-10-18",
+     "comp": "Womens Division 2B",
+     "compId": "218360",
+     "compUrl": "https://munsterrugby.sportlomo.com/league/218360/",
+     "ourTeam": "Ballincollig RFC 2nd XV",
+     "opponent": "Waterpark RFC 1st XV",
+     "pf": 29,
+     "pa": 28,
+     "triesFor": 5,
+     "triesAgainst": 0,
+     "venue": "Tanner Park",
+     "home": true,
+     "round": null,
+     "outcome": "W"
+    }
+   ],
    "tables": [
     {
      "compId": "218360",
@@ -5294,12 +5571,12 @@
       {
        "pos": 0,
        "team": "UL Bohemian RFC 2nd XV",
-       "pld": 1,
-       "w": 1,
+       "pld": 2,
+       "w": 2,
        "d": 0,
        "l": 0,
        "bp": null,
-       "pts": 5,
+       "pts": 9,
        "f": 84,
        "a": 0,
        "diff": 84,
@@ -5321,6 +5598,34 @@
       },
       {
        "pos": 0,
+       "team": "Ballincollig RFC 2nd XV",
+       "pld": 2,
+       "w": 1,
+       "d": 0,
+       "l": 1,
+       "bp": null,
+       "pts": 5,
+       "f": 29,
+       "a": 28,
+       "diff": 1,
+       "tries": 5
+      },
+      {
+       "pos": 0,
+       "team": "Waterpark RFC 1st XV",
+       "pld": 1,
+       "w": 0,
+       "d": 0,
+       "l": 1,
+       "bp": null,
+       "pts": 1,
+       "f": 28,
+       "a": 29,
+       "diff": -1,
+       "tries": 0
+      },
+      {
+       "pos": 0,
        "team": "Dungarvan RFC 1st XV",
        "pld": 1,
        "w": 0,
@@ -5332,34 +5637,6 @@
        "a": 22,
        "diff": -7,
        "tries": 3
-      },
-      {
-       "pos": 0,
-       "team": "Ballincollig RFC 2nd XV",
-       "pld": 0,
-       "w": 0,
-       "d": 0,
-       "l": 0,
-       "bp": null,
-       "pts": 0,
-       "f": 0,
-       "a": 0,
-       "diff": 0,
-       "tries": 0
-      },
-      {
-       "pos": 0,
-       "team": "Waterpark RFC 1st XV",
-       "pld": 0,
-       "w": 0,
-       "d": 0,
-       "l": 0,
-       "bp": null,
-       "pts": 0,
-       "f": 0,
-       "a": 0,
-       "diff": 0,
-       "tries": 0
       },
       {
        "pos": 0,
@@ -5399,7 +5676,7 @@
       "a": 22,
       "diff": -7,
       "tries": 3,
-      "rowIndex": 3
+      "rowIndex": 5
      },
      "form": {
       "played": 1,
@@ -5441,14 +5718,20 @@
       "round": null,
       "rating": {
        "band": "yellow",
-       "score": 0.102,
-       "confidence": "low",
+       "score": 0.195,
+       "confidence": "medium",
        "signals": [
+        {
+         "label": "League form",
+         "weight": 0.25,
+         "value": 0.375,
+         "detail": "2.5 vs 1.0 league points per game"
+        },
         {
          "label": "Recent form",
          "weight": 0.067,
-         "value": 1,
-         "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-7 avg over 1)"
+         "value": 0.56,
+         "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-1L (-7 avg over 1)"
         },
         {
          "label": "Venue",
@@ -5458,19 +5741,25 @@
         }
        ],
        "commonOpponents": [],
-       "summary": "Line ball. Could go either way. Based on limited data so far."
+       "summary": "Line ball. Could go either way."
       }
      },
      "rating": {
       "band": "yellow",
-      "score": 0.102,
-      "confidence": "low",
+      "score": 0.195,
+      "confidence": "medium",
       "signals": [
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": 0.375,
+        "detail": "2.5 vs 1.0 league points per game"
+       },
        {
         "label": "Recent form",
         "weight": 0.067,
-        "value": 1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-7 avg over 1)"
+        "value": 0.56,
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-1L (-7 avg over 1)"
        },
        {
         "label": "Venue",
@@ -5480,7 +5769,7 @@
        }
       ],
       "commonOpponents": [],
-      "summary": "Line ball. Could go either way. Based on limited data so far."
+      "summary": "Line ball. Could go either way."
      }
     },
     {
@@ -5542,14 +5831,20 @@
       "round": null,
       "rating": {
        "band": "green",
-       "score": 0.701,
-       "confidence": "low",
+       "score": 0.655,
+       "confidence": "medium",
        "signals": [
+        {
+         "label": "League form",
+         "weight": 0.25,
+         "value": 0.625,
+         "detail": "2.5 vs 0.0 league points per game"
+        },
         {
          "label": "Recent form",
          "weight": 0.067,
          "value": 1,
-         "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-84 avg over 1)"
+         "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-1L (-84 avg over 1)"
         },
         {
          "label": "Venue",
@@ -5559,19 +5854,25 @@
         }
        ],
        "commonOpponents": [],
-       "summary": "Ballincollig should be favourites. Based on limited data so far."
+       "summary": "Ballincollig should be favourites."
       }
      },
      "rating": {
       "band": "green",
-      "score": 0.701,
-      "confidence": "low",
+      "score": 0.655,
+      "confidence": "medium",
       "signals": [
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": 0.625,
+        "detail": "2.5 vs 0.0 league points per game"
+       },
        {
         "label": "Recent form",
         "weight": 0.067,
         "value": 1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 0W-0D-1L (-84 avg over 1)"
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 0W-0D-1L (-84 avg over 1)"
        },
        {
         "label": "Venue",
@@ -5581,7 +5882,7 @@
        }
       ],
       "commonOpponents": [],
-      "summary": "Ballincollig should be favourites. Based on limited data so far."
+      "summary": "Ballincollig should be favourites."
      }
     },
     {
@@ -5642,15 +5943,21 @@
       "home": false,
       "round": null,
       "rating": {
-       "band": "yellow",
-       "score": -0.023,
-       "confidence": "low",
+       "band": "red",
+       "score": -0.48,
+       "confidence": "medium",
        "signals": [
+        {
+         "label": "League form",
+         "weight": 0.25,
+         "value": -0.625,
+         "detail": "2.5 vs 5.0 league points per game"
+        },
         {
          "label": "Recent form",
          "weight": 0.067,
-         "value": 0.69,
-         "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 1W-0D-0L (+7 avg over 1)"
+         "value": 0.093,
+         "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 1W-0D-0L (+7 avg over 1)"
         },
         {
          "label": "Venue",
@@ -5660,19 +5967,25 @@
         }
        ],
        "commonOpponents": [],
-       "summary": "Line ball. Could go either way. Based on limited data so far."
+       "summary": "A hard one. Expect to be underdogs."
       }
      },
      "rating": {
-      "band": "yellow",
-      "score": -0.023,
-      "confidence": "low",
+      "band": "red",
+      "score": -0.48,
+      "confidence": "medium",
       "signals": [
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": -0.625,
+        "detail": "2.5 vs 5.0 league points per game"
+       },
        {
         "label": "Recent form",
         "weight": 0.067,
-        "value": 0.69,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 1W-0D-0L (+7 avg over 1)"
+        "value": 0.093,
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 1W-0D-0L (+7 avg over 1)"
        },
        {
         "label": "Venue",
@@ -5682,7 +5995,7 @@
        }
       ],
       "commonOpponents": [],
-      "summary": "Line ball. Could go either way. Based on limited data so far."
+      "summary": "A hard one. Expect to be underdogs."
      }
     },
     {
@@ -5692,12 +6005,12 @@
      "tableRow": {
       "pos": 0,
       "team": "UL Bohemian RFC 2nd XV",
-      "pld": 1,
-      "w": 1,
+      "pld": 2,
+      "w": 2,
       "d": 0,
       "l": 0,
       "bp": null,
-      "pts": 5,
+      "pts": 9,
       "f": 84,
       "a": 0,
       "diff": 84,
@@ -5744,14 +6057,20 @@
       "round": null,
       "rating": {
        "band": "red",
-       "score": -0.701,
-       "confidence": "low",
+       "score": -0.58,
+       "confidence": "medium",
        "signals": [
+        {
+         "label": "League form",
+         "weight": 0.25,
+         "value": -0.5,
+         "detail": "2.5 vs 4.5 league points per game"
+        },
         {
          "label": "Recent form",
          "weight": 0.067,
          "value": -1,
-         "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 1W-0D-0L (+84 avg over 1)"
+         "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 1W-0D-0L (+84 avg over 1)"
         },
         {
          "label": "Venue",
@@ -5761,19 +6080,25 @@
         }
        ],
        "commonOpponents": [],
-       "summary": "A hard one. Expect to be underdogs. Based on limited data so far."
+       "summary": "A hard one. Expect to be underdogs."
       }
      },
      "rating": {
       "band": "red",
-      "score": -0.701,
-      "confidence": "low",
+      "score": -0.58,
+      "confidence": "medium",
       "signals": [
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": -0.5,
+        "detail": "2.5 vs 4.5 league points per game"
+       },
        {
         "label": "Recent form",
         "weight": 0.067,
         "value": -1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 1W-0D-0L (+84 avg over 1)"
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 1W-0D-0L (+84 avg over 1)"
        },
        {
         "label": "Venue",
@@ -5783,7 +6108,7 @@
        }
       ],
       "commonOpponents": [],
-      "summary": "A hard one. Expect to be underdogs. Based on limited data so far."
+      "summary": "A hard one. Expect to be underdogs."
      }
     },
     {
@@ -5793,28 +6118,42 @@
      "tableRow": {
       "pos": 0,
       "team": "Waterpark RFC 1st XV",
-      "pld": 0,
+      "pld": 1,
       "w": 0,
       "d": 0,
-      "l": 0,
+      "l": 1,
       "bp": null,
-      "pts": 0,
-      "f": 0,
-      "a": 0,
-      "diff": 0,
+      "pts": 1,
+      "f": 28,
+      "a": 29,
+      "diff": -1,
       "tries": 0,
-      "rowIndex": 5
+      "rowIndex": 4
      },
      "form": {
-      "played": 4,
+      "played": 5,
       "w": 1,
       "d": 0,
-      "l": 3,
-      "pf": 61,
-      "pa": 106,
-      "avgMargin": -11.2,
-      "winRate": 0.25,
+      "l": 4,
+      "pf": 89,
+      "pa": 135,
+      "avgMargin": -9.2,
+      "winRate": 0.2,
       "last5": [
+       {
+        "team": "Waterpark RFC 1st XV",
+        "opponent": "Ballincollig RFC 2nd XV",
+        "oppKey": "ballincollig rfc 2nd xv",
+        "pf": 28,
+        "pa": 29,
+        "margin": -1,
+        "outcome": "L",
+        "date": "2026-10-18",
+        "venue": "Tanner Park",
+        "comp": "Womens Division 2B",
+        "compId": "218360",
+        "home": true
+       },
        {
         "team": "Waterpark RFC 1st XV",
         "opponent": "Castleisland RFC 1st XV",
@@ -5873,60 +6212,89 @@
        }
       ]
      },
-     "headToHead": [],
+     "headToHead": [
+      {
+       "date": "2026-10-18",
+       "comp": "Womens Division 2B",
+       "compId": "218360",
+       "compUrl": "https://munsterrugby.sportlomo.com/league/218360/",
+       "ourTeam": "Ballincollig RFC 2nd XV",
+       "opponent": "Waterpark RFC 1st XV",
+       "pf": 29,
+       "pa": 28,
+       "triesFor": 5,
+       "triesAgainst": 0,
+       "venue": "Tanner Park",
+       "home": true,
+       "round": null,
+       "outcome": "W"
+      }
+     ],
      "nextMeeting": {
-      "date": "2026-10-18",
+      "date": "2027-01-10",
       "time": "13:00",
       "comp": "Womens Division 2B",
       "compId": "218360",
       "compUrl": "https://munsterrugby.sportlomo.com/league/218360/",
       "ourTeam": "Ballincollig RFC 2nd XV",
       "opponent": "Waterpark RFC 1st XV",
-      "venue": "Tanner Park",
-      "home": true,
+      "venue": "Ballinakill",
+      "home": false,
       "round": null,
       "rating": {
        "band": "green",
-       "score": 0.833,
-       "confidence": "low",
+       "score": 0.31,
+       "confidence": "medium",
        "signals": [
+        {
+         "label": "League form",
+         "weight": 0.25,
+         "value": 0.375,
+         "detail": "2.5 vs 1.0 league points per game"
+        },
         {
          "label": "Recent form",
          "weight": 0.2,
-         "value": 1,
-         "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 1W-0D-3L (-11 avg over 4)"
+         "value": 0.633,
+         "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 1W-0D-4L (-9 avg over 5)"
         },
         {
          "label": "Venue",
          "weight": 0.1,
-         "value": 0.5,
-         "detail": "At Tanner Park"
+         "value": -0.5,
+         "detail": "Away at Ballinakill"
         }
        ],
        "commonOpponents": [],
-       "summary": "Ballincollig should be favourites. Based on limited data so far."
+       "summary": "Ballincollig should be favourites."
       }
      },
      "rating": {
       "band": "green",
-      "score": 0.833,
-      "confidence": "low",
+      "score": 0.31,
+      "confidence": "medium",
       "signals": [
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": 0.375,
+        "detail": "2.5 vs 1.0 league points per game"
+       },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": 1,
-        "detail": "Ballincollig 3W-0D-0L (+28 avg over 3), opponent 1W-0D-3L (-11 avg over 4)"
+        "value": 0.633,
+        "detail": "Ballincollig 4W-0D-1L (+10 avg over 5), opponent 1W-0D-4L (-9 avg over 5)"
        },
        {
         "label": "Venue",
         "weight": 0.1,
-        "value": 0.5,
-        "detail": "At Tanner Park"
+        "value": -0.5,
+        "detail": "Away at Ballinakill"
        }
       ],
       "commonOpponents": [],
-      "summary": "Ballincollig should be favourites. Based on limited data so far."
+      "summary": "Ballincollig should be favourites."
      }
     }
    ]
@@ -5957,84 +6325,14 @@
     }
    ],
    "record": {
-    "p": 7,
-    "w": 3,
+    "p": 8,
+    "w": 4,
     "d": 0,
     "l": 4,
-    "pf": 165,
+    "pf": 182,
     "pa": 194
    },
    "fixtures": [
-    {
-     "date": "2026-10-23",
-     "time": "20:00",
-     "comp": "Boys Clubs U18.5 Munster Conference 5",
-     "compId": "219967",
-     "compUrl": "https://munsterrugby.sportlomo.com/league/219967/",
-     "ourTeam": "Ballincollig RFC",
-     "opponent": "Bantry Bay-Skibbereen",
-     "venue": "Tanner Park",
-     "home": true,
-     "round": null,
-     "rating": {
-      "band": "green",
-      "score": 0.294,
-      "confidence": "high",
-      "signals": [
-       {
-        "label": "Common opponents",
-        "weight": 0.45,
-        "value": 0.667,
-        "detail": "3 shared opponent(s), average margin swing +20 pts"
-       },
-       {
-        "label": "League form",
-        "weight": 0.25,
-        "value": 0.0,
-        "detail": "1.3 vs 1.3 league points per game"
-       },
-       {
-        "label": "Recent form",
-        "weight": 0.2,
-        "value": -0.28,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 3W-0D-2L (-1 avg over 5)"
-       },
-       {
-        "label": "Venue",
-        "weight": 0.1,
-        "value": 0.5,
-        "detail": "At Tanner Park"
-       }
-      ],
-      "commonOpponents": [
-       {
-        "opponent": "Sundays Well-Carrigaline",
-        "ballincolligMargin": 9,
-        "opponentMargin": 3,
-        "diff": 6,
-        "ballincolligScore": "26-17",
-        "opponentScore": "17-14"
-       },
-       {
-        "opponent": "Bandon RFC",
-        "ballincolligMargin": -9,
-        "opponentMargin": -30,
-        "diff": 21,
-        "ballincolligScore": "24-33",
-        "opponentScore": "0-30"
-       },
-       {
-        "opponent": "Kinsale RFC",
-        "ballincolligMargin": 3,
-        "opponentMargin": -30,
-        "diff": 33,
-        "ballincolligScore": "39-36",
-        "opponentScore": "0-30"
-       }
-      ],
-      "summary": "Ballincollig should be favourites."
-     }
-    },
     {
      "date": "2026-11-07",
      "time": "12:00",
@@ -6048,26 +6346,26 @@
      "round": null,
      "rating": {
       "band": "red",
-      "score": -0.715,
+      "score": -0.685,
       "confidence": "high",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
         "value": -1,
-        "detail": "3 shared opponent(s), average margin swing -34 pts"
+        "detail": "4 shared opponent(s), average margin swing -31 pts"
        },
        {
         "label": "League form",
         "weight": 0.25,
-        "value": -0.667,
-        "detail": "1.3 vs 4.0 league points per game"
+        "value": -0.5,
+        "detail": "2.0 vs 4.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.74,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 4W-0D-1L (+12 avg over 5)"
+        "value": -0.8,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 5W-0D-0L (+19 avg over 5)"
        },
        {
         "label": "Venue",
@@ -6078,6 +6376,14 @@
       ],
       "commonOpponents": [
        {
+        "opponent": "Bantry Bay-Skibbereen",
+        "ballincolligMargin": -25,
+        "opponentMargin": 30,
+        "diff": -55,
+        "ballincolligScore": "14-39",
+        "opponentScore": "30-0"
+       },
+       {
         "opponent": "Clonakilty RFC",
         "ballincolligMargin": -12,
         "opponentMargin": 6,
@@ -6086,12 +6392,12 @@
         "opponentScore": "20-14"
        },
        {
-        "opponent": "Bantry Bay-Skibbereen",
-        "ballincolligMargin": -25,
-        "opponentMargin": 30,
-        "diff": -55,
-        "ballincolligScore": "14-39",
-        "opponentScore": "30-0"
+        "opponent": "Sundays Well-Carrigaline",
+        "ballincolligMargin": 9,
+        "opponentMargin": 31,
+        "diff": -22,
+        "ballincolligScore": "26-17",
+        "opponentScore": "50-19"
        },
        {
         "opponent": "Bandon RFC",
@@ -6118,7 +6424,7 @@
      "round": null,
      "rating": {
       "band": "green",
-      "score": 0.38,
+      "score": 0.423,
       "confidence": "high",
       "signals": [
        {
@@ -6136,8 +6442,8 @@
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.027,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 2W-0D-1L (-9 avg over 3)"
+        "value": 0.19,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 2W-0D-2L (-10 avg over 4)"
        },
        {
         "label": "Venue",
@@ -6177,6 +6483,22 @@
     }
    ],
    "results": [
+    {
+     "date": "2026-10-23",
+     "comp": "Boys Clubs U18.5 Munster Conference 5",
+     "compId": "219967",
+     "compUrl": "https://munsterrugby.sportlomo.com/league/219967/",
+     "ourTeam": "Ballincollig RFC",
+     "opponent": "Bantry Bay-Skibbereen",
+     "pf": 17,
+     "pa": 0,
+     "triesFor": 3,
+     "triesAgainst": 0,
+     "venue": "Tanner Park",
+     "home": true,
+     "round": "4th Round",
+     "outcome": "W"
+    },
     {
      "date": "2026-10-17",
      "comp": "Boys Clubs U18.5 Munster Conference 5",
@@ -6309,10 +6631,24 @@
       {
        "pos": 0,
        "team": "Kinsale RFC",
-       "pld": 3,
-       "w": 3,
+       "pld": 4,
+       "w": 4,
        "d": 0,
        "l": 0,
+       "bp": null,
+       "pts": 16,
+       "f": null,
+       "a": null,
+       "diff": null,
+       "tries": null
+      },
+      {
+       "pos": 0,
+       "team": "Clonakilty RFC",
+       "pld": 4,
+       "w": 3,
+       "d": 0,
+       "l": 1,
        "bp": null,
        "pts": 12,
        "f": null,
@@ -6322,25 +6658,11 @@
       },
       {
        "pos": 0,
-       "team": "Clonakilty RFC",
-       "pld": 3,
-       "w": 2,
-       "d": 0,
-       "l": 1,
-       "bp": null,
-       "pts": 8,
-       "f": null,
-       "a": null,
-       "diff": null,
-       "tries": null
-      },
-      {
-       "pos": 0,
        "team": "Bandon RFC",
-       "pld": 3,
+       "pld": 4,
        "w": 2,
        "d": 0,
-       "l": 1,
+       "l": 2,
        "bp": null,
        "pts": 8,
        "f": null,
@@ -6351,12 +6673,12 @@
       {
        "pos": 0,
        "team": "Ballincollig RFC",
-       "pld": 3,
-       "w": 1,
+       "pld": 4,
+       "w": 2,
        "d": 0,
        "l": 2,
        "bp": null,
-       "pts": 4,
+       "pts": 8,
        "f": null,
        "a": null,
        "diff": null,
@@ -6365,10 +6687,10 @@
       {
        "pos": 0,
        "team": "Bantry Bay-Skibbereen",
-       "pld": 3,
+       "pld": 4,
        "w": 1,
        "d": 0,
-       "l": 2,
+       "l": 3,
        "bp": null,
        "pts": 4,
        "f": null,
@@ -6379,10 +6701,10 @@
       {
        "pos": 0,
        "team": "Sundays Well-Carrigaline",
-       "pld": 3,
+       "pld": 4,
        "w": 0,
        "d": 0,
-       "l": 3,
+       "l": 4,
        "bp": null,
        "pts": 0,
        "f": null,
@@ -6480,10 +6802,10 @@
      "tableRow": {
       "pos": 0,
       "team": "Bandon RFC",
-      "pld": 3,
+      "pld": 4,
       "w": 2,
       "d": 0,
-      "l": 1,
+      "l": 2,
       "bp": null,
       "pts": 8,
       "f": null,
@@ -6493,15 +6815,29 @@
       "rowIndex": 3
      },
      "form": {
-      "played": 4,
+      "played": 5,
       "w": 2,
       "d": 0,
-      "l": 2,
-      "pf": 87,
-      "pa": 77,
-      "avgMargin": 2.5,
-      "winRate": 0.5,
+      "l": 3,
+      "pf": 92,
+      "pa": 99,
+      "avgMargin": -1.4,
+      "winRate": 0.4,
       "last5": [
+       {
+        "team": "Bandon RFC",
+        "opponent": "Clonakilty RFC",
+        "oppKey": "clonakilty rfc",
+        "pf": 5,
+        "pa": 22,
+        "margin": -17,
+        "outcome": "L",
+        "date": "2026-10-24",
+        "venue": "Bandon",
+        "comp": "Boys Clubs U18.5 Munster Conference 5",
+        "compId": "219967",
+        "home": false
+       },
        {
         "team": "Bandon RFC",
         "opponent": "Kinsale RFC",
@@ -6580,27 +6916,27 @@
      ],
      "nextMeeting": null,
      "rating": {
-      "band": "red",
-      "score": -0.45,
+      "band": "yellow",
+      "score": -0.175,
       "confidence": "high",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
-        "value": -0.533,
-        "detail": "2 shared opponent(s), average margin swing -16 pts"
+        "value": -0.3,
+        "detail": "3 shared opponent(s), average margin swing -9 pts"
        },
        {
         "label": "League form",
         "weight": 0.25,
-        "value": -0.333,
-        "detail": "1.3 vs 2.7 league points per game"
+        "value": 0.0,
+        "detail": "2.0 vs 2.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.41,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 2W-0D-2L (+2 avg over 4)"
+        "value": -0.113,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 2W-0D-3L (-1 avg over 5)"
        }
       ],
       "commonOpponents": [
@@ -6613,6 +6949,14 @@
         "opponentScore": "30-0"
        },
        {
+        "opponent": "Clonakilty RFC",
+        "ballincolligMargin": -12,
+        "opponentMargin": -17,
+        "diff": 5,
+        "ballincolligScore": "22-34",
+        "opponentScore": "5-22"
+       },
+       {
         "opponent": "Kinsale RFC",
         "ballincolligMargin": 3,
         "opponentMargin": -20,
@@ -6621,7 +6965,7 @@
         "opponentScore": "14-34"
        }
       ],
-      "summary": "A hard one. Expect to be underdogs."
+      "summary": "Line ball. Could go either way."
      }
     },
     {
@@ -6631,10 +6975,10 @@
      "tableRow": {
       "pos": 0,
       "team": "Bantry Bay-Skibbereen",
-      "pld": 3,
+      "pld": 4,
       "w": 1,
       "d": 0,
-      "l": 2,
+      "l": 3,
       "bp": null,
       "pts": 4,
       "f": null,
@@ -6645,14 +6989,28 @@
      },
      "form": {
       "played": 5,
-      "w": 3,
+      "w": 2,
       "d": 0,
-      "l": 2,
-      "pf": 108,
-      "pa": 115,
-      "avgMargin": -1.4,
-      "winRate": 0.6,
+      "l": 3,
+      "pf": 69,
+      "pa": 118,
+      "avgMargin": -9.8,
+      "winRate": 0.4,
       "last5": [
+       {
+        "team": "Bantry Bay-Skibbereen",
+        "opponent": "Ballincollig RFC",
+        "oppKey": "ballincollig rfc",
+        "pf": 0,
+        "pa": 17,
+        "margin": -17,
+        "outcome": "L",
+        "date": "2026-10-23",
+        "venue": "Tanner Park",
+        "comp": "Boys Clubs U18.5 Munster Conference 5",
+        "compId": "219967",
+        "home": true
+       },
        {
         "team": "Bantry Bay-Skibbereen",
         "opponent": "Sundays Well-Carrigaline",
@@ -6708,97 +7066,31 @@
         "comp": "Girls Clubs U18.5 Friendly",
         "compId": "216134",
         "home": true
-       },
-       {
-        "team": "Bantry Bay-Skibbereen",
-        "opponent": "Ballincollig RFC",
-        "oppKey": "ballincollig rfc",
-        "pf": 39,
-        "pa": 14,
-        "margin": 25,
-        "outcome": "W",
-        "date": "2026-09-20",
-        "venue": "Skibbereen",
-        "comp": "Girls Clubs U16 Friendly",
-        "compId": "216132",
-        "home": false
        }
       ]
      },
-     "headToHead": [],
-     "nextMeeting": {
-      "date": "2026-10-23",
-      "time": "20:00",
-      "comp": "Boys Clubs U18.5 Munster Conference 5",
-      "compId": "219967",
-      "compUrl": "https://munsterrugby.sportlomo.com/league/219967/",
-      "ourTeam": "Ballincollig RFC",
-      "opponent": "Bantry Bay-Skibbereen",
-      "venue": "Tanner Park",
-      "home": true,
-      "round": null,
-      "rating": {
-       "band": "green",
-       "score": 0.294,
-       "confidence": "high",
-       "signals": [
-        {
-         "label": "Common opponents",
-         "weight": 0.45,
-         "value": 0.667,
-         "detail": "3 shared opponent(s), average margin swing +20 pts"
-        },
-        {
-         "label": "League form",
-         "weight": 0.25,
-         "value": 0.0,
-         "detail": "1.3 vs 1.3 league points per game"
-        },
-        {
-         "label": "Recent form",
-         "weight": 0.2,
-         "value": -0.28,
-         "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 3W-0D-2L (-1 avg over 5)"
-        },
-        {
-         "label": "Venue",
-         "weight": 0.1,
-         "value": 0.5,
-         "detail": "At Tanner Park"
-        }
-       ],
-       "commonOpponents": [
-        {
-         "opponent": "Sundays Well-Carrigaline",
-         "ballincolligMargin": 9,
-         "opponentMargin": 3,
-         "diff": 6,
-         "ballincolligScore": "26-17",
-         "opponentScore": "17-14"
-        },
-        {
-         "opponent": "Bandon RFC",
-         "ballincolligMargin": -9,
-         "opponentMargin": -30,
-         "diff": 21,
-         "ballincolligScore": "24-33",
-         "opponentScore": "0-30"
-        },
-        {
-         "opponent": "Kinsale RFC",
-         "ballincolligMargin": 3,
-         "opponentMargin": -30,
-         "diff": 33,
-         "ballincolligScore": "39-36",
-         "opponentScore": "0-30"
-        }
-       ],
-       "summary": "Ballincollig should be favourites."
+     "headToHead": [
+      {
+       "date": "2026-10-23",
+       "comp": "Boys Clubs U18.5 Munster Conference 5",
+       "compId": "219967",
+       "compUrl": "https://munsterrugby.sportlomo.com/league/219967/",
+       "ourTeam": "Ballincollig RFC",
+       "opponent": "Bantry Bay-Skibbereen",
+       "pf": 17,
+       "pa": 0,
+       "triesFor": 3,
+       "triesAgainst": 0,
+       "venue": "Tanner Park",
+       "home": true,
+       "round": "4th Round",
+       "outcome": "W"
       }
-     },
+     ],
+     "nextMeeting": null,
      "rating": {
       "band": "green",
-      "score": 0.294,
+      "score": 0.44,
       "confidence": "high",
       "signals": [
        {
@@ -6810,20 +7102,14 @@
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 0.0,
-        "detail": "1.3 vs 1.3 league points per game"
+        "value": 0.25,
+        "detail": "2.0 vs 1.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.28,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 3W-0D-2L (-1 avg over 5)"
-       },
-       {
-        "label": "Venue",
-        "weight": 0.1,
-        "value": 0.5,
-        "detail": "At Tanner Park"
+        "value": 0.167,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 2W-0D-3L (-10 avg over 5)"
        }
       ],
       "commonOpponents": [
@@ -6862,12 +7148,12 @@
      "tableRow": {
       "pos": 0,
       "team": "Clonakilty RFC",
-      "pld": 3,
-      "w": 2,
+      "pld": 4,
+      "w": 3,
       "d": 0,
       "l": 1,
       "bp": null,
-      "pts": 8,
+      "pts": 12,
       "f": null,
       "a": null,
       "diff": null,
@@ -6876,14 +7162,28 @@
      },
      "form": {
       "played": 5,
-      "w": 2,
+      "w": 3,
       "d": 0,
-      "l": 3,
-      "pf": 103,
-      "pa": 117,
-      "avgMargin": -2.8,
-      "winRate": 0.4,
+      "l": 2,
+      "pf": 115,
+      "pa": 89,
+      "avgMargin": 5.2,
+      "winRate": 0.6,
       "last5": [
+       {
+        "team": "Clonakilty RFC",
+        "opponent": "Bandon RFC",
+        "oppKey": "bandon rfc",
+        "pf": 22,
+        "pa": 5,
+        "margin": 17,
+        "outcome": "W",
+        "date": "2026-10-24",
+        "venue": "Bandon",
+        "comp": "Boys Clubs U18.5 Munster Conference 5",
+        "compId": "219967",
+        "home": false
+       },
        {
         "team": "Clonakilty RFC",
         "opponent": "Ballincollig RFC",
@@ -6939,20 +7239,6 @@
         "comp": "Boys Clubs U18.5 Munster Conference 5",
         "compId": "219967",
         "home": false
-       },
-       {
-        "team": "Clonakilty RFC",
-        "opponent": "Ballincollig RFC",
-        "oppKey": "ballincollig rfc",
-        "pf": 10,
-        "pa": 33,
-        "margin": -23,
-        "outcome": "L",
-        "date": "2026-10-02",
-        "venue": "The Vale",
-        "comp": "Boys Clubs U13 Friendly",
-        "compId": "216124",
-        "home": false
        }
       ]
      },
@@ -6977,29 +7263,37 @@
      "nextMeeting": null,
      "rating": {
       "band": "red",
-      "score": -0.269,
+      "score": -0.235,
       "confidence": "high",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
-        "value": -0.25,
-        "detail": "2 shared opponent(s), average margin swing -8 pts"
+        "value": -0.183,
+        "detail": "4 shared opponent(s), average margin swing -6 pts"
        },
        {
         "label": "League form",
         "weight": 0.25,
-        "value": -0.333,
-        "detail": "1.3 vs 2.7 league points per game"
+        "value": -0.25,
+        "detail": "2.0 vs 3.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.233,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 2W-0D-3L (-3 avg over 5)"
+        "value": -0.333,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 3W-0D-2L (+5 avg over 5)"
        }
       ],
       "commonOpponents": [
+       {
+        "opponent": "Cork Constitution FC White",
+        "ballincolligMargin": -11,
+        "opponentMargin": -30,
+        "diff": 19,
+        "ballincolligScore": "10-21",
+        "opponentScore": "0-30"
+       },
        {
         "opponent": "Sundays Well-Carrigaline",
         "ballincolligMargin": 9,
@@ -7007,6 +7301,14 @@
         "diff": -24,
         "ballincolligScore": "26-17",
         "opponentScore": "50-17"
+       },
+       {
+        "opponent": "Bandon RFC",
+        "ballincolligMargin": -9,
+        "opponentMargin": 17,
+        "diff": -26,
+        "ballincolligScore": "24-33",
+        "opponentScore": "22-5"
        },
        {
         "opponent": "Kinsale RFC",
@@ -7041,14 +7343,28 @@
      },
      "form": {
       "played": 5,
-      "w": 2,
+      "w": 3,
       "d": 0,
-      "l": 3,
-      "pf": 117,
-      "pa": 95,
-      "avgMargin": 4.4,
-      "winRate": 0.4,
+      "l": 2,
+      "pf": 138,
+      "pa": 96,
+      "avgMargin": 8.4,
+      "winRate": 0.6,
       "last5": [
+       {
+        "team": "Crosshaven/Cork Con",
+        "opponent": "Highfield RFC",
+        "oppKey": "highfield rfc",
+        "pf": 38,
+        "pa": 27,
+        "margin": 11,
+        "outcome": "W",
+        "date": "2026-10-28",
+        "venue": "Temple Hill",
+        "comp": "Boys Clubs U16 Munster Conference 7",
+        "compId": "219998",
+        "home": false
+       },
        {
         "team": "Crosshaven/Cork Con",
         "opponent": "Mallow RFC",
@@ -7104,20 +7420,6 @@
         "comp": "Boys Clubs U16 South Munster League Group 4",
         "compId": "219627",
         "home": false
-       },
-       {
-        "team": "Crosshaven/Cork Con",
-        "opponent": "Ballincollig RFC",
-        "oppKey": "ballincollig rfc",
-        "pf": 17,
-        "pa": 26,
-        "margin": -9,
-        "outcome": "L",
-        "date": "2026-09-19",
-        "venue": "Crosshaven",
-        "comp": "Boys Clubs U18.5 South Munster League Group 3",
-        "compId": "219620",
-        "home": false
        }
       ]
      },
@@ -7142,14 +7444,14 @@
      "nextMeeting": null,
      "rating": {
       "band": "yellow",
-      "score": 0.184,
+      "score": 0.058,
       "confidence": "high",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
-        "value": 0.3,
-        "detail": "2 shared opponent(s), average margin swing +9 pts"
+        "value": 0.033,
+        "detail": "2 shared opponent(s), average margin swing +1 pts"
        },
        {
         "label": "League form",
@@ -7160,18 +7462,18 @@
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.473,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 2W-0D-3L (+4 avg over 5)"
+        "value": -0.44,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 3W-0D-2L (+8 avg over 5)"
        }
       ],
       "commonOpponents": [
        {
         "opponent": "Highfield RFC",
         "ballincolligMargin": 13,
-        "opponentMargin": -5,
-        "diff": 18,
+        "opponentMargin": 11,
+        "diff": 2,
         "ballincolligScore": "20-7",
-        "opponentScore": "12-17"
+        "opponentScore": "38-27"
        },
        {
         "opponent": "Cobh Pirates RFC",
@@ -7307,7 +7609,7 @@
      "nextMeeting": null,
      "rating": {
       "band": "green",
-      "score": 0.262,
+      "score": 0.299,
       "confidence": "high",
       "signals": [
        {
@@ -7325,8 +7627,8 @@
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.447,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 3W-0D-2L (+4 avg over 5)"
+        "value": -0.28,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 3W-0D-2L (+4 avg over 5)"
        }
       ],
       "commonOpponents": [
@@ -7349,12 +7651,12 @@
      "tableRow": {
       "pos": 0,
       "team": "Kinsale RFC",
-      "pld": 3,
-      "w": 3,
+      "pld": 4,
+      "w": 4,
       "d": 0,
       "l": 0,
       "bp": null,
-      "pts": 12,
+      "pts": 16,
       "f": null,
       "a": null,
       "diff": null,
@@ -7363,14 +7665,28 @@
      },
      "form": {
       "played": 5,
-      "w": 4,
+      "w": 5,
       "d": 0,
-      "l": 1,
-      "pf": 139,
-      "pa": 77,
-      "avgMargin": 12.4,
-      "winRate": 0.8,
+      "l": 0,
+      "pf": 153,
+      "pa": 57,
+      "avgMargin": 19.2,
+      "winRate": 1.0,
       "last5": [
+       {
+        "team": "Kinsale RFC",
+        "opponent": "Sundays Well-Carrigaline",
+        "oppKey": "sundays well carrigaline",
+        "pf": 50,
+        "pa": 19,
+        "margin": 31,
+        "outcome": "W",
+        "date": "2026-10-23",
+        "venue": "Kinsale",
+        "comp": "Boys Clubs U18.5 Munster Conference 5",
+        "compId": "219967",
+        "home": false
+       },
        {
         "team": "Kinsale RFC",
         "opponent": "Bandon RFC",
@@ -7426,20 +7742,6 @@
         "comp": "Boys Clubs U18.5 Munster Conference 5",
         "compId": "219967",
         "home": false
-       },
-       {
-        "team": "Kinsale RFC",
-        "opponent": "Ballincollig RFC",
-        "oppKey": "ballincollig rfc",
-        "pf": 36,
-        "pa": 39,
-        "margin": -3,
-        "outcome": "L",
-        "date": "2026-09-25",
-        "venue": "Kinsale",
-        "comp": "Boys Clubs U13 Friendly",
-        "compId": "216124",
-        "home": false
        }
       ]
      },
@@ -7457,26 +7759,26 @@
       "round": null,
       "rating": {
        "band": "red",
-       "score": -0.715,
+       "score": -0.685,
        "confidence": "high",
        "signals": [
         {
          "label": "Common opponents",
          "weight": 0.45,
          "value": -1,
-         "detail": "3 shared opponent(s), average margin swing -34 pts"
+         "detail": "4 shared opponent(s), average margin swing -31 pts"
         },
         {
          "label": "League form",
          "weight": 0.25,
-         "value": -0.667,
-         "detail": "1.3 vs 4.0 league points per game"
+         "value": -0.5,
+         "detail": "2.0 vs 4.0 league points per game"
         },
         {
          "label": "Recent form",
          "weight": 0.2,
-         "value": -0.74,
-         "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 4W-0D-1L (+12 avg over 5)"
+         "value": -0.8,
+         "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 5W-0D-0L (+19 avg over 5)"
         },
         {
          "label": "Venue",
@@ -7487,6 +7789,14 @@
        ],
        "commonOpponents": [
         {
+         "opponent": "Bantry Bay-Skibbereen",
+         "ballincolligMargin": -25,
+         "opponentMargin": 30,
+         "diff": -55,
+         "ballincolligScore": "14-39",
+         "opponentScore": "30-0"
+        },
+        {
          "opponent": "Clonakilty RFC",
          "ballincolligMargin": -12,
          "opponentMargin": 6,
@@ -7495,12 +7805,12 @@
          "opponentScore": "20-14"
         },
         {
-         "opponent": "Bantry Bay-Skibbereen",
-         "ballincolligMargin": -25,
-         "opponentMargin": 30,
-         "diff": -55,
-         "ballincolligScore": "14-39",
-         "opponentScore": "30-0"
+         "opponent": "Sundays Well-Carrigaline",
+         "ballincolligMargin": 9,
+         "opponentMargin": 31,
+         "diff": -22,
+         "ballincolligScore": "26-17",
+         "opponentScore": "50-19"
         },
         {
          "opponent": "Bandon RFC",
@@ -7516,26 +7826,26 @@
      },
      "rating": {
       "band": "red",
-      "score": -0.715,
+      "score": -0.685,
       "confidence": "high",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
         "value": -1,
-        "detail": "3 shared opponent(s), average margin swing -34 pts"
+        "detail": "4 shared opponent(s), average margin swing -31 pts"
        },
        {
         "label": "League form",
         "weight": 0.25,
-        "value": -0.667,
-        "detail": "1.3 vs 4.0 league points per game"
+        "value": -0.5,
+        "detail": "2.0 vs 4.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.74,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 4W-0D-1L (+12 avg over 5)"
+        "value": -0.8,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 5W-0D-0L (+19 avg over 5)"
        },
        {
         "label": "Venue",
@@ -7546,6 +7856,14 @@
       ],
       "commonOpponents": [
        {
+        "opponent": "Bantry Bay-Skibbereen",
+        "ballincolligMargin": -25,
+        "opponentMargin": 30,
+        "diff": -55,
+        "ballincolligScore": "14-39",
+        "opponentScore": "30-0"
+       },
+       {
         "opponent": "Clonakilty RFC",
         "ballincolligMargin": -12,
         "opponentMargin": 6,
@@ -7554,12 +7872,12 @@
         "opponentScore": "20-14"
        },
        {
-        "opponent": "Bantry Bay-Skibbereen",
-        "ballincolligMargin": -25,
-        "opponentMargin": 30,
-        "diff": -55,
-        "ballincolligScore": "14-39",
-        "opponentScore": "30-0"
+        "opponent": "Sundays Well-Carrigaline",
+        "ballincolligMargin": 9,
+        "opponentMargin": 31,
+        "diff": -22,
+        "ballincolligScore": "26-17",
+        "opponentScore": "50-19"
        },
        {
         "opponent": "Bandon RFC",
@@ -7593,15 +7911,29 @@
       "rowIndex": 4
      },
      "form": {
-      "played": 3,
+      "played": 4,
       "w": 2,
       "d": 0,
-      "l": 1,
-      "pf": 64,
-      "pa": 91,
-      "avgMargin": -9.0,
-      "winRate": 0.667,
+      "l": 2,
+      "pf": 79,
+      "pa": 121,
+      "avgMargin": -10.5,
+      "winRate": 0.5,
       "last5": [
+       {
+        "team": "Muskerry RFC",
+        "opponent": "Ballincollig RFC White",
+        "oppKey": "ballincollig rfc white",
+        "pf": 15,
+        "pa": 30,
+        "margin": -15,
+        "outcome": "L",
+        "date": "2026-10-24",
+        "venue": "Ballyanly",
+        "comp": "Boys Clubs U16 Munster Conference 7",
+        "compId": "219998",
+        "home": false
+       },
        {
         "team": "Muskerry RFC",
         "opponent": "Highfield RFC",
@@ -7660,7 +7992,7 @@
       "round": null,
       "rating": {
        "band": "green",
-       "score": 0.38,
+       "score": 0.423,
        "confidence": "high",
        "signals": [
         {
@@ -7678,8 +8010,8 @@
         {
          "label": "Recent form",
          "weight": 0.2,
-         "value": -0.027,
-         "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 2W-0D-1L (-9 avg over 3)"
+         "value": 0.19,
+         "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 2W-0D-2L (-10 avg over 4)"
         },
         {
          "label": "Venue",
@@ -7719,7 +8051,7 @@
      },
      "rating": {
       "band": "green",
-      "score": 0.38,
+      "score": 0.423,
       "confidence": "high",
       "signals": [
        {
@@ -7737,8 +8069,8 @@
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.027,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 2W-0D-1L (-9 avg over 3)"
+        "value": 0.19,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 2W-0D-2L (-10 avg over 4)"
        },
        {
         "label": "Venue",
@@ -7858,14 +8190,14 @@
      "nextMeeting": null,
      "rating": {
       "band": "red",
-      "score": -0.643,
+      "score": -0.477,
       "confidence": "low",
       "signals": [
        {
         "label": "Recent form",
         "weight": 0.133,
-        "value": -0.643,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 1W-0D-1L (+10 avg over 2)"
+        "value": -0.477,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 1W-0D-1L (+10 avg over 2)"
        }
       ],
       "commonOpponents": [],
@@ -7879,10 +8211,10 @@
      "tableRow": {
       "pos": 0,
       "team": "Sundays Well-Carrigaline",
-      "pld": 3,
+      "pld": 4,
       "w": 0,
       "d": 0,
-      "l": 3,
+      "l": 4,
       "bp": null,
       "pts": 0,
       "f": null,
@@ -7892,15 +8224,29 @@
       "rowIndex": 6
      },
      "form": {
-      "played": 3,
+      "played": 4,
       "w": 0,
       "d": 0,
-      "l": 3,
-      "pf": 48,
-      "pa": 93,
-      "avgMargin": -15.0,
+      "l": 4,
+      "pf": 67,
+      "pa": 143,
+      "avgMargin": -19.0,
       "winRate": 0.0,
       "last5": [
+       {
+        "team": "Sundays Well-Carrigaline",
+        "opponent": "Kinsale RFC",
+        "oppKey": "kinsale rfc",
+        "pf": 19,
+        "pa": 50,
+        "margin": -31,
+        "outcome": "L",
+        "date": "2026-10-23",
+        "venue": "Kinsale",
+        "comp": "Boys Clubs U18.5 Munster Conference 5",
+        "compId": "219967",
+        "home": false
+       },
        {
         "team": "Sundays Well-Carrigaline",
         "opponent": "Bantry Bay-Skibbereen",
@@ -7965,30 +8311,38 @@
      ],
      "nextMeeting": null,
      "rating": {
-      "band": "yellow",
-      "score": 0.123,
+      "band": "green",
+      "score": 0.427,
       "confidence": "high",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
-        "value": -0.017,
-        "detail": "2 shared opponent(s), average margin swing -0 pts"
+        "value": 0.367,
+        "detail": "3 shared opponent(s), average margin swing +11 pts"
        },
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 0.333,
-        "detail": "1.3 vs 0.0 league points per game"
+        "value": 0.5,
+        "detail": "2.0 vs 0.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": 0.173,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 0W-0D-3L (-15 avg over 3)"
+        "value": 0.473,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 0W-0D-4L (-19 avg over 4)"
        }
       ],
       "commonOpponents": [
+       {
+        "opponent": "Bantry Bay-Skibbereen",
+        "ballincolligMargin": -25,
+        "opponentMargin": -3,
+        "diff": -22,
+        "ballincolligScore": "14-39",
+        "opponentScore": "14-17"
+       },
        {
         "opponent": "Clonakilty RFC",
         "ballincolligMargin": -12,
@@ -7998,15 +8352,15 @@
         "opponentScore": "17-50"
        },
        {
-        "opponent": "Bantry Bay-Skibbereen",
-        "ballincolligMargin": -25,
-        "opponentMargin": -3,
-        "diff": -22,
-        "ballincolligScore": "14-39",
-        "opponentScore": "14-17"
+        "opponent": "Kinsale RFC",
+        "ballincolligMargin": 3,
+        "opponentMargin": -31,
+        "diff": 34,
+        "ballincolligScore": "39-36",
+        "opponentScore": "19-50"
        }
       ],
-      "summary": "Line ball. Could go either way."
+      "summary": "Ballincollig should be favourites."
      }
     }
    ]
@@ -8079,8 +8433,8 @@
      }
     },
     {
-     "date": "2026-10-24",
-     "time": "12:00",
+     "date": "2026-10-28",
+     "time": "19:30",
      "comp": "Boys Clubs U16 Munster 15 S",
      "compId": "219989",
      "compUrl": "https://munsterrugby.sportlomo.com/league/219989/",
@@ -8683,8 +9037,8 @@
      },
      "headToHead": [],
      "nextMeeting": {
-      "date": "2026-10-24",
-      "time": "12:00",
+      "date": "2026-10-28",
+      "time": "19:30",
       "comp": "Boys Clubs U16 Munster 15 S",
       "compId": "219989",
       "compUrl": "https://munsterrugby.sportlomo.com/league/219989/",
@@ -9551,84 +9905,14 @@
     }
    ],
    "record": {
-    "p": 5,
-    "w": 2,
+    "p": 6,
+    "w": 3,
     "d": 0,
     "l": 3,
-    "pf": 102,
-    "pa": 99
+    "pf": 132,
+    "pa": 114
    },
    "fixtures": [
-    {
-     "date": "2026-10-24",
-     "time": "14:00",
-     "comp": "Boys Clubs U16 Munster Conference 7",
-     "compId": "219998",
-     "compUrl": "https://munsterrugby.sportlomo.com/league/219998/",
-     "ourTeam": "Ballincollig RFC White",
-     "opponent": "Muskerry RFC",
-     "venue": "Ballyanly",
-     "home": false,
-     "round": null,
-     "rating": {
-      "band": "yellow",
-      "score": 0.046,
-      "confidence": "high",
-      "signals": [
-       {
-        "label": "Common opponents",
-        "weight": 0.45,
-        "value": 0.256,
-        "detail": "3 shared opponent(s), average margin swing +8 pts"
-       },
-       {
-        "label": "League form",
-        "weight": 0.25,
-        "value": -0.333,
-        "detail": "2.7 vs 4.0 league points per game"
-       },
-       {
-        "label": "Recent form",
-        "weight": 0.2,
-        "value": 0.32,
-        "detail": "Ballincollig 2W-0D-3L (+1 avg over 5), opponent 2W-0D-1L (-9 avg over 3)"
-       },
-       {
-        "label": "Venue",
-        "weight": 0.1,
-        "value": -0.5,
-        "detail": "Away at Ballyanly"
-       }
-      ],
-      "commonOpponents": [
-       {
-        "opponent": "Kanturk RFC",
-        "ballincolligMargin": 30,
-        "opponentMargin": -32,
-        "diff": 62,
-        "ballincolligScore": "35-5",
-        "opponentScore": "14-46"
-       },
-       {
-        "opponent": "Crosshaven/Cork Con",
-        "ballincolligMargin": -31,
-        "opponentMargin": 2,
-        "diff": -33,
-        "ballincolligScore": "26-57",
-        "opponentScore": "19-17"
-       },
-       {
-        "opponent": "Highfield RFC",
-        "ballincolligMargin": -3,
-        "opponentMargin": 3,
-        "diff": -6,
-        "ballincolligScore": "17-20",
-        "opponentScore": "31-28"
-       }
-      ],
-      "summary": "Line ball. Could go either way."
-     }
-    },
     {
      "date": "2026-11-07",
      "time": "12:00",
@@ -9641,27 +9925,27 @@
      "home": true,
      "round": null,
      "rating": {
-      "band": "yellow",
-      "score": -0.086,
+      "band": "green",
+      "score": 0.204,
       "confidence": "high",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
-        "value": -0.311,
-        "detail": "3 shared opponent(s), average margin swing -9 pts"
+        "value": 0.05,
+        "detail": "4 shared opponent(s), average margin swing +2 pts"
        },
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 0.0,
-        "detail": "2.7 vs 2.7 league points per game"
+        "value": 0.25,
+        "detail": "3.0 vs 2.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": 0.02,
-        "detail": "Ballincollig 2W-0D-3L (+1 avg over 5), opponent 2W-0D-3L (+0 avg over 5)"
+        "value": 0.347,
+        "detail": "Ballincollig 3W-0D-2L (+5 avg over 5), opponent 1W-0D-4L (-5 avg over 5)"
        },
        {
         "label": "Venue",
@@ -9671,6 +9955,14 @@
        }
       ],
       "commonOpponents": [
+       {
+        "opponent": "Muskerry RFC",
+        "ballincolligMargin": 15,
+        "opponentMargin": -3,
+        "diff": 18,
+        "ballincolligScore": "30-15",
+        "opponentScore": "28-31"
+       },
        {
         "opponent": "Kanturk RFC",
         "ballincolligMargin": 30,
@@ -9682,10 +9974,10 @@
        {
         "opponent": "Crosshaven/Cork Con",
         "ballincolligMargin": -31,
-        "opponentMargin": 5,
-        "diff": -36,
+        "opponentMargin": -11,
+        "diff": -20,
         "ballincolligScore": "26-57",
-        "opponentScore": "17-12"
+        "opponentScore": "27-38"
        },
        {
         "opponent": "Mallow RFC",
@@ -9696,7 +9988,7 @@
         "opponentScore": "12-7"
        }
       ],
-      "summary": "Line ball. Could go either way."
+      "summary": "Ballincollig should be favourites."
      }
     },
     {
@@ -9712,7 +10004,7 @@
      "round": null,
      "rating": {
       "band": "red",
-      "score": -0.611,
+      "score": -0.582,
       "confidence": "high",
       "signals": [
        {
@@ -9730,8 +10022,8 @@
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": 0.193,
-        "detail": "Ballincollig 2W-0D-3L (+1 avg over 5), opponent 3W-0D-1L (-5 avg over 4)"
+        "value": 0.34,
+        "detail": "Ballincollig 3W-0D-2L (+5 avg over 5), opponent 3W-0D-1L (-5 avg over 4)"
        },
        {
         "label": "Venue",
@@ -9766,14 +10058,14 @@
      "round": null,
      "rating": {
       "band": "yellow",
-      "score": 0.015,
+      "score": -0.008,
       "confidence": "high",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
-        "value": 0.2,
-        "detail": "2 shared opponent(s), average margin swing +6 pts"
+        "value": 0.144,
+        "detail": "3 shared opponent(s), average margin swing +4 pts"
        },
        {
         "label": "League form",
@@ -9784,8 +10076,8 @@
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.127,
-        "detail": "Ballincollig 2W-0D-3L (+1 avg over 5), opponent 2W-0D-3L (+4 avg over 5)"
+        "value": -0.113,
+        "detail": "Ballincollig 3W-0D-2L (+5 avg over 5), opponent 3W-0D-2L (+8 avg over 5)"
        },
        {
         "label": "Venue",
@@ -9795,6 +10087,14 @@
        }
       ],
       "commonOpponents": [
+       {
+        "opponent": "Muskerry RFC",
+        "ballincolligMargin": 15,
+        "opponentMargin": -2,
+        "diff": 17,
+        "ballincolligScore": "30-15",
+        "opponentScore": "17-19"
+       },
        {
         "opponent": "Mallow RFC",
         "ballincolligMargin": 14,
@@ -9806,10 +10106,10 @@
        {
         "opponent": "Highfield RFC",
         "ballincolligMargin": -3,
-        "opponentMargin": -5,
-        "diff": 2,
+        "opponentMargin": 11,
+        "diff": -14,
         "ballincolligScore": "17-20",
-        "opponentScore": "12-17"
+        "opponentScore": "38-27"
        }
       ],
       "summary": "Line ball. Could go either way."
@@ -9817,6 +10117,22 @@
     }
    ],
    "results": [
+    {
+     "date": "2026-10-24",
+     "comp": "Boys Clubs U16 Munster Conference 7",
+     "compId": "219998",
+     "compUrl": "https://munsterrugby.sportlomo.com/league/219998/",
+     "ourTeam": "Ballincollig RFC White",
+     "opponent": "Muskerry RFC",
+     "pf": 30,
+     "pa": 15,
+     "triesFor": 6,
+     "triesAgainst": 3,
+     "venue": "Ballyanly",
+     "home": false,
+     "round": "4th Round",
+     "outcome": "W"
+    },
     {
      "date": "2026-10-16",
      "comp": "Boys Clubs U16 Munster Conference 7",
@@ -9916,13 +10232,13 @@
      "rows": [
       {
        "pos": 0,
-       "team": "Muskerry RFC",
-       "pld": 2,
-       "w": 2,
+       "team": "Crosshaven/Cork Con",
+       "pld": 4,
+       "w": 3,
        "d": 0,
-       "l": 0,
+       "l": 1,
        "bp": null,
-       "pts": 8,
+       "pts": 12,
        "f": null,
        "a": null,
        "diff": null,
@@ -9930,7 +10246,21 @@
       },
       {
        "pos": 0,
-       "team": "Crosshaven/Cork Con",
+       "team": "Ballincollig RFC White",
+       "pld": 4,
+       "w": 3,
+       "d": 0,
+       "l": 1,
+       "bp": null,
+       "pts": 12,
+       "f": null,
+       "a": null,
+       "diff": null,
+       "tries": null
+      },
+      {
+       "pos": 0,
+       "team": "Muskerry RFC",
        "pld": 3,
        "w": 2,
        "d": 0,
@@ -9945,24 +10275,10 @@
       {
        "pos": 0,
        "team": "Highfield RFC",
-       "pld": 3,
+       "pld": 4,
        "w": 2,
        "d": 0,
-       "l": 1,
-       "bp": null,
-       "pts": 8,
-       "f": null,
-       "a": null,
-       "diff": null,
-       "tries": null
-      },
-      {
-       "pos": 0,
-       "team": "Ballincollig RFC White",
-       "pld": 3,
-       "w": 2,
-       "d": 0,
-       "l": 1,
+       "l": 2,
        "bp": null,
        "pts": 8,
        "f": null,
@@ -10196,7 +10512,7 @@
       "round": null,
       "rating": {
        "band": "red",
-       "score": -0.611,
+       "score": -0.582,
        "confidence": "high",
        "signals": [
         {
@@ -10214,8 +10530,8 @@
         {
          "label": "Recent form",
          "weight": 0.2,
-         "value": 0.193,
-         "detail": "Ballincollig 2W-0D-3L (+1 avg over 5), opponent 3W-0D-1L (-5 avg over 4)"
+         "value": 0.34,
+         "detail": "Ballincollig 3W-0D-2L (+5 avg over 5), opponent 3W-0D-1L (-5 avg over 4)"
         },
         {
          "label": "Venue",
@@ -10239,7 +10555,7 @@
      },
      "rating": {
       "band": "red",
-      "score": -0.611,
+      "score": -0.582,
       "confidence": "high",
       "signals": [
        {
@@ -10257,8 +10573,8 @@
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": 0.193,
-        "detail": "Ballincollig 2W-0D-3L (+1 avg over 5), opponent 3W-0D-1L (-5 avg over 4)"
+        "value": 0.34,
+        "detail": "Ballincollig 3W-0D-2L (+5 avg over 5), opponent 3W-0D-1L (-5 avg over 4)"
        },
        {
         "label": "Venue",
@@ -10287,28 +10603,42 @@
      "tableRow": {
       "pos": 0,
       "team": "Crosshaven/Cork Con",
-      "pld": 3,
-      "w": 2,
+      "pld": 4,
+      "w": 3,
       "d": 0,
       "l": 1,
       "bp": null,
-      "pts": 8,
+      "pts": 12,
       "f": null,
       "a": null,
       "diff": null,
       "tries": null,
-      "rowIndex": 2
+      "rowIndex": 1
      },
      "form": {
       "played": 5,
-      "w": 2,
+      "w": 3,
       "d": 0,
-      "l": 3,
-      "pf": 117,
-      "pa": 95,
-      "avgMargin": 4.4,
-      "winRate": 0.4,
+      "l": 2,
+      "pf": 138,
+      "pa": 96,
+      "avgMargin": 8.4,
+      "winRate": 0.6,
       "last5": [
+       {
+        "team": "Crosshaven/Cork Con",
+        "opponent": "Highfield RFC",
+        "oppKey": "highfield rfc",
+        "pf": 38,
+        "pa": 27,
+        "margin": 11,
+        "outcome": "W",
+        "date": "2026-10-28",
+        "venue": "Temple Hill",
+        "comp": "Boys Clubs U16 Munster Conference 7",
+        "compId": "219998",
+        "home": false
+       },
        {
         "team": "Crosshaven/Cork Con",
         "opponent": "Mallow RFC",
@@ -10364,20 +10694,6 @@
         "comp": "Boys Clubs U16 South Munster League Group 4",
         "compId": "219627",
         "home": false
-       },
-       {
-        "team": "Crosshaven/Cork Con",
-        "opponent": "Ballincollig RFC",
-        "oppKey": "ballincollig rfc",
-        "pf": 17,
-        "pa": 26,
-        "margin": -9,
-        "outcome": "L",
-        "date": "2026-09-19",
-        "venue": "Crosshaven",
-        "comp": "Boys Clubs U18.5 South Munster League Group 3",
-        "compId": "219620",
-        "home": false
        }
       ]
      },
@@ -10412,14 +10728,14 @@
       "round": null,
       "rating": {
        "band": "yellow",
-       "score": 0.015,
+       "score": -0.008,
        "confidence": "high",
        "signals": [
         {
          "label": "Common opponents",
          "weight": 0.45,
-         "value": 0.2,
-         "detail": "2 shared opponent(s), average margin swing +6 pts"
+         "value": 0.144,
+         "detail": "3 shared opponent(s), average margin swing +4 pts"
         },
         {
          "label": "League form",
@@ -10430,8 +10746,8 @@
         {
          "label": "Recent form",
          "weight": 0.2,
-         "value": -0.127,
-         "detail": "Ballincollig 2W-0D-3L (+1 avg over 5), opponent 2W-0D-3L (+4 avg over 5)"
+         "value": -0.113,
+         "detail": "Ballincollig 3W-0D-2L (+5 avg over 5), opponent 3W-0D-2L (+8 avg over 5)"
         },
         {
          "label": "Venue",
@@ -10441,6 +10757,14 @@
         }
        ],
        "commonOpponents": [
+        {
+         "opponent": "Muskerry RFC",
+         "ballincolligMargin": 15,
+         "opponentMargin": -2,
+         "diff": 17,
+         "ballincolligScore": "30-15",
+         "opponentScore": "17-19"
+        },
         {
          "opponent": "Mallow RFC",
          "ballincolligMargin": 14,
@@ -10452,10 +10776,10 @@
         {
          "opponent": "Highfield RFC",
          "ballincolligMargin": -3,
-         "opponentMargin": -5,
-         "diff": 2,
+         "opponentMargin": 11,
+         "diff": -14,
          "ballincolligScore": "17-20",
-         "opponentScore": "12-17"
+         "opponentScore": "38-27"
         }
        ],
        "summary": "Line ball. Could go either way."
@@ -10463,14 +10787,14 @@
      },
      "rating": {
       "band": "yellow",
-      "score": 0.015,
+      "score": -0.008,
       "confidence": "high",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
-        "value": 0.2,
-        "detail": "2 shared opponent(s), average margin swing +6 pts"
+        "value": 0.144,
+        "detail": "3 shared opponent(s), average margin swing +4 pts"
        },
        {
         "label": "League form",
@@ -10481,8 +10805,8 @@
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.127,
-        "detail": "Ballincollig 2W-0D-3L (+1 avg over 5), opponent 2W-0D-3L (+4 avg over 5)"
+        "value": -0.113,
+        "detail": "Ballincollig 3W-0D-2L (+5 avg over 5), opponent 3W-0D-2L (+8 avg over 5)"
        },
        {
         "label": "Venue",
@@ -10492,6 +10816,14 @@
        }
       ],
       "commonOpponents": [
+       {
+        "opponent": "Muskerry RFC",
+        "ballincolligMargin": 15,
+        "opponentMargin": -2,
+        "diff": 17,
+        "ballincolligScore": "30-15",
+        "opponentScore": "17-19"
+       },
        {
         "opponent": "Mallow RFC",
         "ballincolligMargin": 14,
@@ -10503,10 +10835,10 @@
        {
         "opponent": "Highfield RFC",
         "ballincolligMargin": -3,
-        "opponentMargin": -5,
-        "diff": 2,
+        "opponentMargin": 11,
+        "diff": -14,
         "ballincolligScore": "17-20",
-        "opponentScore": "12-17"
+        "opponentScore": "38-27"
        }
       ],
       "summary": "Line ball. Could go either way."
@@ -10519,28 +10851,56 @@
      "tableRow": {
       "pos": 0,
       "team": "Highfield RFC",
-      "pld": 3,
+      "pld": 4,
       "w": 2,
       "d": 0,
-      "l": 1,
+      "l": 2,
       "bp": null,
       "pts": 8,
       "f": null,
       "a": null,
       "diff": null,
       "tries": null,
-      "rowIndex": 3
+      "rowIndex": 4
      },
      "form": {
       "played": 5,
-      "w": 2,
+      "w": 1,
       "d": 0,
-      "l": 3,
-      "pf": 88,
-      "pa": 88,
-      "avgMargin": 0.0,
-      "winRate": 0.4,
+      "l": 4,
+      "pf": 81,
+      "pa": 108,
+      "avgMargin": -5.4,
+      "winRate": 0.2,
       "last5": [
+       {
+        "team": "Highfield RFC",
+        "opponent": "Crosshaven/Cork Con",
+        "oppKey": "crosshaven cork con",
+        "pf": 27,
+        "pa": 38,
+        "margin": -11,
+        "outcome": "L",
+        "date": "2026-10-28",
+        "venue": "Temple Hill",
+        "comp": "Boys Clubs U16 Munster Conference 7",
+        "compId": "219998",
+        "home": false
+       },
+       {
+        "team": "Highfield RFC",
+        "opponent": "Dolphin-Sundays Well",
+        "oppKey": "dolphin sundays well",
+        "pf": 7,
+        "pa": 12,
+        "margin": -5,
+        "outcome": "L",
+        "date": "2026-10-23",
+        "venue": "Woodleigh Park",
+        "comp": "Boys Clubs U14 South Munster Dev 2014 Group 2 NC",
+        "compId": "220174",
+        "home": false
+       },
        {
         "team": "Highfield RFC",
         "opponent": "Muskerry RFC",
@@ -10582,34 +10942,6 @@
         "comp": "Boys Clubs U16 Munster Conference 7",
         "compId": "219998",
         "home": false
-       },
-       {
-        "team": "Highfield RFC",
-        "opponent": "Crosshaven RFC",
-        "oppKey": "crosshaven rfc",
-        "pf": 5,
-        "pa": 25,
-        "margin": -20,
-        "outcome": "L",
-        "date": "2026-10-10",
-        "venue": "Crosshaven",
-        "comp": "Boys Clubs U14 South Munster Dev 2014 Group 2 NC",
-        "compId": "220174",
-        "home": false
-       },
-       {
-        "team": "Highfield RFC",
-        "opponent": "Kanturk RFC",
-        "oppKey": "kanturk rfc",
-        "pf": 36,
-        "pa": 5,
-        "margin": 31,
-        "outcome": "W",
-        "date": "2026-10-03",
-        "venue": "Woodleigh Park",
-        "comp": "Boys Clubs U16 Munster Conference 7",
-        "compId": "219998",
-        "home": false
        }
       ]
      },
@@ -10643,27 +10975,27 @@
       "home": true,
       "round": null,
       "rating": {
-       "band": "yellow",
-       "score": -0.086,
+       "band": "green",
+       "score": 0.204,
        "confidence": "high",
        "signals": [
         {
          "label": "Common opponents",
          "weight": 0.45,
-         "value": -0.311,
-         "detail": "3 shared opponent(s), average margin swing -9 pts"
+         "value": 0.05,
+         "detail": "4 shared opponent(s), average margin swing +2 pts"
         },
         {
          "label": "League form",
          "weight": 0.25,
-         "value": 0.0,
-         "detail": "2.7 vs 2.7 league points per game"
+         "value": 0.25,
+         "detail": "3.0 vs 2.0 league points per game"
         },
         {
          "label": "Recent form",
          "weight": 0.2,
-         "value": 0.02,
-         "detail": "Ballincollig 2W-0D-3L (+1 avg over 5), opponent 2W-0D-3L (+0 avg over 5)"
+         "value": 0.347,
+         "detail": "Ballincollig 3W-0D-2L (+5 avg over 5), opponent 1W-0D-4L (-5 avg over 5)"
         },
         {
          "label": "Venue",
@@ -10673,6 +11005,14 @@
         }
        ],
        "commonOpponents": [
+        {
+         "opponent": "Muskerry RFC",
+         "ballincolligMargin": 15,
+         "opponentMargin": -3,
+         "diff": 18,
+         "ballincolligScore": "30-15",
+         "opponentScore": "28-31"
+        },
         {
          "opponent": "Kanturk RFC",
          "ballincolligMargin": 30,
@@ -10684,10 +11024,10 @@
         {
          "opponent": "Crosshaven/Cork Con",
          "ballincolligMargin": -31,
-         "opponentMargin": 5,
-         "diff": -36,
+         "opponentMargin": -11,
+         "diff": -20,
          "ballincolligScore": "26-57",
-         "opponentScore": "17-12"
+         "opponentScore": "27-38"
         },
         {
          "opponent": "Mallow RFC",
@@ -10698,31 +11038,31 @@
          "opponentScore": "12-7"
         }
        ],
-       "summary": "Line ball. Could go either way."
+       "summary": "Ballincollig should be favourites."
       }
      },
      "rating": {
-      "band": "yellow",
-      "score": -0.086,
+      "band": "green",
+      "score": 0.204,
       "confidence": "high",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
-        "value": -0.311,
-        "detail": "3 shared opponent(s), average margin swing -9 pts"
+        "value": 0.05,
+        "detail": "4 shared opponent(s), average margin swing +2 pts"
        },
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 0.0,
-        "detail": "2.7 vs 2.7 league points per game"
+        "value": 0.25,
+        "detail": "3.0 vs 2.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": 0.02,
-        "detail": "Ballincollig 2W-0D-3L (+1 avg over 5), opponent 2W-0D-3L (+0 avg over 5)"
+        "value": 0.347,
+        "detail": "Ballincollig 3W-0D-2L (+5 avg over 5), opponent 1W-0D-4L (-5 avg over 5)"
        },
        {
         "label": "Venue",
@@ -10732,6 +11072,14 @@
        }
       ],
       "commonOpponents": [
+       {
+        "opponent": "Muskerry RFC",
+        "ballincolligMargin": 15,
+        "opponentMargin": -3,
+        "diff": 18,
+        "ballincolligScore": "30-15",
+        "opponentScore": "28-31"
+       },
        {
         "opponent": "Kanturk RFC",
         "ballincolligMargin": 30,
@@ -10743,10 +11091,10 @@
        {
         "opponent": "Crosshaven/Cork Con",
         "ballincolligMargin": -31,
-        "opponentMargin": 5,
-        "diff": -36,
+        "opponentMargin": -11,
+        "diff": -20,
         "ballincolligScore": "26-57",
-        "opponentScore": "17-12"
+        "opponentScore": "27-38"
        },
        {
         "opponent": "Mallow RFC",
@@ -10757,7 +11105,7 @@
         "opponentScore": "12-7"
        }
       ],
-      "summary": "Line ball. Could go either way."
+      "summary": "Ballincollig should be favourites."
      }
     },
     {
@@ -10882,29 +11230,37 @@
      "nextMeeting": null,
      "rating": {
       "band": "green",
-      "score": 0.63,
+      "score": 0.31,
       "confidence": "high",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
-        "value": 0.933,
-        "detail": "1 shared opponent(s), average margin swing +28 pts"
+        "value": 0.183,
+        "detail": "2 shared opponent(s), average margin swing +6 pts"
        },
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 0.667,
-        "detail": "2.7 vs 0.0 league points per game"
+        "value": 0.75,
+        "detail": "3.0 vs 0.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.1,
-        "detail": "Ballincollig 2W-0D-3L (+1 avg over 5), opponent 3W-0D-2L (+4 avg over 5)"
+        "value": 0.047,
+        "detail": "Ballincollig 3W-0D-2L (+5 avg over 5), opponent 3W-0D-2L (+4 avg over 5)"
        }
       ],
       "commonOpponents": [
+       {
+        "opponent": "Muskerry RFC",
+        "ballincolligMargin": 15,
+        "opponentMargin": 32,
+        "diff": -17,
+        "ballincolligScore": "30-15",
+        "opponentScore": "46-14"
+       },
        {
         "opponent": "Highfield RFC",
         "ballincolligMargin": -3,
@@ -11025,7 +11381,7 @@
      "nextMeeting": null,
      "rating": {
       "band": "yellow",
-      "score": 0.054,
+      "score": 0.11,
       "confidence": "high",
       "signals": [
        {
@@ -11037,14 +11393,14 @@
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 0.667,
-        "detail": "2.7 vs 0.0 league points per game"
+        "value": 0.75,
+        "detail": "3.0 vs 0.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": 0.347,
-        "detail": "Ballincollig 2W-0D-3L (+1 avg over 5), opponent 0W-0D-4L (-10 avg over 4)"
+        "value": 0.493,
+        "detail": "Ballincollig 3W-0D-2L (+5 avg over 5), opponent 0W-0D-4L (-10 avg over 4)"
        }
       ],
       "commonOpponents": [
@@ -11162,7 +11518,7 @@
      "nextMeeting": null,
      "rating": {
       "band": "red",
-      "score": -0.621,
+      "score": -0.556,
       "confidence": "low",
       "signals": [
        {
@@ -11174,8 +11530,8 @@
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.147,
-        "detail": "Ballincollig 2W-0D-3L (+1 avg over 5), opponent 2W-0D-1L (+5 avg over 3)"
+        "value": 0.0,
+        "detail": "Ballincollig 3W-0D-2L (+5 avg over 5), opponent 2W-0D-1L (+5 avg over 3)"
        }
       ],
       "commonOpponents": [],
@@ -11189,28 +11545,42 @@
      "tableRow": {
       "pos": 0,
       "team": "Muskerry RFC",
-      "pld": 2,
+      "pld": 3,
       "w": 2,
       "d": 0,
-      "l": 0,
+      "l": 1,
       "bp": null,
       "pts": 8,
       "f": null,
       "a": null,
       "diff": null,
       "tries": null,
-      "rowIndex": 1
+      "rowIndex": 3
      },
      "form": {
-      "played": 3,
+      "played": 4,
       "w": 2,
       "d": 0,
-      "l": 1,
-      "pf": 64,
-      "pa": 91,
-      "avgMargin": -9.0,
-      "winRate": 0.667,
+      "l": 2,
+      "pf": 79,
+      "pa": 121,
+      "avgMargin": -10.5,
+      "winRate": 0.5,
       "last5": [
+       {
+        "team": "Muskerry RFC",
+        "opponent": "Ballincollig RFC White",
+        "oppKey": "ballincollig rfc white",
+        "pf": 15,
+        "pa": 30,
+        "margin": -15,
+        "outcome": "L",
+        "date": "2026-10-24",
+        "venue": "Ballyanly",
+        "comp": "Boys Clubs U16 Munster Conference 7",
+        "compId": "219998",
+        "home": false
+       },
        {
         "team": "Muskerry RFC",
         "opponent": "Highfield RFC",
@@ -11255,80 +11625,28 @@
        }
       ]
      },
-     "headToHead": [],
-     "nextMeeting": {
-      "date": "2026-10-24",
-      "time": "14:00",
-      "comp": "Boys Clubs U16 Munster Conference 7",
-      "compId": "219998",
-      "compUrl": "https://munsterrugby.sportlomo.com/league/219998/",
-      "ourTeam": "Ballincollig RFC White",
-      "opponent": "Muskerry RFC",
-      "venue": "Ballyanly",
-      "home": false,
-      "round": null,
-      "rating": {
-       "band": "yellow",
-       "score": 0.046,
-       "confidence": "high",
-       "signals": [
-        {
-         "label": "Common opponents",
-         "weight": 0.45,
-         "value": 0.256,
-         "detail": "3 shared opponent(s), average margin swing +8 pts"
-        },
-        {
-         "label": "League form",
-         "weight": 0.25,
-         "value": -0.333,
-         "detail": "2.7 vs 4.0 league points per game"
-        },
-        {
-         "label": "Recent form",
-         "weight": 0.2,
-         "value": 0.32,
-         "detail": "Ballincollig 2W-0D-3L (+1 avg over 5), opponent 2W-0D-1L (-9 avg over 3)"
-        },
-        {
-         "label": "Venue",
-         "weight": 0.1,
-         "value": -0.5,
-         "detail": "Away at Ballyanly"
-        }
-       ],
-       "commonOpponents": [
-        {
-         "opponent": "Kanturk RFC",
-         "ballincolligMargin": 30,
-         "opponentMargin": -32,
-         "diff": 62,
-         "ballincolligScore": "35-5",
-         "opponentScore": "14-46"
-        },
-        {
-         "opponent": "Crosshaven/Cork Con",
-         "ballincolligMargin": -31,
-         "opponentMargin": 2,
-         "diff": -33,
-         "ballincolligScore": "26-57",
-         "opponentScore": "19-17"
-        },
-        {
-         "opponent": "Highfield RFC",
-         "ballincolligMargin": -3,
-         "opponentMargin": 3,
-         "diff": -6,
-         "ballincolligScore": "17-20",
-         "opponentScore": "31-28"
-        }
-       ],
-       "summary": "Line ball. Could go either way."
+     "headToHead": [
+      {
+       "date": "2026-10-24",
+       "comp": "Boys Clubs U16 Munster Conference 7",
+       "compId": "219998",
+       "compUrl": "https://munsterrugby.sportlomo.com/league/219998/",
+       "ourTeam": "Ballincollig RFC White",
+       "opponent": "Muskerry RFC",
+       "pf": 30,
+       "pa": 15,
+       "triesFor": 6,
+       "triesAgainst": 3,
+       "venue": "Ballyanly",
+       "home": false,
+       "round": "4th Round",
+       "outcome": "W"
       }
-     },
+     ],
+     "nextMeeting": null,
      "rating": {
-      "band": "yellow",
-      "score": 0.046,
+      "band": "green",
+      "score": 0.266,
       "confidence": "high",
       "signals": [
        {
@@ -11340,20 +11658,14 @@
        {
         "label": "League form",
         "weight": 0.25,
-        "value": -0.333,
-        "detail": "2.7 vs 4.0 league points per game"
+        "value": 0.083,
+        "detail": "3.0 vs 2.7 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": 0.32,
-        "detail": "Ballincollig 2W-0D-3L (+1 avg over 5), opponent 2W-0D-1L (-9 avg over 3)"
-       },
-       {
-        "label": "Venue",
-        "weight": 0.1,
-        "value": -0.5,
-        "detail": "Away at Ballyanly"
+        "value": 0.517,
+        "detail": "Ballincollig 3W-0D-2L (+5 avg over 5), opponent 2W-0D-2L (-10 avg over 4)"
        }
       ],
       "commonOpponents": [
@@ -11382,7 +11694,7 @@
         "opponentScore": "31-28"
        }
       ],
-      "summary": "Line ball. Could go either way."
+      "summary": "Ballincollig should be favourites."
      }
     }
    ]
@@ -11413,71 +11725,17 @@
     }
    ],
    "record": {
-    "p": 4,
+    "p": 5,
     "w": 2,
     "d": 0,
-    "l": 2,
-    "pf": 68,
-    "pa": 82
+    "l": 3,
+    "pf": 78,
+    "pa": 103
    },
    "fixtures": [
     {
-     "date": "2026-10-23",
-     "time": "19:30",
-     "comp": "Boys Clubs U14 South Munster Dev 2014 Group 2 NC",
-     "compId": "220174",
-     "compUrl": "https://munsterrugby.sportlomo.com/league/220174/",
-     "ourTeam": "Ballincollig RFC",
-     "opponent": "Cork Constitution FC White",
-     "venue": "Tanner Park",
-     "home": true,
-     "round": null,
-     "rating": {
-      "band": "red",
-      "score": -0.539,
-      "confidence": "high",
-      "signals": [
-       {
-        "label": "Common opponents",
-        "weight": 0.45,
-        "value": -1,
-        "detail": "1 shared opponent(s), average margin swing -42 pts"
-       },
-       {
-        "label": "League form",
-        "weight": 0.25,
-        "value": 0.0,
-        "detail": "4.0 vs 4.0 league points per game"
-       },
-       {
-        "label": "Recent form",
-        "weight": 0.067,
-        "value": -1,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 1W-0D-0L (+30 avg over 1)"
-       },
-       {
-        "label": "Venue",
-        "weight": 0.1,
-        "value": 0.5,
-        "detail": "At Tanner Park"
-       }
-      ],
-      "commonOpponents": [
-       {
-        "opponent": "Clonakilty RFC",
-        "ballincolligMargin": -12,
-        "opponentMargin": 30,
-        "diff": -42,
-        "ballincolligScore": "22-34",
-        "opponentScore": "30-0"
-       }
-      ],
-      "summary": "A hard one. Expect to be underdogs."
-     }
-    },
-    {
-     "date": "2026-10-31",
-     "time": "12:00",
+     "date": "2026-11-01",
+     "time": "11:30",
      "comp": "Boys Clubs U14 South Munster League Group 1",
      "compId": "220164",
      "compUrl": "https://munsterrugby.sportlomo.com/league/220164/",
@@ -11501,7 +11759,7 @@
         "label": "Recent form",
         "weight": 0.067,
         "value": -1,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 1W-0D-0L (+28 avg over 1)"
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 1W-0D-0L (+28 avg over 1)"
        },
        {
         "label": "Venue",
@@ -11526,10 +11784,22 @@
      "home": true,
      "round": null,
      "rating": {
-      "band": "grey",
-      "score": null,
-      "confidence": "none",
+      "band": "green",
+      "score": 0.431,
+      "confidence": "medium",
       "signals": [
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": 0.5,
+        "detail": "2.0 vs 0.0 league points per game"
+       },
+       {
+        "label": "Recent form",
+        "weight": 0.067,
+        "value": 0.073,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 0W-0D-1L (-7 avg over 1)"
+       },
        {
         "label": "Venue",
         "weight": 0.1,
@@ -11538,7 +11808,7 @@
        }
       ],
       "commonOpponents": [],
-      "summary": "Neither side has enough played matches on record yet to rate this one."
+      "summary": "Ballincollig should be favourites."
      }
     },
     {
@@ -11554,7 +11824,7 @@
      "round": null,
      "rating": {
       "band": "green",
-      "score": 0.249,
+      "score": 0.283,
       "confidence": "high",
       "signals": [
        {
@@ -11572,8 +11842,8 @@
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.153,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 3W-0D-1L (-5 avg over 4)"
+        "value": 0.013,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 3W-0D-1L (-5 avg over 4)"
        },
        {
         "label": "Venue",
@@ -11608,26 +11878,26 @@
      "round": null,
      "rating": {
       "band": "yellow",
-      "score": -0.122,
+      "score": -0.083,
       "confidence": "high",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
-        "value": -0.533,
-        "detail": "2 shared opponent(s), average margin swing -16 pts"
+        "value": -0.3,
+        "detail": "3 shared opponent(s), average margin swing -9 pts"
        },
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 1,
-        "detail": "4.0 vs 0.0 league points per game"
+        "value": 0.5,
+        "detail": "2.0 vs 0.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.41,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 2W-0D-2L (+2 avg over 4)"
+        "value": -0.113,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 2W-0D-3L (-1 avg over 5)"
        },
        {
         "label": "Venue",
@@ -11644,6 +11914,14 @@
         "diff": -55,
         "ballincolligScore": "14-39",
         "opponentScore": "30-0"
+       },
+       {
+        "opponent": "Clonakilty RFC",
+        "ballincolligMargin": -12,
+        "opponentMargin": -17,
+        "diff": 5,
+        "ballincolligScore": "22-34",
+        "opponentScore": "5-22"
        },
        {
         "opponent": "Kinsale RFC",
@@ -11670,7 +11948,7 @@
      "round": null,
      "rating": {
       "band": "red",
-      "score": -0.725,
+      "score": -0.722,
       "confidence": "high",
       "signals": [
        {
@@ -11688,8 +11966,8 @@
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -1,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 4W-0D-0L (+25 avg over 4)"
+        "value": -0.987,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 4W-0D-0L (+25 avg over 4)"
        },
        {
         "label": "Venue",
@@ -11731,10 +12009,28 @@
      "home": false,
      "round": null,
      "rating": {
-      "band": "grey",
-      "score": null,
-      "confidence": "none",
+      "band": "yellow",
+      "score": -0.089,
+      "confidence": "high",
       "signals": [
+       {
+        "label": "Common opponents",
+        "weight": 0.45,
+        "value": 0.267,
+        "detail": "1 shared opponent(s), average margin swing +8 pts"
+       },
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": -0.5,
+        "detail": "2.0 vs 4.0 league points per game"
+       },
+       {
+        "label": "Recent form",
+        "weight": 0.067,
+        "value": -0.327,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 1W-0D-0L (+5 avg over 1)"
+       },
        {
         "label": "Venue",
         "weight": 0.1,
@@ -11742,8 +12038,17 @@
         "detail": "Away at TBC"
        }
       ],
-      "commonOpponents": [],
-      "summary": "Neither side has enough played matches on record yet to rate this one."
+      "commonOpponents": [
+       {
+        "opponent": "Highfield RFC",
+        "ballincolligMargin": 13,
+        "opponentMargin": 5,
+        "diff": 8,
+        "ballincolligScore": "20-7",
+        "opponentScore": "12-7"
+       }
+      ],
+      "summary": "Line ball. Could go either way."
      }
     },
     {
@@ -11758,8 +12063,8 @@
      "home": false,
      "round": null,
      "rating": {
-      "band": "yellow",
-      "score": 0.178,
+      "band": "green",
+      "score": 0.202,
       "confidence": "high",
       "signals": [
        {
@@ -11777,8 +12082,8 @@
        {
         "label": "Recent form",
         "weight": 0.133,
-        "value": 0.14,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 0W-1D-1L (-14 avg over 2)"
+        "value": 0.307,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 0W-1D-1L (-14 avg over 2)"
        },
        {
         "label": "Venue",
@@ -11797,7 +12102,7 @@
         "opponentScore": "31-31"
        }
       ],
-      "summary": "Line ball. Could go either way."
+      "summary": "Ballincollig should be favourites."
      }
     },
     {
@@ -11812,8 +12117,8 @@
      "home": true,
      "round": null,
      "rating": {
-      "band": "yellow",
-      "score": -0.14,
+      "band": "red",
+      "score": -0.28,
       "confidence": "high",
       "signals": [
        {
@@ -11825,14 +12130,14 @@
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 0.0,
-        "detail": "4.0 vs 4.0 league points per game"
+        "value": -0.5,
+        "detail": "2.0 vs 4.0 league points per game"
        },
        {
         "label": "Recent form",
-        "weight": 0.067,
-        "value": -0.993,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 1W-0D-0L (+20 avg over 1)"
+        "weight": 0.133,
+        "value": -0.61,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 2W-0D-0L (+14 avg over 2)"
        },
        {
         "label": "Venue",
@@ -11851,7 +12156,7 @@
         "opponentScore": "25-5"
        }
       ],
-      "summary": "Line ball. Could go either way."
+      "summary": "A hard one. Expect to be underdogs."
      }
     },
     {
@@ -11867,26 +12172,26 @@
      "round": null,
      "rating": {
       "band": "yellow",
-      "score": 0.041,
+      "score": -0.074,
       "confidence": "high",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
-        "value": -0.25,
-        "detail": "2 shared opponent(s), average margin swing -8 pts"
+        "value": -0.183,
+        "detail": "4 shared opponent(s), average margin swing -6 pts"
        },
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 1,
-        "detail": "4.0 vs 0.0 league points per game"
+        "value": 0.5,
+        "detail": "2.0 vs 0.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.233,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 2W-0D-3L (-3 avg over 5)"
+        "value": -0.333,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 3W-0D-2L (+5 avg over 5)"
        },
        {
         "label": "Venue",
@@ -11897,12 +12202,28 @@
       ],
       "commonOpponents": [
        {
+        "opponent": "Cork Constitution FC White",
+        "ballincolligMargin": -11,
+        "opponentMargin": -30,
+        "diff": 19,
+        "ballincolligScore": "10-21",
+        "opponentScore": "0-30"
+       },
+       {
         "opponent": "Sundays Well-Carrigaline",
         "ballincolligMargin": 9,
         "opponentMargin": 33,
         "diff": -24,
         "ballincolligScore": "26-17",
         "opponentScore": "50-17"
+       },
+       {
+        "opponent": "Bandon RFC",
+        "ballincolligMargin": -9,
+        "opponentMargin": 17,
+        "diff": -26,
+        "ballincolligScore": "24-33",
+        "opponentScore": "22-5"
        },
        {
         "opponent": "Kinsale RFC",
@@ -11929,26 +12250,26 @@
      "round": null,
      "rating": {
       "band": "red",
-      "score": -0.648,
+      "score": -0.785,
       "confidence": "high",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
         "value": -1,
-        "detail": "3 shared opponent(s), average margin swing -34 pts"
+        "detail": "4 shared opponent(s), average margin swing -31 pts"
        },
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 0.0,
-        "detail": "4.0 vs 4.0 league points per game"
+        "value": -0.5,
+        "detail": "2.0 vs 4.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.74,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 4W-0D-1L (+12 avg over 5)"
+        "value": -0.8,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 5W-0D-0L (+19 avg over 5)"
        },
        {
         "label": "Venue",
@@ -11959,6 +12280,14 @@
       ],
       "commonOpponents": [
        {
+        "opponent": "Bantry Bay-Skibbereen",
+        "ballincolligMargin": -25,
+        "opponentMargin": 30,
+        "diff": -55,
+        "ballincolligScore": "14-39",
+        "opponentScore": "30-0"
+       },
+       {
         "opponent": "Clonakilty RFC",
         "ballincolligMargin": -12,
         "opponentMargin": 6,
@@ -11967,12 +12296,12 @@
         "opponentScore": "20-14"
        },
        {
-        "opponent": "Bantry Bay-Skibbereen",
-        "ballincolligMargin": -25,
-        "opponentMargin": 30,
-        "diff": -55,
-        "ballincolligScore": "14-39",
-        "opponentScore": "30-0"
+        "opponent": "Sundays Well-Carrigaline",
+        "ballincolligMargin": 9,
+        "opponentMargin": 31,
+        "diff": -22,
+        "ballincolligScore": "26-17",
+        "opponentScore": "50-19"
        },
        {
         "opponent": "Bandon RFC",
@@ -11988,6 +12317,22 @@
     }
    ],
    "results": [
+    {
+     "date": "2026-10-23",
+     "comp": "Boys Clubs U14 South Munster Dev 2014 Group 2 NC",
+     "compId": "220174",
+     "compUrl": "https://munsterrugby.sportlomo.com/league/220174/",
+     "ourTeam": "Ballincollig RFC",
+     "opponent": "Cork Constitution FC White",
+     "pf": 10,
+     "pa": 21,
+     "triesFor": 2,
+     "triesAgainst": 3,
+     "venue": "Tanner Park",
+     "home": true,
+     "round": "2nd Round",
+     "outcome": "L"
+    },
     {
      "date": "2026-10-18",
      "comp": "Boys Clubs U14 South Munster Dev 2014 Group 2 NC",
@@ -12190,12 +12535,12 @@
       {
        "pos": 0,
        "team": "Cork Constitution FC White",
-       "pld": 1,
-       "w": 1,
+       "pld": 2,
+       "w": 2,
        "d": 0,
        "l": 0,
        "bp": null,
-       "pts": 4,
+       "pts": 8,
        "f": null,
        "a": null,
        "diff": null,
@@ -12204,26 +12549,12 @@
       {
        "pos": 0,
        "team": "Crosshaven RFC",
-       "pld": 1,
-       "w": 1,
+       "pld": 2,
+       "w": 2,
        "d": 0,
        "l": 0,
        "bp": null,
-       "pts": 4,
-       "f": null,
-       "a": null,
-       "diff": null,
-       "tries": null
-      },
-      {
-       "pos": 0,
-       "team": "Ballincollig RFC",
-       "pld": 1,
-       "w": 1,
-       "d": 0,
-       "l": 0,
-       "bp": null,
-       "pts": 4,
+       "pts": 8,
        "f": null,
        "a": null,
        "diff": null,
@@ -12246,12 +12577,26 @@
       {
        "pos": 0,
        "team": "Dolphin-Sundays Well",
-       "pld": 0,
-       "w": 0,
+       "pld": 1,
+       "w": 1,
        "d": 0,
        "l": 0,
        "bp": null,
-       "pts": 0,
+       "pts": 4,
+       "f": null,
+       "a": null,
+       "diff": null,
+       "tries": null
+      },
+      {
+       "pos": 0,
+       "team": "Ballincollig RFC",
+       "pld": 2,
+       "w": 1,
+       "d": 0,
+       "l": 1,
+       "bp": null,
+       "pts": 4,
        "f": null,
        "a": null,
        "diff": null,
@@ -12260,10 +12605,10 @@
       {
        "pos": 0,
        "team": "Skibbereen RFC",
-       "pld": 0,
+       "pld": 1,
        "w": 0,
        "d": 0,
-       "l": 0,
+       "l": 1,
        "bp": null,
        "pts": 0,
        "f": null,
@@ -12302,10 +12647,10 @@
       {
        "pos": 0,
        "team": "Highfield RFC",
-       "pld": 2,
+       "pld": 3,
        "w": 0,
        "d": 0,
-       "l": 2,
+       "l": 3,
        "bp": null,
        "pts": 0,
        "f": null,
@@ -12340,15 +12685,29 @@
       "rowIndex": 7
      },
      "form": {
-      "played": 4,
+      "played": 5,
       "w": 2,
       "d": 0,
-      "l": 2,
-      "pf": 87,
-      "pa": 77,
-      "avgMargin": 2.5,
-      "winRate": 0.5,
+      "l": 3,
+      "pf": 92,
+      "pa": 99,
+      "avgMargin": -1.4,
+      "winRate": 0.4,
       "last5": [
+       {
+        "team": "Bandon RFC",
+        "opponent": "Clonakilty RFC",
+        "oppKey": "clonakilty rfc",
+        "pf": 5,
+        "pa": 22,
+        "margin": -17,
+        "outcome": "L",
+        "date": "2026-10-24",
+        "venue": "Bandon",
+        "comp": "Boys Clubs U18.5 Munster Conference 5",
+        "compId": "219967",
+        "home": false
+       },
        {
         "team": "Bandon RFC",
         "opponent": "Kinsale RFC",
@@ -12421,26 +12780,26 @@
       "round": null,
       "rating": {
        "band": "yellow",
-       "score": -0.122,
+       "score": -0.083,
        "confidence": "high",
        "signals": [
         {
          "label": "Common opponents",
          "weight": 0.45,
-         "value": -0.533,
-         "detail": "2 shared opponent(s), average margin swing -16 pts"
+         "value": -0.3,
+         "detail": "3 shared opponent(s), average margin swing -9 pts"
         },
         {
          "label": "League form",
          "weight": 0.25,
-         "value": 1,
-         "detail": "4.0 vs 0.0 league points per game"
+         "value": 0.5,
+         "detail": "2.0 vs 0.0 league points per game"
         },
         {
          "label": "Recent form",
          "weight": 0.2,
-         "value": -0.41,
-         "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 2W-0D-2L (+2 avg over 4)"
+         "value": -0.113,
+         "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 2W-0D-3L (-1 avg over 5)"
         },
         {
          "label": "Venue",
@@ -12459,6 +12818,14 @@
          "opponentScore": "30-0"
         },
         {
+         "opponent": "Clonakilty RFC",
+         "ballincolligMargin": -12,
+         "opponentMargin": -17,
+         "diff": 5,
+         "ballincolligScore": "22-34",
+         "opponentScore": "5-22"
+        },
+        {
          "opponent": "Kinsale RFC",
          "ballincolligMargin": 3,
          "opponentMargin": -20,
@@ -12472,26 +12839,26 @@
      },
      "rating": {
       "band": "yellow",
-      "score": -0.122,
+      "score": -0.083,
       "confidence": "high",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
-        "value": -0.533,
-        "detail": "2 shared opponent(s), average margin swing -16 pts"
+        "value": -0.3,
+        "detail": "3 shared opponent(s), average margin swing -9 pts"
        },
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 1,
-        "detail": "4.0 vs 0.0 league points per game"
+        "value": 0.5,
+        "detail": "2.0 vs 0.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.41,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 2W-0D-2L (+2 avg over 4)"
+        "value": -0.113,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 2W-0D-3L (-1 avg over 5)"
        },
        {
         "label": "Venue",
@@ -12508,6 +12875,14 @@
         "diff": -55,
         "ballincolligScore": "14-39",
         "opponentScore": "30-0"
+       },
+       {
+        "opponent": "Clonakilty RFC",
+        "ballincolligMargin": -12,
+        "opponentMargin": -17,
+        "diff": 5,
+        "ballincolligScore": "22-34",
+        "opponentScore": "5-22"
        },
        {
         "opponent": "Kinsale RFC",
@@ -12542,14 +12917,28 @@
      },
      "form": {
       "played": 5,
-      "w": 2,
+      "w": 3,
       "d": 0,
-      "l": 3,
-      "pf": 103,
-      "pa": 117,
-      "avgMargin": -2.8,
-      "winRate": 0.4,
+      "l": 2,
+      "pf": 115,
+      "pa": 89,
+      "avgMargin": 5.2,
+      "winRate": 0.6,
       "last5": [
+       {
+        "team": "Clonakilty RFC",
+        "opponent": "Bandon RFC",
+        "oppKey": "bandon rfc",
+        "pf": 22,
+        "pa": 5,
+        "margin": 17,
+        "outcome": "W",
+        "date": "2026-10-24",
+        "venue": "Bandon",
+        "comp": "Boys Clubs U18.5 Munster Conference 5",
+        "compId": "219967",
+        "home": false
+       },
        {
         "team": "Clonakilty RFC",
         "opponent": "Ballincollig RFC",
@@ -12605,20 +12994,6 @@
         "comp": "Boys Clubs U18.5 Munster Conference 5",
         "compId": "219967",
         "home": false
-       },
-       {
-        "team": "Clonakilty RFC",
-        "opponent": "Ballincollig RFC",
-        "oppKey": "ballincollig rfc",
-        "pf": 10,
-        "pa": 33,
-        "margin": -23,
-        "outcome": "L",
-        "date": "2026-10-02",
-        "venue": "The Vale",
-        "comp": "Boys Clubs U13 Friendly",
-        "compId": "216124",
-        "home": false
        }
       ]
      },
@@ -12636,26 +13011,26 @@
       "round": null,
       "rating": {
        "band": "yellow",
-       "score": 0.041,
+       "score": -0.074,
        "confidence": "high",
        "signals": [
         {
          "label": "Common opponents",
          "weight": 0.45,
-         "value": -0.25,
-         "detail": "2 shared opponent(s), average margin swing -8 pts"
+         "value": -0.183,
+         "detail": "4 shared opponent(s), average margin swing -6 pts"
         },
         {
          "label": "League form",
          "weight": 0.25,
-         "value": 1,
-         "detail": "4.0 vs 0.0 league points per game"
+         "value": 0.5,
+         "detail": "2.0 vs 0.0 league points per game"
         },
         {
          "label": "Recent form",
          "weight": 0.2,
-         "value": -0.233,
-         "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 2W-0D-3L (-3 avg over 5)"
+         "value": -0.333,
+         "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 3W-0D-2L (+5 avg over 5)"
         },
         {
          "label": "Venue",
@@ -12666,12 +13041,28 @@
        ],
        "commonOpponents": [
         {
+         "opponent": "Cork Constitution FC White",
+         "ballincolligMargin": -11,
+         "opponentMargin": -30,
+         "diff": 19,
+         "ballincolligScore": "10-21",
+         "opponentScore": "0-30"
+        },
+        {
          "opponent": "Sundays Well-Carrigaline",
          "ballincolligMargin": 9,
          "opponentMargin": 33,
          "diff": -24,
          "ballincolligScore": "26-17",
          "opponentScore": "50-17"
+        },
+        {
+         "opponent": "Bandon RFC",
+         "ballincolligMargin": -9,
+         "opponentMargin": 17,
+         "diff": -26,
+         "ballincolligScore": "24-33",
+         "opponentScore": "22-5"
         },
         {
          "opponent": "Kinsale RFC",
@@ -12687,26 +13078,26 @@
      },
      "rating": {
       "band": "yellow",
-      "score": 0.041,
+      "score": -0.074,
       "confidence": "high",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
-        "value": -0.25,
-        "detail": "2 shared opponent(s), average margin swing -8 pts"
+        "value": -0.183,
+        "detail": "4 shared opponent(s), average margin swing -6 pts"
        },
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 1,
-        "detail": "4.0 vs 0.0 league points per game"
+        "value": 0.5,
+        "detail": "2.0 vs 0.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.233,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 2W-0D-3L (-3 avg over 5)"
+        "value": -0.333,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 3W-0D-2L (+5 avg over 5)"
        },
        {
         "label": "Venue",
@@ -12717,12 +13108,28 @@
       ],
       "commonOpponents": [
        {
+        "opponent": "Cork Constitution FC White",
+        "ballincolligMargin": -11,
+        "opponentMargin": -30,
+        "diff": 19,
+        "ballincolligScore": "10-21",
+        "opponentScore": "0-30"
+       },
+       {
         "opponent": "Sundays Well-Carrigaline",
         "ballincolligMargin": 9,
         "opponentMargin": 33,
         "diff": -24,
         "ballincolligScore": "26-17",
         "opponentScore": "50-17"
+       },
+       {
+        "opponent": "Bandon RFC",
+        "ballincolligMargin": -9,
+        "opponentMargin": 17,
+        "diff": -26,
+        "ballincolligScore": "24-33",
+        "opponentScore": "22-5"
        },
        {
         "opponent": "Kinsale RFC",
@@ -12854,7 +13261,7 @@
       "round": null,
       "rating": {
        "band": "green",
-       "score": 0.249,
+       "score": 0.283,
        "confidence": "high",
        "signals": [
         {
@@ -12872,8 +13279,8 @@
         {
          "label": "Recent form",
          "weight": 0.2,
-         "value": -0.153,
-         "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 3W-0D-1L (-5 avg over 4)"
+         "value": 0.013,
+         "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 3W-0D-1L (-5 avg over 4)"
         },
         {
          "label": "Venue",
@@ -12897,7 +13304,7 @@
      },
      "rating": {
       "band": "green",
-      "score": 0.249,
+      "score": 0.283,
       "confidence": "high",
       "signals": [
        {
@@ -12915,8 +13322,8 @@
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.153,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 3W-0D-1L (-5 avg over 4)"
+        "value": 0.013,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 3W-0D-1L (-5 avg over 4)"
        },
        {
         "label": "Venue",
@@ -12945,12 +13352,12 @@
      "tableRow": {
       "pos": 0,
       "team": "Cork Constitution FC White",
-      "pld": 1,
-      "w": 1,
+      "pld": 2,
+      "w": 2,
       "d": 0,
       "l": 0,
       "bp": null,
-      "pts": 4,
+      "pts": 8,
       "f": null,
       "a": null,
       "diff": null,
@@ -12958,15 +13365,29 @@
       "rowIndex": 1
      },
      "form": {
-      "played": 1,
-      "w": 1,
+      "played": 2,
+      "w": 2,
       "d": 0,
       "l": 0,
-      "pf": 30,
-      "pa": 0,
-      "avgMargin": 30.0,
+      "pf": 51,
+      "pa": 10,
+      "avgMargin": 20.5,
       "winRate": 1.0,
       "last5": [
+       {
+        "team": "Cork Constitution FC White",
+        "opponent": "Ballincollig RFC",
+        "oppKey": "ballincollig rfc",
+        "pf": 21,
+        "pa": 10,
+        "margin": 11,
+        "outcome": "W",
+        "date": "2026-10-23",
+        "venue": "Tanner Park",
+        "comp": "Boys Clubs U14 South Munster Dev 2014 Group 2 NC",
+        "compId": "220174",
+        "home": true
+       },
        {
         "team": "Cork Constitution FC White",
         "opponent": "Clonakilty RFC",
@@ -12983,64 +13404,28 @@
        }
       ]
      },
-     "headToHead": [],
-     "nextMeeting": {
-      "date": "2026-10-23",
-      "time": "19:30",
-      "comp": "Boys Clubs U14 South Munster Dev 2014 Group 2 NC",
-      "compId": "220174",
-      "compUrl": "https://munsterrugby.sportlomo.com/league/220174/",
-      "ourTeam": "Ballincollig RFC",
-      "opponent": "Cork Constitution FC White",
-      "venue": "Tanner Park",
-      "home": true,
-      "round": null,
-      "rating": {
-       "band": "red",
-       "score": -0.539,
-       "confidence": "high",
-       "signals": [
-        {
-         "label": "Common opponents",
-         "weight": 0.45,
-         "value": -1,
-         "detail": "1 shared opponent(s), average margin swing -42 pts"
-        },
-        {
-         "label": "League form",
-         "weight": 0.25,
-         "value": 0.0,
-         "detail": "4.0 vs 4.0 league points per game"
-        },
-        {
-         "label": "Recent form",
-         "weight": 0.067,
-         "value": -1,
-         "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 1W-0D-0L (+30 avg over 1)"
-        },
-        {
-         "label": "Venue",
-         "weight": 0.1,
-         "value": 0.5,
-         "detail": "At Tanner Park"
-        }
-       ],
-       "commonOpponents": [
-        {
-         "opponent": "Clonakilty RFC",
-         "ballincolligMargin": -12,
-         "opponentMargin": 30,
-         "diff": -42,
-         "ballincolligScore": "22-34",
-         "opponentScore": "30-0"
-        }
-       ],
-       "summary": "A hard one. Expect to be underdogs."
+     "headToHead": [
+      {
+       "date": "2026-10-23",
+       "comp": "Boys Clubs U14 South Munster Dev 2014 Group 2 NC",
+       "compId": "220174",
+       "compUrl": "https://munsterrugby.sportlomo.com/league/220174/",
+       "ourTeam": "Ballincollig RFC",
+       "opponent": "Cork Constitution FC White",
+       "pf": 10,
+       "pa": 21,
+       "triesFor": 2,
+       "triesAgainst": 3,
+       "venue": "Tanner Park",
+       "home": true,
+       "round": "2nd Round",
+       "outcome": "L"
       }
-     },
+     ],
+     "nextMeeting": null,
      "rating": {
       "band": "red",
-      "score": -0.539,
+      "score": -0.825,
       "confidence": "high",
       "signals": [
        {
@@ -13052,20 +13437,14 @@
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 0.0,
-        "detail": "4.0 vs 4.0 league points per game"
+        "value": -0.5,
+        "detail": "2.0 vs 4.0 league points per game"
        },
        {
         "label": "Recent form",
-        "weight": 0.067,
-        "value": -1,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 1W-0D-0L (+30 avg over 1)"
-       },
-       {
-        "label": "Venue",
-        "weight": 0.1,
-        "value": 0.5,
-        "detail": "At Tanner Park"
+        "weight": 0.133,
+        "value": -0.843,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 2W-0D-0L (+20 avg over 2)"
        }
       ],
       "commonOpponents": [
@@ -13088,12 +13467,12 @@
      "tableRow": {
       "pos": 0,
       "team": "Crosshaven RFC",
-      "pld": 1,
-      "w": 1,
+      "pld": 2,
+      "w": 2,
       "d": 0,
       "l": 0,
       "bp": null,
-      "pts": 4,
+      "pts": 8,
       "f": null,
       "a": null,
       "diff": null,
@@ -13101,15 +13480,29 @@
       "rowIndex": 2
      },
      "form": {
-      "played": 1,
-      "w": 1,
+      "played": 2,
+      "w": 2,
       "d": 0,
       "l": 0,
-      "pf": 25,
-      "pa": 5,
-      "avgMargin": 20.0,
+      "pf": 44,
+      "pa": 17,
+      "avgMargin": 13.5,
       "winRate": 1.0,
       "last5": [
+       {
+        "team": "Crosshaven RFC",
+        "opponent": "Skibbereen RFC",
+        "oppKey": "skibbereen rfc",
+        "pf": 19,
+        "pa": 12,
+        "margin": 7,
+        "outcome": "W",
+        "date": "2026-10-26",
+        "venue": "Skibbereen",
+        "comp": "Boys Clubs U14 South Munster Dev 2014 Group 2 NC",
+        "compId": "220174",
+        "home": false
+       },
        {
         "team": "Crosshaven RFC",
         "opponent": "Highfield RFC",
@@ -13139,8 +13532,8 @@
       "home": true,
       "round": null,
       "rating": {
-       "band": "yellow",
-       "score": -0.14,
+       "band": "red",
+       "score": -0.28,
        "confidence": "high",
        "signals": [
         {
@@ -13152,14 +13545,14 @@
         {
          "label": "League form",
          "weight": 0.25,
-         "value": 0.0,
-         "detail": "4.0 vs 4.0 league points per game"
+         "value": -0.5,
+         "detail": "2.0 vs 4.0 league points per game"
         },
         {
          "label": "Recent form",
-         "weight": 0.067,
-         "value": -0.993,
-         "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 1W-0D-0L (+20 avg over 1)"
+         "weight": 0.133,
+         "value": -0.61,
+         "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 2W-0D-0L (+14 avg over 2)"
         },
         {
          "label": "Venue",
@@ -13178,12 +13571,12 @@
          "opponentScore": "25-5"
         }
        ],
-       "summary": "Line ball. Could go either way."
+       "summary": "A hard one. Expect to be underdogs."
       }
      },
      "rating": {
-      "band": "yellow",
-      "score": -0.14,
+      "band": "red",
+      "score": -0.28,
       "confidence": "high",
       "signals": [
        {
@@ -13195,14 +13588,14 @@
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 0.0,
-        "detail": "4.0 vs 4.0 league points per game"
+        "value": -0.5,
+        "detail": "2.0 vs 4.0 league points per game"
        },
        {
         "label": "Recent form",
-        "weight": 0.067,
-        "value": -0.993,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 1W-0D-0L (+20 avg over 1)"
+        "weight": 0.133,
+        "value": -0.61,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 2W-0D-0L (+14 avg over 2)"
        },
        {
         "label": "Venue",
@@ -13221,7 +13614,7 @@
         "opponentScore": "25-5"
        }
       ],
-      "summary": "Line ball. Could go either way."
+      "summary": "A hard one. Expect to be underdogs."
      }
     },
     {
@@ -13231,28 +13624,43 @@
      "tableRow": {
       "pos": 0,
       "team": "Dolphin-Sundays Well",
-      "pld": 0,
-      "w": 0,
+      "pld": 1,
+      "w": 1,
       "d": 0,
       "l": 0,
       "bp": null,
-      "pts": 0,
+      "pts": 4,
       "f": null,
       "a": null,
       "diff": null,
       "tries": null,
-      "rowIndex": 5
+      "rowIndex": 4
      },
      "form": {
-      "played": 0,
-      "w": 0,
+      "played": 1,
+      "w": 1,
       "d": 0,
       "l": 0,
-      "pf": 0,
-      "pa": 0,
-      "avgMargin": null,
-      "winRate": null,
-      "last5": []
+      "pf": 12,
+      "pa": 7,
+      "avgMargin": 5.0,
+      "winRate": 1.0,
+      "last5": [
+       {
+        "team": "Dolphin-Sundays Well",
+        "opponent": "Highfield RFC",
+        "oppKey": "highfield rfc",
+        "pf": 12,
+        "pa": 7,
+        "margin": 5,
+        "outcome": "W",
+        "date": "2026-10-23",
+        "venue": "Woodleigh Park",
+        "comp": "Boys Clubs U14 South Munster Dev 2014 Group 2 NC",
+        "compId": "220174",
+        "home": false
+       }
+      ]
      },
      "headToHead": [],
      "nextMeeting": {
@@ -13267,10 +13675,28 @@
       "home": false,
       "round": null,
       "rating": {
-       "band": "grey",
-       "score": null,
-       "confidence": "none",
+       "band": "yellow",
+       "score": -0.089,
+       "confidence": "high",
        "signals": [
+        {
+         "label": "Common opponents",
+         "weight": 0.45,
+         "value": 0.267,
+         "detail": "1 shared opponent(s), average margin swing +8 pts"
+        },
+        {
+         "label": "League form",
+         "weight": 0.25,
+         "value": -0.5,
+         "detail": "2.0 vs 4.0 league points per game"
+        },
+        {
+         "label": "Recent form",
+         "weight": 0.067,
+         "value": -0.327,
+         "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 1W-0D-0L (+5 avg over 1)"
+        },
         {
          "label": "Venue",
          "weight": 0.1,
@@ -13278,15 +13704,42 @@
          "detail": "Away at TBC"
         }
        ],
-       "commonOpponents": [],
-       "summary": "Neither side has enough played matches on record yet to rate this one."
+       "commonOpponents": [
+        {
+         "opponent": "Highfield RFC",
+         "ballincolligMargin": 13,
+         "opponentMargin": 5,
+         "diff": 8,
+         "ballincolligScore": "20-7",
+         "opponentScore": "12-7"
+        }
+       ],
+       "summary": "Line ball. Could go either way."
       }
      },
      "rating": {
-      "band": "grey",
-      "score": null,
-      "confidence": "none",
+      "band": "yellow",
+      "score": -0.089,
+      "confidence": "high",
       "signals": [
+       {
+        "label": "Common opponents",
+        "weight": 0.45,
+        "value": 0.267,
+        "detail": "1 shared opponent(s), average margin swing +8 pts"
+       },
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": -0.5,
+        "detail": "2.0 vs 4.0 league points per game"
+       },
+       {
+        "label": "Recent form",
+        "weight": 0.067,
+        "value": -0.327,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 1W-0D-0L (+5 avg over 1)"
+       },
        {
         "label": "Venue",
         "weight": 0.1,
@@ -13294,8 +13747,17 @@
         "detail": "Away at TBC"
        }
       ],
-      "commonOpponents": [],
-      "summary": "Neither side has enough played matches on record yet to rate this one."
+      "commonOpponents": [
+       {
+        "opponent": "Highfield RFC",
+        "ballincolligMargin": 13,
+        "opponentMargin": 5,
+        "diff": 8,
+        "ballincolligScore": "20-7",
+        "opponentScore": "12-7"
+       }
+      ],
+      "summary": "Line ball. Could go either way."
      }
     },
     {
@@ -13345,8 +13807,8 @@
      },
      "headToHead": [],
      "nextMeeting": {
-      "date": "2026-10-31",
-      "time": "12:00",
+      "date": "2026-11-01",
+      "time": "11:30",
       "comp": "Boys Clubs U14 South Munster League Group 1",
       "compId": "220164",
       "compUrl": "https://munsterrugby.sportlomo.com/league/220164/",
@@ -13370,7 +13832,7 @@
          "label": "Recent form",
          "weight": 0.067,
          "value": -1,
-         "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 1W-0D-0L (+28 avg over 1)"
+         "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 1W-0D-0L (+28 avg over 1)"
         },
         {
          "label": "Venue",
@@ -13398,7 +13860,7 @@
         "label": "Recent form",
         "weight": 0.067,
         "value": -1,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 1W-0D-0L (+28 avg over 1)"
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 1W-0D-0L (+28 avg over 1)"
        },
        {
         "label": "Venue",
@@ -13491,7 +13953,7 @@
      "nextMeeting": null,
      "rating": {
       "band": "yellow",
-      "score": 0.102,
+      "score": 0.16,
       "confidence": "low",
       "signals": [
        {
@@ -13503,8 +13965,8 @@
        {
         "label": "Recent form",
         "weight": 0.133,
-        "value": -0.177,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 0W-1D-1L (-4 avg over 2)"
+        "value": -0.01,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 0W-1D-1L (-4 avg over 2)"
        }
       ],
       "commonOpponents": [],
@@ -13518,10 +13980,10 @@
      "tableRow": {
       "pos": 0,
       "team": "Highfield RFC",
-      "pld": 2,
+      "pld": 3,
       "w": 0,
       "d": 0,
-      "l": 2,
+      "l": 3,
       "bp": null,
       "pts": 0,
       "f": null,
@@ -13532,14 +13994,42 @@
      },
      "form": {
       "played": 5,
-      "w": 2,
+      "w": 1,
       "d": 0,
-      "l": 3,
-      "pf": 88,
-      "pa": 88,
-      "avgMargin": 0.0,
-      "winRate": 0.4,
+      "l": 4,
+      "pf": 81,
+      "pa": 108,
+      "avgMargin": -5.4,
+      "winRate": 0.2,
       "last5": [
+       {
+        "team": "Highfield RFC",
+        "opponent": "Crosshaven/Cork Con",
+        "oppKey": "crosshaven cork con",
+        "pf": 27,
+        "pa": 38,
+        "margin": -11,
+        "outcome": "L",
+        "date": "2026-10-28",
+        "venue": "Temple Hill",
+        "comp": "Boys Clubs U16 Munster Conference 7",
+        "compId": "219998",
+        "home": false
+       },
+       {
+        "team": "Highfield RFC",
+        "opponent": "Dolphin-Sundays Well",
+        "oppKey": "dolphin sundays well",
+        "pf": 7,
+        "pa": 12,
+        "margin": -5,
+        "outcome": "L",
+        "date": "2026-10-23",
+        "venue": "Woodleigh Park",
+        "comp": "Boys Clubs U14 South Munster Dev 2014 Group 2 NC",
+        "compId": "220174",
+        "home": false
+       },
        {
         "team": "Highfield RFC",
         "opponent": "Muskerry RFC",
@@ -13581,34 +14071,6 @@
         "comp": "Boys Clubs U16 Munster Conference 7",
         "compId": "219998",
         "home": false
-       },
-       {
-        "team": "Highfield RFC",
-        "opponent": "Crosshaven RFC",
-        "oppKey": "crosshaven rfc",
-        "pf": 5,
-        "pa": 25,
-        "margin": -20,
-        "outcome": "L",
-        "date": "2026-10-10",
-        "venue": "Crosshaven",
-        "comp": "Boys Clubs U14 South Munster Dev 2014 Group 2 NC",
-        "compId": "220174",
-        "home": false
-       },
-       {
-        "team": "Highfield RFC",
-        "opponent": "Kanturk RFC",
-        "oppKey": "kanturk rfc",
-        "pf": 36,
-        "pa": 5,
-        "margin": 31,
-        "outcome": "W",
-        "date": "2026-10-03",
-        "venue": "Woodleigh Park",
-        "comp": "Boys Clubs U16 Munster Conference 7",
-        "compId": "219998",
-        "home": false
        }
       ]
      },
@@ -13633,26 +14095,26 @@
      "nextMeeting": null,
      "rating": {
       "band": "yellow",
-      "score": -0.078,
+      "score": -0.007,
       "confidence": "high",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
-        "value": -0.567,
-        "detail": "2 shared opponent(s), average margin swing -17 pts"
+        "value": -0.3,
+        "detail": "2 shared opponent(s), average margin swing -9 pts"
        },
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 1,
-        "detail": "4.0 vs 0.0 league points per game"
+        "value": 0.5,
+        "detail": "2.0 vs 0.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.327,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 2W-0D-3L (+0 avg over 5)"
+        "value": 0.02,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 1W-0D-4L (-5 avg over 5)"
        }
       ],
       "commonOpponents": [
@@ -13667,10 +14129,10 @@
        {
         "opponent": "Crosshaven/Cork Con",
         "ballincolligMargin": 9,
-        "opponentMargin": 5,
-        "diff": 4,
+        "opponentMargin": -11,
+        "diff": 20,
         "ballincolligScore": "26-17",
-        "opponentScore": "17-12"
+        "opponentScore": "27-38"
        }
       ],
       "summary": "Line ball. Could go either way."
@@ -13693,18 +14155,32 @@
       "a": null,
       "diff": null,
       "tries": null,
-      "rowIndex": 4
+      "rowIndex": 3
      },
      "form": {
       "played": 5,
-      "w": 4,
+      "w": 5,
       "d": 0,
-      "l": 1,
-      "pf": 139,
-      "pa": 77,
-      "avgMargin": 12.4,
-      "winRate": 0.8,
+      "l": 0,
+      "pf": 153,
+      "pa": 57,
+      "avgMargin": 19.2,
+      "winRate": 1.0,
       "last5": [
+       {
+        "team": "Kinsale RFC",
+        "opponent": "Sundays Well-Carrigaline",
+        "oppKey": "sundays well carrigaline",
+        "pf": 50,
+        "pa": 19,
+        "margin": 31,
+        "outcome": "W",
+        "date": "2026-10-23",
+        "venue": "Kinsale",
+        "comp": "Boys Clubs U18.5 Munster Conference 5",
+        "compId": "219967",
+        "home": false
+       },
        {
         "team": "Kinsale RFC",
         "opponent": "Bandon RFC",
@@ -13760,20 +14236,6 @@
         "comp": "Boys Clubs U18.5 Munster Conference 5",
         "compId": "219967",
         "home": false
-       },
-       {
-        "team": "Kinsale RFC",
-        "opponent": "Ballincollig RFC",
-        "oppKey": "ballincollig rfc",
-        "pf": 36,
-        "pa": 39,
-        "margin": -3,
-        "outcome": "L",
-        "date": "2026-09-25",
-        "venue": "Kinsale",
-        "comp": "Boys Clubs U13 Friendly",
-        "compId": "216124",
-        "home": false
        }
       ]
      },
@@ -13791,26 +14253,26 @@
       "round": null,
       "rating": {
        "band": "red",
-       "score": -0.648,
+       "score": -0.785,
        "confidence": "high",
        "signals": [
         {
          "label": "Common opponents",
          "weight": 0.45,
          "value": -1,
-         "detail": "3 shared opponent(s), average margin swing -34 pts"
+         "detail": "4 shared opponent(s), average margin swing -31 pts"
         },
         {
          "label": "League form",
          "weight": 0.25,
-         "value": 0.0,
-         "detail": "4.0 vs 4.0 league points per game"
+         "value": -0.5,
+         "detail": "2.0 vs 4.0 league points per game"
         },
         {
          "label": "Recent form",
          "weight": 0.2,
-         "value": -0.74,
-         "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 4W-0D-1L (+12 avg over 5)"
+         "value": -0.8,
+         "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 5W-0D-0L (+19 avg over 5)"
         },
         {
          "label": "Venue",
@@ -13821,6 +14283,14 @@
        ],
        "commonOpponents": [
         {
+         "opponent": "Bantry Bay-Skibbereen",
+         "ballincolligMargin": -25,
+         "opponentMargin": 30,
+         "diff": -55,
+         "ballincolligScore": "14-39",
+         "opponentScore": "30-0"
+        },
+        {
          "opponent": "Clonakilty RFC",
          "ballincolligMargin": -12,
          "opponentMargin": 6,
@@ -13829,12 +14299,12 @@
          "opponentScore": "20-14"
         },
         {
-         "opponent": "Bantry Bay-Skibbereen",
-         "ballincolligMargin": -25,
-         "opponentMargin": 30,
-         "diff": -55,
-         "ballincolligScore": "14-39",
-         "opponentScore": "30-0"
+         "opponent": "Sundays Well-Carrigaline",
+         "ballincolligMargin": 9,
+         "opponentMargin": 31,
+         "diff": -22,
+         "ballincolligScore": "26-17",
+         "opponentScore": "50-19"
         },
         {
          "opponent": "Bandon RFC",
@@ -13850,26 +14320,26 @@
      },
      "rating": {
       "band": "red",
-      "score": -0.648,
+      "score": -0.785,
       "confidence": "high",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
         "value": -1,
-        "detail": "3 shared opponent(s), average margin swing -34 pts"
+        "detail": "4 shared opponent(s), average margin swing -31 pts"
        },
        {
         "label": "League form",
         "weight": 0.25,
-        "value": 0.0,
-        "detail": "4.0 vs 4.0 league points per game"
+        "value": -0.5,
+        "detail": "2.0 vs 4.0 league points per game"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.74,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 4W-0D-1L (+12 avg over 5)"
+        "value": -0.8,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 5W-0D-0L (+19 avg over 5)"
        },
        {
         "label": "Venue",
@@ -13880,6 +14350,14 @@
       ],
       "commonOpponents": [
        {
+        "opponent": "Bantry Bay-Skibbereen",
+        "ballincolligMargin": -25,
+        "opponentMargin": 30,
+        "diff": -55,
+        "ballincolligScore": "14-39",
+        "opponentScore": "30-0"
+       },
+       {
         "opponent": "Clonakilty RFC",
         "ballincolligMargin": -12,
         "opponentMargin": 6,
@@ -13888,12 +14366,12 @@
         "opponentScore": "20-14"
        },
        {
-        "opponent": "Bantry Bay-Skibbereen",
-        "ballincolligMargin": -25,
-        "opponentMargin": 30,
-        "diff": -55,
-        "ballincolligScore": "14-39",
-        "opponentScore": "30-0"
+        "opponent": "Sundays Well-Carrigaline",
+        "ballincolligMargin": 9,
+        "opponentMargin": 31,
+        "diff": -22,
+        "ballincolligScore": "26-17",
+        "opponentScore": "50-19"
        },
        {
         "opponent": "Bandon RFC",
@@ -14000,8 +14478,8 @@
      ],
      "nextMeeting": null,
      "rating": {
-      "band": "red",
-      "score": -0.219,
+      "band": "yellow",
+      "score": -0.145,
       "confidence": "low",
       "signals": [
        {
@@ -14013,12 +14491,12 @@
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.493,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 2W-0D-1L (+5 avg over 3)"
+        "value": -0.327,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 2W-0D-1L (+5 avg over 3)"
        }
       ],
       "commonOpponents": [],
-      "summary": "A hard one. Expect to be underdogs. Based on limited data so far."
+      "summary": "Line ball. Could go either way. Based on limited data so far."
      }
     },
     {
@@ -14122,7 +14600,7 @@
       "round": null,
       "rating": {
        "band": "red",
-       "score": -0.725,
+       "score": -0.722,
        "confidence": "high",
        "signals": [
         {
@@ -14140,8 +14618,8 @@
         {
          "label": "Recent form",
          "weight": 0.2,
-         "value": -1,
-         "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 4W-0D-0L (+25 avg over 4)"
+         "value": -0.987,
+         "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 4W-0D-0L (+25 avg over 4)"
         },
         {
          "label": "Venue",
@@ -14173,7 +14651,7 @@
      },
      "rating": {
       "band": "red",
-      "score": -0.725,
+      "score": -0.722,
       "confidence": "high",
       "signals": [
        {
@@ -14191,8 +14669,8 @@
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -1,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 4W-0D-0L (+25 avg over 4)"
+        "value": -0.987,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 4W-0D-0L (+25 avg over 4)"
        },
        {
         "label": "Venue",
@@ -14229,10 +14707,10 @@
      "tableRow": {
       "pos": 0,
       "team": "Skibbereen RFC",
-      "pld": 0,
+      "pld": 1,
       "w": 0,
       "d": 0,
-      "l": 0,
+      "l": 1,
       "bp": null,
       "pts": 0,
       "f": null,
@@ -14242,15 +14720,30 @@
       "rowIndex": 6
      },
      "form": {
-      "played": 0,
+      "played": 1,
       "w": 0,
       "d": 0,
-      "l": 0,
-      "pf": 0,
-      "pa": 0,
-      "avgMargin": null,
-      "winRate": null,
-      "last5": []
+      "l": 1,
+      "pf": 12,
+      "pa": 19,
+      "avgMargin": -7.0,
+      "winRate": 0.0,
+      "last5": [
+       {
+        "team": "Skibbereen RFC",
+        "opponent": "Crosshaven RFC",
+        "oppKey": "crosshaven rfc",
+        "pf": 12,
+        "pa": 19,
+        "margin": -7,
+        "outcome": "L",
+        "date": "2026-10-26",
+        "venue": "Skibbereen",
+        "comp": "Boys Clubs U14 South Munster Dev 2014 Group 2 NC",
+        "compId": "220174",
+        "home": false
+       }
+      ]
      },
      "headToHead": [],
      "nextMeeting": {
@@ -14265,10 +14758,22 @@
       "home": true,
       "round": null,
       "rating": {
-       "band": "grey",
-       "score": null,
-       "confidence": "none",
+       "band": "green",
+       "score": 0.431,
+       "confidence": "medium",
        "signals": [
+        {
+         "label": "League form",
+         "weight": 0.25,
+         "value": 0.5,
+         "detail": "2.0 vs 0.0 league points per game"
+        },
+        {
+         "label": "Recent form",
+         "weight": 0.067,
+         "value": 0.073,
+         "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 0W-0D-1L (-7 avg over 1)"
+        },
         {
          "label": "Venue",
          "weight": 0.1,
@@ -14277,14 +14782,26 @@
         }
        ],
        "commonOpponents": [],
-       "summary": "Neither side has enough played matches on record yet to rate this one."
+       "summary": "Ballincollig should be favourites."
       }
      },
      "rating": {
-      "band": "grey",
-      "score": null,
-      "confidence": "none",
+      "band": "green",
+      "score": 0.431,
+      "confidence": "medium",
       "signals": [
+       {
+        "label": "League form",
+        "weight": 0.25,
+        "value": 0.5,
+        "detail": "2.0 vs 0.0 league points per game"
+       },
+       {
+        "label": "Recent form",
+        "weight": 0.067,
+        "value": 0.073,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 0W-0D-1L (-7 avg over 1)"
+       },
        {
         "label": "Venue",
         "weight": 0.1,
@@ -14293,7 +14810,7 @@
        }
       ],
       "commonOpponents": [],
-      "summary": "Neither side has enough played matches on record yet to rate this one."
+      "summary": "Ballincollig should be favourites."
      }
     },
     {
@@ -14368,8 +14885,8 @@
       "home": false,
       "round": null,
       "rating": {
-       "band": "yellow",
-       "score": 0.178,
+       "band": "green",
+       "score": 0.202,
        "confidence": "high",
        "signals": [
         {
@@ -14387,8 +14904,8 @@
         {
          "label": "Recent form",
          "weight": 0.133,
-         "value": 0.14,
-         "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 0W-1D-1L (-14 avg over 2)"
+         "value": 0.307,
+         "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 0W-1D-1L (-14 avg over 2)"
         },
         {
          "label": "Venue",
@@ -14407,12 +14924,12 @@
          "opponentScore": "31-31"
         }
        ],
-       "summary": "Line ball. Could go either way."
+       "summary": "Ballincollig should be favourites."
       }
      },
      "rating": {
-      "band": "yellow",
-      "score": 0.178,
+      "band": "green",
+      "score": 0.202,
       "confidence": "high",
       "signals": [
        {
@@ -14430,8 +14947,8 @@
        {
         "label": "Recent form",
         "weight": 0.133,
-        "value": 0.14,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 0W-1D-1L (-14 avg over 2)"
+        "value": 0.307,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 0W-1D-1L (-14 avg over 2)"
        },
        {
         "label": "Venue",
@@ -14450,7 +14967,7 @@
         "opponentScore": "31-31"
        }
       ],
-      "summary": "Line ball. Could go either way."
+      "summary": "Ballincollig should be favourites."
      }
     }
    ]
@@ -14520,14 +15037,28 @@
      "tableRow": null,
      "form": {
       "played": 5,
-      "w": 2,
+      "w": 3,
       "d": 0,
-      "l": 3,
-      "pf": 103,
-      "pa": 117,
-      "avgMargin": -2.8,
-      "winRate": 0.4,
+      "l": 2,
+      "pf": 115,
+      "pa": 89,
+      "avgMargin": 5.2,
+      "winRate": 0.6,
       "last5": [
+       {
+        "team": "Clonakilty RFC",
+        "opponent": "Bandon RFC",
+        "oppKey": "bandon rfc",
+        "pf": 22,
+        "pa": 5,
+        "margin": 17,
+        "outcome": "W",
+        "date": "2026-10-24",
+        "venue": "Bandon",
+        "comp": "Boys Clubs U18.5 Munster Conference 5",
+        "compId": "219967",
+        "home": false
+       },
        {
         "team": "Clonakilty RFC",
         "opponent": "Ballincollig RFC",
@@ -14583,20 +15114,6 @@
         "comp": "Boys Clubs U18.5 Munster Conference 5",
         "compId": "219967",
         "home": false
-       },
-       {
-        "team": "Clonakilty RFC",
-        "opponent": "Ballincollig RFC",
-        "oppKey": "ballincollig rfc",
-        "pf": 10,
-        "pa": 33,
-        "margin": -23,
-        "outcome": "L",
-        "date": "2026-10-02",
-        "venue": "The Vale",
-        "comp": "Boys Clubs U13 Friendly",
-        "compId": "216124",
-        "home": false
        }
       ]
      },
@@ -14621,23 +15138,31 @@
      "nextMeeting": null,
      "rating": {
       "band": "red",
-      "score": -0.245,
+      "score": -0.229,
       "confidence": "medium",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
-        "value": -0.25,
-        "detail": "2 shared opponent(s), average margin swing -8 pts"
+        "value": -0.183,
+        "detail": "4 shared opponent(s), average margin swing -6 pts"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.233,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 2W-0D-3L (-3 avg over 5)"
+        "value": -0.333,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 3W-0D-2L (+5 avg over 5)"
        }
       ],
       "commonOpponents": [
+       {
+        "opponent": "Cork Constitution FC White",
+        "ballincolligMargin": -11,
+        "opponentMargin": -30,
+        "diff": 19,
+        "ballincolligScore": "10-21",
+        "opponentScore": "0-30"
+       },
        {
         "opponent": "Sundays Well-Carrigaline",
         "ballincolligMargin": 9,
@@ -14645,6 +15170,14 @@
         "diff": -24,
         "ballincolligScore": "26-17",
         "opponentScore": "50-17"
+       },
+       {
+        "opponent": "Bandon RFC",
+        "ballincolligMargin": -9,
+        "opponentMargin": 17,
+        "diff": -26,
+        "ballincolligScore": "24-33",
+        "opponentScore": "22-5"
        },
        {
         "opponent": "Kinsale RFC",
@@ -14665,14 +15198,28 @@
      "tableRow": null,
      "form": {
       "played": 5,
-      "w": 4,
+      "w": 5,
       "d": 0,
-      "l": 1,
-      "pf": 139,
-      "pa": 77,
-      "avgMargin": 12.4,
-      "winRate": 0.8,
+      "l": 0,
+      "pf": 153,
+      "pa": 57,
+      "avgMargin": 19.2,
+      "winRate": 1.0,
       "last5": [
+       {
+        "team": "Kinsale RFC",
+        "opponent": "Sundays Well-Carrigaline",
+        "oppKey": "sundays well carrigaline",
+        "pf": 50,
+        "pa": 19,
+        "margin": 31,
+        "outcome": "W",
+        "date": "2026-10-23",
+        "venue": "Kinsale",
+        "comp": "Boys Clubs U18.5 Munster Conference 5",
+        "compId": "219967",
+        "home": false
+       },
        {
         "team": "Kinsale RFC",
         "opponent": "Bandon RFC",
@@ -14728,20 +15275,6 @@
         "comp": "Boys Clubs U18.5 Munster Conference 5",
         "compId": "219967",
         "home": false
-       },
-       {
-        "team": "Kinsale RFC",
-        "opponent": "Ballincollig RFC",
-        "oppKey": "ballincollig rfc",
-        "pf": 36,
-        "pa": 39,
-        "margin": -3,
-        "outcome": "L",
-        "date": "2026-09-25",
-        "venue": "Kinsale",
-        "comp": "Boys Clubs U13 Friendly",
-        "compId": "216124",
-        "home": false
        }
       ]
      },
@@ -14766,23 +15299,31 @@
      "nextMeeting": null,
      "rating": {
       "band": "red",
-      "score": -0.92,
+      "score": -0.938,
       "confidence": "medium",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
         "value": -1,
-        "detail": "3 shared opponent(s), average margin swing -34 pts"
+        "detail": "4 shared opponent(s), average margin swing -31 pts"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.74,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 4W-0D-1L (+12 avg over 5)"
+        "value": -0.8,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 5W-0D-0L (+19 avg over 5)"
        }
       ],
       "commonOpponents": [
+       {
+        "opponent": "Bantry Bay-Skibbereen",
+        "ballincolligMargin": -25,
+        "opponentMargin": 30,
+        "diff": -55,
+        "ballincolligScore": "14-39",
+        "opponentScore": "30-0"
+       },
        {
         "opponent": "Clonakilty RFC",
         "ballincolligMargin": -12,
@@ -14792,12 +15333,12 @@
         "opponentScore": "20-14"
        },
        {
-        "opponent": "Bantry Bay-Skibbereen",
-        "ballincolligMargin": -25,
-        "opponentMargin": 30,
-        "diff": -55,
-        "ballincolligScore": "14-39",
-        "opponentScore": "30-0"
+        "opponent": "Sundays Well-Carrigaline",
+        "ballincolligMargin": 9,
+        "opponentMargin": 31,
+        "diff": -22,
+        "ballincolligScore": "26-17",
+        "opponentScore": "50-19"
        },
        {
         "opponent": "Bandon RFC",
@@ -14910,14 +15451,28 @@
      "tableRow": null,
      "form": {
       "played": 5,
-      "w": 3,
+      "w": 2,
       "d": 0,
-      "l": 2,
-      "pf": 108,
-      "pa": 115,
-      "avgMargin": -1.4,
-      "winRate": 0.6,
+      "l": 3,
+      "pf": 69,
+      "pa": 118,
+      "avgMargin": -9.8,
+      "winRate": 0.4,
       "last5": [
+       {
+        "team": "Bantry Bay-Skibbereen",
+        "opponent": "Ballincollig RFC",
+        "oppKey": "ballincollig rfc",
+        "pf": 0,
+        "pa": 17,
+        "margin": -17,
+        "outcome": "L",
+        "date": "2026-10-23",
+        "venue": "Tanner Park",
+        "comp": "Boys Clubs U18.5 Munster Conference 5",
+        "compId": "219967",
+        "home": true
+       },
        {
         "team": "Bantry Bay-Skibbereen",
         "opponent": "Sundays Well-Carrigaline",
@@ -14973,20 +15528,6 @@
         "comp": "Girls Clubs U18.5 Friendly",
         "compId": "216134",
         "home": true
-       },
-       {
-        "team": "Bantry Bay-Skibbereen",
-        "opponent": "Ballincollig RFC",
-        "oppKey": "ballincollig rfc",
-        "pf": 39,
-        "pa": 14,
-        "margin": 25,
-        "outcome": "W",
-        "date": "2026-09-20",
-        "venue": "Skibbereen",
-        "comp": "Girls Clubs U16 Friendly",
-        "compId": "216132",
-        "home": false
        }
       ]
      },
@@ -15011,7 +15552,7 @@
      "nextMeeting": null,
      "rating": {
       "band": "green",
-      "score": 0.375,
+      "score": 0.513,
       "confidence": "medium",
       "signals": [
        {
@@ -15023,8 +15564,8 @@
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.28,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 3W-0D-2L (-1 avg over 5)"
+        "value": 0.167,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 2W-0D-3L (-10 avg over 5)"
        }
       ],
       "commonOpponents": [
@@ -15063,14 +15604,28 @@
      "tableRow": null,
      "form": {
       "played": 5,
-      "w": 2,
+      "w": 3,
       "d": 0,
-      "l": 3,
-      "pf": 103,
-      "pa": 117,
-      "avgMargin": -2.8,
-      "winRate": 0.4,
+      "l": 2,
+      "pf": 115,
+      "pa": 89,
+      "avgMargin": 5.2,
+      "winRate": 0.6,
       "last5": [
+       {
+        "team": "Clonakilty RFC",
+        "opponent": "Bandon RFC",
+        "oppKey": "bandon rfc",
+        "pf": 22,
+        "pa": 5,
+        "margin": 17,
+        "outcome": "W",
+        "date": "2026-10-24",
+        "venue": "Bandon",
+        "comp": "Boys Clubs U18.5 Munster Conference 5",
+        "compId": "219967",
+        "home": false
+       },
        {
         "team": "Clonakilty RFC",
         "opponent": "Ballincollig RFC",
@@ -15126,20 +15681,6 @@
         "comp": "Boys Clubs U18.5 Munster Conference 5",
         "compId": "219967",
         "home": false
-       },
-       {
-        "team": "Clonakilty RFC",
-        "opponent": "Ballincollig RFC",
-        "oppKey": "ballincollig rfc",
-        "pf": 10,
-        "pa": 33,
-        "margin": -23,
-        "outcome": "L",
-        "date": "2026-10-02",
-        "venue": "The Vale",
-        "comp": "Boys Clubs U13 Friendly",
-        "compId": "216124",
-        "home": false
        }
       ]
      },
@@ -15164,23 +15705,31 @@
      "nextMeeting": null,
      "rating": {
       "band": "red",
-      "score": -0.245,
+      "score": -0.229,
       "confidence": "medium",
       "signals": [
        {
         "label": "Common opponents",
         "weight": 0.45,
-        "value": -0.25,
-        "detail": "2 shared opponent(s), average margin swing -8 pts"
+        "value": -0.183,
+        "detail": "4 shared opponent(s), average margin swing -6 pts"
        },
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.233,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 2W-0D-3L (-3 avg over 5)"
+        "value": -0.333,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 3W-0D-2L (+5 avg over 5)"
        }
       ],
       "commonOpponents": [
+       {
+        "opponent": "Cork Constitution FC White",
+        "ballincolligMargin": -11,
+        "opponentMargin": -30,
+        "diff": 19,
+        "ballincolligScore": "10-21",
+        "opponentScore": "0-30"
+       },
        {
         "opponent": "Sundays Well-Carrigaline",
         "ballincolligMargin": 9,
@@ -15188,6 +15737,14 @@
         "diff": -24,
         "ballincolligScore": "26-17",
         "opponentScore": "50-17"
+       },
+       {
+        "opponent": "Bandon RFC",
+        "ballincolligMargin": -9,
+        "opponentMargin": 17,
+        "diff": -26,
+        "ballincolligScore": "24-33",
+        "opponentScore": "22-5"
        },
        {
         "opponent": "Kinsale RFC",
@@ -15295,7 +15852,7 @@
      "nextMeeting": null,
      "rating": {
       "band": "yellow",
-      "score": 0.114,
+      "score": 0.166,
       "confidence": "medium",
       "signals": [
        {
@@ -15307,8 +15864,8 @@
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.153,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 3W-0D-1L (-5 avg over 4)"
+        "value": 0.013,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 3W-0D-1L (-5 avg over 4)"
        }
       ],
       "commonOpponents": [
@@ -15376,14 +15933,14 @@
      "nextMeeting": null,
      "rating": {
       "band": "green",
-      "score": 0.64,
+      "score": 0.807,
       "confidence": "low",
       "signals": [
        {
         "label": "Recent form",
         "weight": 0.067,
-        "value": 0.64,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 0W-0D-1L (-29 avg over 1)"
+        "value": 0.807,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 0W-0D-1L (-29 avg over 1)"
        }
       ],
       "commonOpponents": [],
@@ -15457,14 +16014,28 @@
      "tableRow": null,
      "form": {
       "played": 5,
-      "w": 3,
+      "w": 2,
       "d": 0,
-      "l": 2,
-      "pf": 108,
-      "pa": 115,
-      "avgMargin": -1.4,
-      "winRate": 0.6,
+      "l": 3,
+      "pf": 69,
+      "pa": 118,
+      "avgMargin": -9.8,
+      "winRate": 0.4,
       "last5": [
+       {
+        "team": "Bantry Bay-Skibbereen",
+        "opponent": "Ballincollig RFC",
+        "oppKey": "ballincollig rfc",
+        "pf": 0,
+        "pa": 17,
+        "margin": -17,
+        "outcome": "L",
+        "date": "2026-10-23",
+        "venue": "Tanner Park",
+        "comp": "Boys Clubs U18.5 Munster Conference 5",
+        "compId": "219967",
+        "home": true
+       },
        {
         "team": "Bantry Bay-Skibbereen",
         "opponent": "Sundays Well-Carrigaline",
@@ -15520,20 +16091,6 @@
         "comp": "Girls Clubs U18.5 Friendly",
         "compId": "216134",
         "home": true
-       },
-       {
-        "team": "Bantry Bay-Skibbereen",
-        "opponent": "Ballincollig RFC",
-        "oppKey": "ballincollig rfc",
-        "pf": 39,
-        "pa": 14,
-        "margin": 25,
-        "outcome": "W",
-        "date": "2026-09-20",
-        "venue": "Skibbereen",
-        "comp": "Girls Clubs U16 Friendly",
-        "compId": "216132",
-        "home": false
        }
       ]
      },
@@ -15558,7 +16115,7 @@
      "nextMeeting": null,
      "rating": {
       "band": "green",
-      "score": 0.375,
+      "score": 0.513,
       "confidence": "medium",
       "signals": [
        {
@@ -15570,8 +16127,8 @@
        {
         "label": "Recent form",
         "weight": 0.2,
-        "value": -0.28,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 3W-0D-2L (-1 avg over 5)"
+        "value": 0.167,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 2W-0D-3L (-10 avg over 5)"
        }
       ],
       "commonOpponents": [
@@ -15655,14 +16212,14 @@
      "nextMeeting": null,
      "rating": {
       "band": "green",
-      "score": 0.34,
+      "score": 0.507,
       "confidence": "low",
       "signals": [
        {
         "label": "Recent form",
         "weight": 0.067,
-        "value": 0.34,
-        "detail": "Ballincollig 2W-0D-3L (-10 avg over 5), opponent 0W-0D-1L (-20 avg over 1)"
+        "value": 0.507,
+        "detail": "Ballincollig 2W-0D-3L (-5 avg over 5), opponent 0W-0D-1L (-20 avg over 1)"
        }
       ],
       "commonOpponents": [],

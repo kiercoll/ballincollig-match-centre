@@ -90,19 +90,11 @@
  ],
  "fixtures": [
   {
-   "date": "2026-10-24",
-   "time": "12:00",
+   "date": "2026-10-28",
+   "time": "19:30",
    "home": "Ballincollig RFC Black",
    "away": "Clonakilty RFC Red",
    "venue": "Tanner Park",
-   "round": null
-  },
-  {
-   "date": "2026-10-24",
-   "time": "12:30",
-   "home": "Crosshaven/Cork Con 15s",
-   "away": "Sundays Well RFC",
-   "venue": "Crosshaven",
    "round": null
   },
   {
@@ -119,6 +111,14 @@
    "home": "Sundays Well RFC",
    "away": "Ballincollig RFC Black",
    "venue": "Virgin Media Park",
+   "round": null
+  },
+  {
+   "date": "2026-11-07",
+   "time": "12:00",
+   "home": "Crosshaven/Cork Con 15s",
+   "away": "Sundays Well RFC",
+   "venue": "Crosshaven",
    "round": null
   },
   {

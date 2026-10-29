@@ -25,91 +25,77 @@
  "table": [
   {
    "pos": 0,
-   "team": "Ballincollig RFC 2nd XV",
-   "pld": 1,
-   "w": 1,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 5,
-   "f": 28,
-   "a": 0,
-   "diff": 28,
-   "tries": 4
-  },
-  {
-   "pos": 0,
    "team": "Youghal RFC 2nd XV",
-   "pld": 1,
-   "w": 1,
+   "pld": 2,
+   "w": 2,
    "d": 0,
    "l": 0,
    "bp": null,
-   "pts": 5,
-   "f": 38,
-   "a": 12,
-   "diff": 26,
-   "tries": 5
+   "pts": 10,
+   "f": 73,
+   "a": 17,
+   "diff": 56,
+   "tries": 10
   },
   {
    "pos": 0,
    "team": "Muskerry RFC 2nd XV",
+   "pld": 2,
+   "w": 2,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 10,
+   "f": 104,
+   "a": 60,
+   "diff": 44,
+   "tries": 16
+  },
+  {
+   "pos": 0,
+   "team": "Ballincollig RFC 2nd XV",
+   "pld": 2,
+   "w": 1,
+   "d": 0,
+   "l": 1,
+   "bp": null,
+   "pts": 6,
+   "f": 52,
+   "a": 59,
+   "diff": -7,
+   "tries": 8
+  },
+  {
+   "pos": 0,
+   "team": "Kanturk RFC 2nd XV",
    "pld": 1,
    "w": 1,
    "d": 0,
    "l": 0,
    "bp": null,
    "pts": 5,
-   "f": 45,
-   "a": 36,
-   "diff": 9,
+   "f": 50,
+   "a": 7,
+   "diff": 43,
    "tries": 7
   },
   {
    "pos": 0,
    "team": "Carrigaline RFC 1st XV",
-   "pld": 1,
+   "pld": 2,
    "w": 0,
    "d": 0,
-   "l": 1,
+   "l": 2,
    "bp": null,
    "pts": 1,
-   "f": 36,
-   "a": 45,
-   "diff": -9,
-   "tries": 6
+   "f": 43,
+   "a": 95,
+   "diff": -52,
+   "tries": 7
   },
   {
    "pos": 0,
    "team": "Douglas RFC 2nd XV",
-   "pld": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 0,
-   "f": 0,
-   "a": 0,
-   "diff": 0,
-   "tries": 0
-  },
-  {
-   "pos": 0,
-   "team": "Mallow RFC 2nd XV",
-   "pld": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 0,
-   "f": 0,
-   "a": 0,
-   "diff": 0,
-   "tries": 0
-  },
-  {
-   "pos": 0,
-   "team": "Kanturk RFC 2nd XV",
    "pld": 0,
    "w": 0,
    "d": 0,
@@ -148,6 +134,20 @@
    "a": 28,
    "diff": -28,
    "tries": 0
+  },
+  {
+   "pos": 0,
+   "team": "Mallow RFC 2nd XV",
+   "pld": 1,
+   "w": 0,
+   "d": 0,
+   "l": 1,
+   "bp": null,
+   "pts": 0,
+   "f": 5,
+   "a": 35,
+   "diff": -30,
+   "tries": 1
   }
  ],
  "fixtures": [
@@ -165,30 +165,6 @@
    "home": "Fermoy RFC 2nd XV",
    "away": "Douglas RFC 2nd XV",
    "venue": "Fermoy",
-   "round": null
-  },
-  {
-   "date": "2026-10-23",
-   "time": "19:30",
-   "home": "Kanturk RFC 2nd XV",
-   "away": "Carrigaline RFC 1st XV",
-   "venue": "Kanturk",
-   "round": null
-  },
-  {
-   "date": "2026-10-23",
-   "time": "19:30",
-   "home": "Muskerry RFC 2nd XV",
-   "away": "Ballincollig RFC 2nd XV",
-   "venue": "Ballyanly",
-   "round": null
-  },
-  {
-   "date": "2026-10-23",
-   "time": "19:45",
-   "home": "Mallow RFC 2nd XV",
-   "away": "Youghal RFC 2nd XV",
-   "venue": "Virgin Media Park",
    "round": null
   },
   {
@@ -448,6 +424,39 @@
    "awayScore": 45,
    "awayTries": 7,
    "venue": "Virgin Media Park",
+   "round": "0th Round"
+  },
+  {
+   "date": "2026-10-23",
+   "home": "Mallow RFC 2nd XV",
+   "homeScore": 5,
+   "homeTries": 1,
+   "away": "Youghal RFC 2nd XV",
+   "awayScore": 35,
+   "awayTries": 5,
+   "venue": "Virgin Media Park",
+   "round": null
+  },
+  {
+   "date": "2026-10-23",
+   "home": "Muskerry RFC 2nd XV",
+   "homeScore": 59,
+   "homeTries": 9,
+   "away": "Ballincollig RFC 2nd XV",
+   "awayScore": 24,
+   "awayTries": 4,
+   "venue": "Ballyanly",
+   "round": null
+  },
+  {
+   "date": "2026-10-23",
+   "home": "Kanturk RFC 2nd XV",
+   "homeScore": 50,
+   "homeTries": 7,
+   "away": "Carrigaline RFC 1st XV",
+   "awayScore": 7,
+   "awayTries": 1,
+   "venue": "Kanturk",
    "round": "0th Round"
   }
  ]
