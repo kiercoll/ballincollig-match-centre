@@ -20,12 +20,40 @@
   {
    "pos": 0,
    "team": "Old Christians RFC",
+   "pld": 3,
+   "w": 3,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 12,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Fermoy RFC",
    "pld": 2,
    "w": 2,
    "d": 0,
    "l": 0,
    "bp": null,
    "pts": 8,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Youghal RFC",
+   "pld": 3,
+   "w": 1,
+   "d": 1,
+   "l": 1,
+   "bp": null,
+   "pts": 6,
    "f": null,
    "a": null,
    "diff": null,
@@ -48,24 +76,10 @@
   {
    "pos": 0,
    "team": "Ballincollig RFC",
-   "pld": 2,
+   "pld": 3,
    "w": 1,
    "d": 0,
-   "l": 1,
-   "bp": null,
-   "pts": 4,
-   "f": null,
-   "a": null,
-   "diff": null,
-   "tries": null
-  },
-  {
-   "pos": 0,
-   "team": "Fermoy RFC",
-   "pld": 1,
-   "w": 1,
-   "d": 0,
-   "l": 0,
+   "l": 2,
    "bp": null,
    "pts": 4,
    "f": null,
@@ -76,24 +90,10 @@
   {
    "pos": 0,
    "team": "Galbally-Mitchelstown",
-   "pld": 2,
+   "pld": 3,
    "w": 0,
    "d": 1,
-   "l": 1,
-   "bp": null,
-   "pts": 2,
-   "f": null,
-   "a": null,
-   "diff": null,
-   "tries": null
-  },
-  {
-   "pos": 0,
-   "team": "Youghal RFC",
-   "pld": 2,
-   "w": 0,
-   "d": 1,
-   "l": 1,
+   "l": 2,
    "bp": null,
    "pts": 2,
    "f": null,
@@ -104,10 +104,10 @@
   {
    "pos": 0,
    "team": "Cobh Pirates RFC",
-   "pld": 1,
+   "pld": 2,
    "w": 0,
    "d": 0,
-   "l": 1,
+   "l": 2,
    "bp": null,
    "pts": 0,
    "f": null,
@@ -117,30 +117,6 @@
   }
  ],
  "fixtures": [
-  {
-   "date": "2026-10-30",
-   "time": "19:30",
-   "home": "Cobh Pirates RFC",
-   "away": "Youghal RFC",
-   "venue": "Cobh",
-   "round": null
-  },
-  {
-   "date": "2026-11-01",
-   "time": "11:00",
-   "home": "Galbally-Mitchelstown",
-   "away": "Old Christians RFC",
-   "venue": "Galbally",
-   "round": null
-  },
-  {
-   "date": "2026-11-01",
-   "time": "11:30",
-   "home": "Fermoy RFC",
-   "away": "Ballincollig RFC",
-   "venue": "Fermoy",
-   "round": null
-  },
   {
    "date": "2026-11-14",
    "time": "12:00",
@@ -152,17 +128,17 @@
   {
    "date": "2026-11-14",
    "time": "12:00",
-   "home": "Old Christians RFC",
-   "away": "Fermoy RFC",
-   "venue": "Rathcooney",
+   "home": "Youghal RFC",
+   "away": "Midleton RFC",
+   "venue": "Youghal",
    "round": null
   },
   {
    "date": "2026-11-14",
-   "time": "12:00",
-   "home": "Youghal RFC",
-   "away": "Midleton RFC",
-   "venue": "Youghal",
+   "time": "12:30",
+   "home": "Old Christians RFC",
+   "away": "Fermoy RFC",
+   "venue": "Rathcooney",
    "round": null
   },
   {
@@ -304,6 +280,39 @@
    "awayTries": 0,
    "venue": "Youghal",
    "round": "2nd Round"
+  },
+  {
+   "date": "2026-10-30",
+   "home": "Cobh Pirates RFC",
+   "homeScore": 10,
+   "homeTries": 0,
+   "away": "Youghal RFC",
+   "awayScore": 17,
+   "awayTries": 0,
+   "venue": "Cobh",
+   "round": "3rd Round"
+  },
+  {
+   "date": "2026-11-01",
+   "home": "Fermoy RFC",
+   "homeScore": 19,
+   "homeTries": 0,
+   "away": "Ballincollig RFC",
+   "awayScore": 15,
+   "awayTries": 0,
+   "venue": "Fermoy",
+   "round": "3rd Round"
+  },
+  {
+   "date": "2026-11-01",
+   "home": "Galbally-Mitchelstown",
+   "homeScore": 0,
+   "homeTries": 0,
+   "away": "Old Christians RFC",
+   "awayScore": 28,
+   "awayTries": 4,
+   "venue": "Galbally",
+   "round": "3rd Round"
   }
  ]
 }

@@ -177,6 +177,14 @@
   },
   {
    "date": "2026-11-06",
+   "time": "19:45",
+   "home": "Carrigaline RFC 1st XV",
+   "away": "Mallow RFC 2nd XV",
+   "venue": "Virgin Media Park",
+   "round": null
+  },
+  {
+   "date": "2026-11-13",
    "time": "19:30",
    "home": "Cobh Pirates RFC 2nd XV",
    "away": "Muskerry RFC 2nd XV",
@@ -184,19 +192,11 @@
    "round": null
   },
   {
-   "date": "2026-11-06",
+   "date": "2026-11-13",
    "time": "19:30",
    "home": "Douglas RFC 2nd XV",
    "away": "Youghal RFC 2nd XV",
-   "venue": "Castletreasure",
-   "round": null
-  },
-  {
-   "date": "2026-11-06",
-   "time": "19:45",
-   "home": "Carrigaline RFC 1st XV",
-   "away": "Mallow RFC 2nd XV",
-   "venue": "Virgin Media Park",
+   "venue": "Youghal",
    "round": null
   },
   {

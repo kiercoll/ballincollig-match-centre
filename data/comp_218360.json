@@ -39,17 +39,45 @@
   },
   {
    "pos": 0,
-   "team": "Sundays Well RFC 1st XV",
-   "pld": 1,
+   "team": "Waterpark RFC 1st XV",
+   "pld": 2,
    "w": 1,
    "d": 0,
-   "l": 0,
+   "l": 1,
+   "bp": null,
+   "pts": 6,
+   "f": 63,
+   "a": 29,
+   "diff": 34,
+   "tries": 5
+  },
+  {
+   "pos": 0,
+   "team": "Sundays Well RFC 1st XV",
+   "pld": 2,
+   "w": 1,
+   "d": 0,
+   "l": 1,
    "bp": null,
    "pts": 5,
    "f": 22,
-   "a": 15,
-   "diff": 7,
+   "a": 50,
+   "diff": -28,
    "tries": 4
+  },
+  {
+   "pos": 0,
+   "team": "Dungarvan RFC 1st XV",
+   "pld": 2,
+   "w": 1,
+   "d": 0,
+   "l": 1,
+   "bp": null,
+   "pts": 5,
+   "f": 27,
+   "a": 27,
+   "diff": 0,
+   "tries": 5
   },
   {
    "pos": 0,
@@ -67,64 +95,20 @@
   },
   {
    "pos": 0,
-   "team": "Waterpark RFC 1st XV",
-   "pld": 1,
-   "w": 0,
-   "d": 0,
-   "l": 1,
-   "bp": null,
-   "pts": 1,
-   "f": 28,
-   "a": 29,
-   "diff": -1,
-   "tries": 0
-  },
-  {
-   "pos": 0,
-   "team": "Dungarvan RFC 1st XV",
-   "pld": 1,
-   "w": 0,
-   "d": 0,
-   "l": 1,
-   "bp": null,
-   "pts": 1,
-   "f": 15,
-   "a": 22,
-   "diff": -7,
-   "tries": 3
-  },
-  {
-   "pos": 0,
    "team": "Roaring Water Bay 1st XV",
-   "pld": 1,
+   "pld": 2,
    "w": 0,
    "d": 0,
-   "l": 1,
+   "l": 2,
    "bp": null,
-   "pts": 0,
-   "f": 0,
-   "a": 84,
-   "diff": -84,
-   "tries": 0
+   "pts": 1,
+   "f": 5,
+   "a": 96,
+   "diff": -91,
+   "tries": 1
   }
  ],
  "fixtures": [
-  {
-   "date": "2026-11-01",
-   "time": "13:00",
-   "home": "Roaring Water Bay 1st XV",
-   "away": "Dungarvan RFC 1st XV",
-   "venue": "Skibbereen",
-   "round": null
-  },
-  {
-   "date": "2026-11-01",
-   "time": "13:00",
-   "home": "Waterpark RFC 1st XV",
-   "away": "Sundays Well RFC 1st XV",
-   "venue": "Ballinakill",
-   "round": null
-  },
   {
    "date": "2026-11-01",
    "time": "13:00",
@@ -358,6 +342,28 @@
    "awayScore": 0,
    "awayTries": 0,
    "venue": "Annacotty",
+   "round": "0th Round"
+  },
+  {
+   "date": "2026-11-01",
+   "home": "Waterpark RFC 1st XV",
+   "homeScore": 35,
+   "homeTries": 5,
+   "away": "Sundays Well RFC 1st XV",
+   "awayScore": 0,
+   "awayTries": 0,
+   "venue": "Ballinakill",
+   "round": null
+  },
+  {
+   "date": "2026-11-01",
+   "home": "Roaring Water Bay 1st XV",
+   "homeScore": 5,
+   "homeTries": 1,
+   "away": "Dungarvan RFC 1st XV",
+   "awayScore": 12,
+   "awayTries": 2,
+   "venue": "Skibbereen",
    "round": "0th Round"
   }
  ]

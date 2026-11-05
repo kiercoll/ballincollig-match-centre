@@ -104,16 +104,8 @@
  ],
  "fixtures": [
   {
-   "date": "2026-11-07",
-   "time": "12:00",
-   "home": "Ballincollig RFC",
-   "away": "Kinsale RFC",
-   "venue": "Tanner Park",
-   "round": null
-  },
-  {
-   "date": "2026-11-07",
-   "time": "12:00",
+   "date": "2026-11-06",
+   "time": "19:30",
    "home": "Clonakilty RFC",
    "away": "Bantry Bay-Skibbereen",
    "venue": "The Vale",
@@ -121,10 +113,18 @@
   },
   {
    "date": "2026-11-07",
-   "time": "12:00",
+   "time": "12:30",
+   "home": "Ballincollig RFC",
+   "away": "Kinsale RFC",
+   "venue": "Tanner Park",
+   "round": null
+  },
+  {
+   "date": "2026-11-08",
+   "time": "11:30",
    "home": "Sundays Well-Carrigaline",
    "away": "Bandon RFC",
-   "venue": "TBC",
+   "venue": "Sundays Well",
    "round": null
   }
  ],

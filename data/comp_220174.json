@@ -146,11 +146,11 @@
  ],
  "fixtures": [
   {
-   "date": "2026-10-31",
-   "time": "12:30",
-   "home": "Clonakilty RFC",
-   "away": "Bandon RFC",
-   "venue": "The Vale",
+   "date": "2026-11-06",
+   "time": "18:30",
+   "home": "Cork Constitution FC White",
+   "away": "Kinsale RFC",
+   "venue": "Temple Hill",
    "round": null
   },
   {
@@ -164,25 +164,25 @@
   {
    "date": "2026-11-07",
    "time": "12:00",
+   "home": "Dolphin-Sundays Well",
+   "away": "Bandon RFC",
+   "venue": "Dolphin",
+   "round": null
+  },
+  {
+   "date": "2026-11-07",
+   "time": "12:30",
    "home": "Clonakilty RFC",
    "away": "Crosshaven RFC",
    "venue": "The Vale",
    "round": null
   },
   {
-   "date": "2026-11-07",
-   "time": "12:00",
-   "home": "Cork Constitution FC White",
-   "away": "Kinsale RFC",
-   "venue": "Temple Hill",
-   "round": null
-  },
-  {
-   "date": "2026-11-07",
-   "time": "12:00",
-   "home": "Dolphin-Sundays Well",
+   "date": "2026-11-13",
+   "time": "19:30",
+   "home": "Clonakilty RFC",
    "away": "Bandon RFC",
-   "venue": "TBC",
+   "venue": "The Vale",
    "round": null
   },
   {

@@ -19,11 +19,25 @@
  "table": [
   {
    "pos": 0,
-   "team": "Ballincollig RFC Black",
-   "pld": 2,
-   "w": 2,
+   "team": "Clonakilty RFC Red",
+   "pld": 3,
+   "w": 3,
    "d": 0,
    "l": 0,
+   "bp": null,
+   "pts": 12,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Ballincollig RFC Black",
+   "pld": 4,
+   "w": 2,
+   "d": 0,
+   "l": 2,
    "bp": null,
    "pts": 8,
    "f": null,
@@ -33,25 +47,11 @@
   },
   {
    "pos": 0,
-   "team": "Clonakilty RFC Red",
-   "pld": 1,
-   "w": 1,
-   "d": 0,
-   "l": 0,
-   "bp": null,
-   "pts": 4,
-   "f": null,
-   "a": null,
-   "diff": null,
-   "tries": null
-  },
-  {
-   "pos": 0,
    "team": "Charleville and District RFC",
-   "pld": 2,
+   "pld": 3,
    "w": 1,
    "d": 0,
-   "l": 1,
+   "l": 2,
    "bp": null,
    "pts": 4,
    "f": null,
@@ -62,12 +62,12 @@
   {
    "pos": 0,
    "team": "Sundays Well RFC",
-   "pld": 1,
-   "w": 0,
+   "pld": 2,
+   "w": 1,
    "d": 0,
    "l": 1,
    "bp": null,
-   "pts": 0,
+   "pts": 4,
    "f": null,
    "a": null,
    "diff": null,
@@ -90,28 +90,12 @@
  ],
  "fixtures": [
   {
-   "date": "2026-10-28",
-   "time": "19:30",
-   "home": "Ballincollig RFC Black",
-   "away": "Clonakilty RFC Red",
-   "venue": "Tanner Park",
-   "round": null
-  },
-  {
    "date": "2026-10-31",
    "time": "12:00",
    "home": "Clonakilty RFC Red",
    "away": "Charleville and District RFC",
    "venue": "The Vale",
-   "round": null
-  },
-  {
-   "date": "2026-10-31",
-   "time": "12:00",
-   "home": "Sundays Well RFC",
-   "away": "Ballincollig RFC Black",
-   "venue": "Virgin Media Park",
-   "round": null
+   "round": "4th Round"
   },
   {
    "date": "2026-11-07",
@@ -182,6 +166,28 @@
    "awayTries": 4,
    "venue": "Tanner Park",
    "round": "2nd Round"
+  },
+  {
+   "date": "2026-10-28",
+   "home": "Ballincollig RFC Black",
+   "homeScore": 33,
+   "homeTries": 0,
+   "away": "Clonakilty RFC Red",
+   "awayScore": 50,
+   "awayTries": 0,
+   "venue": "Tanner Park",
+   "round": "3rd Round"
+  },
+  {
+   "date": "2026-10-31",
+   "home": "Sundays Well RFC",
+   "homeScore": 15,
+   "homeTries": 3,
+   "away": "Ballincollig RFC Black",
+   "awayScore": 0,
+   "awayTries": 0,
+   "venue": "Virgin Media Park",
+   "round": "4th Round"
   }
  ]
 }
