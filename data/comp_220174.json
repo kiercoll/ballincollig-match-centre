@@ -20,12 +20,12 @@
   {
    "pos": 0,
    "team": "Cork Constitution FC White",
-   "pld": 2,
-   "w": 2,
+   "pld": 3,
+   "w": 3,
    "d": 0,
    "l": 0,
    "bp": null,
-   "pts": 8,
+   "pts": 12,
    "f": null,
    "a": null,
    "diff": null,
@@ -47,11 +47,25 @@
   },
   {
    "pos": 0,
-   "team": "Kinsale RFC",
-   "pld": 1,
+   "team": "Skibbereen RFC",
+   "pld": 2,
    "w": 1,
    "d": 0,
-   "l": 0,
+   "l": 1,
+   "bp": null,
+   "pts": 4,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Ballincollig RFC",
+   "pld": 3,
+   "w": 1,
+   "d": 0,
+   "l": 2,
    "bp": null,
    "pts": 4,
    "f": null,
@@ -75,27 +89,13 @@
   },
   {
    "pos": 0,
-   "team": "Ballincollig RFC",
+   "team": "Kinsale RFC",
    "pld": 2,
    "w": 1,
    "d": 0,
    "l": 1,
    "bp": null,
    "pts": 4,
-   "f": null,
-   "a": null,
-   "diff": null,
-   "tries": null
-  },
-  {
-   "pos": 0,
-   "team": "Skibbereen RFC",
-   "pld": 1,
-   "w": 0,
-   "d": 0,
-   "l": 1,
-   "bp": null,
-   "pts": 0,
    "f": null,
    "a": null,
    "diff": null,
@@ -146,38 +146,6 @@
  ],
  "fixtures": [
   {
-   "date": "2026-11-06",
-   "time": "18:30",
-   "home": "Cork Constitution FC White",
-   "away": "Kinsale RFC",
-   "venue": "Temple Hill",
-   "round": null
-  },
-  {
-   "date": "2026-11-07",
-   "time": "12:00",
-   "home": "Ballincollig RFC",
-   "away": "Skibbereen RFC",
-   "venue": "Tanner Park",
-   "round": null
-  },
-  {
-   "date": "2026-11-07",
-   "time": "12:00",
-   "home": "Dolphin-Sundays Well",
-   "away": "Bandon RFC",
-   "venue": "Dolphin",
-   "round": null
-  },
-  {
-   "date": "2026-11-07",
-   "time": "12:30",
-   "home": "Clonakilty RFC",
-   "away": "Crosshaven RFC",
-   "venue": "The Vale",
-   "round": null
-  },
-  {
    "date": "2026-11-13",
    "time": "19:30",
    "home": "Clonakilty RFC",
@@ -186,8 +154,16 @@
    "round": null
   },
   {
-   "date": "2026-11-21",
+   "date": "2026-11-14",
    "time": "12:00",
+   "home": "Skibbereen RFC",
+   "away": "Dolphin-Sundays Well",
+   "venue": "Skibbereen",
+   "round": null
+  },
+  {
+   "date": "2026-11-20",
+   "time": "19:30",
    "home": "Bandon RFC",
    "away": "Ballincollig RFC",
    "venue": "Bandon",
@@ -341,8 +317,16 @@
    "date": "2027-02-20",
    "time": null,
    "home": "TBC",
-   "away": "Skibbereen RFC",
-   "venue": "Skibbereen",
+   "away": "Clonakilty RFC",
+   "venue": "The Vale",
+   "round": null
+  },
+  {
+   "date": "2027-02-20",
+   "time": null,
+   "home": "TBC",
+   "away": "Dolphin-Sundays Well",
+   "venue": "Dolphin",
    "round": null
   },
   {
@@ -455,6 +439,28 @@
    "awayTries": 3,
    "venue": "Skibbereen",
    "round": "2nd Round"
+  },
+  {
+   "date": "2026-11-06",
+   "home": "Cork Constitution FC White",
+   "homeScore": 38,
+   "homeTries": 0,
+   "away": "Kinsale RFC",
+   "awayScore": 17,
+   "awayTries": 0,
+   "venue": "Temple Hill",
+   "round": "3rd Round"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Ballincollig RFC",
+   "homeScore": 5,
+   "homeTries": 0,
+   "away": "Skibbereen RFC",
+   "awayScore": 36,
+   "awayTries": 0,
+   "venue": "Tanner Park",
+   "round": "3rd Round"
   }
  ]
 }

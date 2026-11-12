@@ -98,14 +98,6 @@
    "round": "4th Round"
   },
   {
-   "date": "2026-11-07",
-   "time": "12:00",
-   "home": "Crosshaven/Cork Con 15s",
-   "away": "Sundays Well RFC",
-   "venue": "Crosshaven",
-   "round": null
-  },
-  {
    "date": "2026-11-14",
    "time": "12:00",
    "home": "Charleville and District RFC",
@@ -114,11 +106,19 @@
    "round": null
   },
   {
-   "date": "2026-11-14",
-   "time": "12:00",
+   "date": "2026-11-15",
+   "time": "10:30",
    "home": "Clonakilty RFC Red",
    "away": "Sundays Well RFC",
    "venue": "The Vale",
+   "round": null
+  },
+  {
+   "date": "2026-11-17",
+   "time": "19:30",
+   "home": "Crosshaven/Cork Con 15s",
+   "away": "Sundays Well RFC",
+   "venue": "Crosshaven",
    "round": null
   }
  ],

@@ -53,11 +53,25 @@
   },
   {
    "pos": 0,
-   "team": "Ballincollig RFC 2nd XV",
+   "team": "Kanturk RFC 2nd XV",
    "pld": 2,
+   "w": 2,
+   "d": 0,
+   "l": 0,
+   "bp": null,
+   "pts": 9,
+   "f": 50,
+   "a": 7,
+   "diff": 43,
+   "tries": 7
+  },
+  {
+   "pos": 0,
+   "team": "Ballincollig RFC 2nd XV",
+   "pld": 3,
    "w": 1,
    "d": 0,
-   "l": 1,
+   "l": 2,
    "bp": null,
    "pts": 6,
    "f": 52,
@@ -67,31 +81,31 @@
   },
   {
    "pos": 0,
-   "team": "Kanturk RFC 2nd XV",
-   "pld": 1,
+   "team": "Mallow RFC 2nd XV",
+   "pld": 2,
    "w": 1,
    "d": 0,
-   "l": 0,
+   "l": 1,
    "bp": null,
    "pts": 5,
-   "f": 50,
-   "a": 7,
-   "diff": 43,
-   "tries": 7
+   "f": 38,
+   "a": 52,
+   "diff": -14,
+   "tries": 6
   },
   {
    "pos": 0,
    "team": "Carrigaline RFC 1st XV",
-   "pld": 2,
+   "pld": 3,
    "w": 0,
    "d": 0,
-   "l": 2,
+   "l": 3,
    "bp": null,
    "pts": 1,
-   "f": 43,
-   "a": 95,
-   "diff": -52,
-   "tries": 7
+   "f": 60,
+   "a": 128,
+   "diff": -68,
+   "tries": 10
   },
   {
    "pos": 0,
@@ -134,20 +148,6 @@
    "a": 28,
    "diff": -28,
    "tries": 0
-  },
-  {
-   "pos": 0,
-   "team": "Mallow RFC 2nd XV",
-   "pld": 1,
-   "w": 0,
-   "d": 0,
-   "l": 1,
-   "bp": null,
-   "pts": 0,
-   "f": 5,
-   "a": 35,
-   "diff": -30,
-   "tries": 1
   }
  ],
  "fixtures": [
@@ -165,22 +165,6 @@
    "home": "Fermoy RFC 2nd XV",
    "away": "Douglas RFC 2nd XV",
    "venue": "Fermoy",
-   "round": null
-  },
-  {
-   "date": "2026-11-06",
-   "time": "19:30",
-   "home": "Ballincollig RFC 2nd XV",
-   "away": "Kanturk RFC 2nd XV",
-   "venue": "Tanner Park",
-   "round": null
-  },
-  {
-   "date": "2026-11-06",
-   "time": "19:45",
-   "home": "Carrigaline RFC 1st XV",
-   "away": "Mallow RFC 2nd XV",
-   "venue": "Virgin Media Park",
    "round": null
   },
   {
@@ -457,6 +441,28 @@
    "awayScore": 7,
    "awayTries": 1,
    "venue": "Kanturk",
+   "round": "0th Round"
+  },
+  {
+   "date": "2026-11-06",
+   "home": "Carrigaline RFC 1st XV",
+   "homeScore": 17,
+   "homeTries": 3,
+   "away": "Mallow RFC 2nd XV",
+   "awayScore": 33,
+   "awayTries": 5,
+   "venue": "Virgin Media Park",
+   "round": "0th Round"
+  },
+  {
+   "date": "2026-11-06",
+   "home": "Ballincollig RFC 2nd XV",
+   "homeScore": 0,
+   "homeTries": 0,
+   "away": "Kanturk RFC 2nd XV",
+   "awayScore": 28,
+   "awayTries": 4,
+   "venue": "Tanner Park",
    "round": "0th Round"
   }
  ]

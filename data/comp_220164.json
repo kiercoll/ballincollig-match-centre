@@ -118,19 +118,11 @@
  ],
  "fixtures": [
   {
-   "date": "2026-11-14",
-   "time": "12:00",
+   "date": "2026-11-13",
+   "time": "19:30",
    "home": "Ballincollig RFC",
    "away": "Cobh Pirates RFC",
    "venue": "Tanner Park",
-   "round": null
-  },
-  {
-   "date": "2026-11-14",
-   "time": "12:00",
-   "home": "Youghal RFC",
-   "away": "Midleton RFC",
-   "venue": "Youghal",
    "round": null
   },
   {
@@ -142,19 +134,27 @@
    "round": null
   },
   {
-   "date": "2026-11-28",
-   "time": "12:00",
-   "home": "Ballincollig RFC",
-   "away": "Old Christians RFC",
-   "venue": "Tanner Park",
+   "date": "2026-11-14",
+   "time": "12:30",
+   "home": "Youghal RFC",
+   "away": "Midleton RFC",
+   "venue": "Youghal",
+   "round": null
+  },
+  {
+   "date": "2026-11-20",
+   "time": "19:30",
+   "home": "Cobh Pirates RFC",
+   "away": "Fermoy RFC",
+   "venue": "Cobh",
    "round": null
   },
   {
    "date": "2026-11-28",
    "time": "12:00",
-   "home": "Cobh Pirates RFC",
-   "away": "Fermoy RFC",
-   "venue": "Cobh",
+   "home": "Ballincollig RFC",
+   "away": "Old Christians RFC",
+   "venue": "Tanner Park",
    "round": null
   },
   {

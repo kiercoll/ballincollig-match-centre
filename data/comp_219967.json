@@ -20,10 +20,24 @@
   {
    "pos": 0,
    "team": "Kinsale RFC",
-   "pld": 4,
-   "w": 4,
+   "pld": 5,
+   "w": 5,
    "d": 0,
    "l": 0,
+   "bp": null,
+   "pts": 20,
+   "f": null,
+   "a": null,
+   "diff": null,
+   "tries": null
+  },
+  {
+   "pos": 0,
+   "team": "Clonakilty RFC",
+   "pld": 5,
+   "w": 4,
+   "d": 0,
+   "l": 1,
    "bp": null,
    "pts": 16,
    "f": null,
@@ -33,11 +47,11 @@
   },
   {
    "pos": 0,
-   "team": "Clonakilty RFC",
-   "pld": 4,
+   "team": "Bandon RFC",
+   "pld": 5,
    "w": 3,
    "d": 0,
-   "l": 1,
+   "l": 2,
    "bp": null,
    "pts": 12,
    "f": null,
@@ -47,25 +61,11 @@
   },
   {
    "pos": 0,
-   "team": "Bandon RFC",
-   "pld": 4,
-   "w": 2,
-   "d": 0,
-   "l": 2,
-   "bp": null,
-   "pts": 8,
-   "f": null,
-   "a": null,
-   "diff": null,
-   "tries": null
-  },
-  {
-   "pos": 0,
    "team": "Ballincollig RFC",
-   "pld": 4,
+   "pld": 5,
    "w": 2,
    "d": 0,
-   "l": 2,
+   "l": 3,
    "bp": null,
    "pts": 8,
    "f": null,
@@ -76,10 +76,10 @@
   {
    "pos": 0,
    "team": "Bantry Bay-Skibbereen",
-   "pld": 4,
+   "pld": 5,
    "w": 1,
    "d": 0,
-   "l": 3,
+   "l": 4,
    "bp": null,
    "pts": 4,
    "f": null,
@@ -90,10 +90,10 @@
   {
    "pos": 0,
    "team": "Sundays Well-Carrigaline",
-   "pld": 4,
+   "pld": 5,
    "w": 0,
    "d": 0,
-   "l": 4,
+   "l": 5,
    "bp": null,
    "pts": 0,
    "f": null,
@@ -109,23 +109,7 @@
    "home": "Clonakilty RFC",
    "away": "Bantry Bay-Skibbereen",
    "venue": "The Vale",
-   "round": null
-  },
-  {
-   "date": "2026-11-07",
-   "time": "12:30",
-   "home": "Ballincollig RFC",
-   "away": "Kinsale RFC",
-   "venue": "Tanner Park",
-   "round": null
-  },
-  {
-   "date": "2026-11-08",
-   "time": "11:30",
-   "home": "Sundays Well-Carrigaline",
-   "away": "Bandon RFC",
-   "venue": "Sundays Well",
-   "round": null
+   "round": "5th Round"
   }
  ],
  "results": [
@@ -260,6 +244,28 @@
    "awayTries": 0,
    "venue": "Bandon",
    "round": "4th Round"
+  },
+  {
+   "date": "2026-11-07",
+   "home": "Ballincollig RFC",
+   "homeScore": 5,
+   "homeTries": 0,
+   "away": "Kinsale RFC",
+   "awayScore": 35,
+   "awayTries": 0,
+   "venue": "Tanner Park",
+   "round": "5th Round"
+  },
+  {
+   "date": "2026-11-08",
+   "home": "Sundays Well-Carrigaline",
+   "homeScore": 21,
+   "homeTries": 3,
+   "away": "Bandon RFC",
+   "awayScore": 36,
+   "awayTries": 6,
+   "venue": "Sundays Well",
+   "round": "5th Round"
   }
  ]
 }
